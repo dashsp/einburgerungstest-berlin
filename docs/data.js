@@ -1,4 +1,4 @@
-const data = [
+const quizCollection = [
   {
     "seq": "1",
     "image_src": "https://oet.bamf.de/ords/oetut/f?p=514:30::APPLICATION_PROCESS%3Dshow_pag_bild:::F514_PAG_THUMBNAIL,F514_PAG_BILD:,17412",
@@ -7,21 +7,26 @@ const data = [
     "possible_answers": [
       [
         "hier Religionsfreiheit gilt.",
-        false
+        false,
+        "freedom of religion applies here."
       ],
       [
         "die Menschen Steuern zahlen.",
-        false
+        false,
+        "people pay taxes."
       ],
       [
         "die Menschen das Wahlrecht haben.",
-        false
+        false,
+        "people have the right to vote."
       ],
       [
         "hier Meinungsfreiheit gilt.",
-        true
+        true,
+        "freedom of expression."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, people can openly oppose the government\nsay because...\n"
   },
   {
     "seq": "2",
@@ -31,21 +36,26 @@ const data = [
     "possible_answers": [
       [
         "Geschichtsunterricht teilnimmt.",
-        false
+        false,
+        "History lessons."
       ],
       [
         "Religionsunterricht teilnimmt.",
-        true
+        true,
+        "Religious education."
       ],
       [
         "Politikunterricht teilnimmt.",
-        false
+        false,
+        "Policy lessons."
       ],
       [
         "Sprachunterricht teilnimmt.",
-        false
+        false,
+        "language teaching."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, parents are allowed up to the 14th year of their child\ndecide whether it is at school\n\n"
   },
   {
     "seq": "3",
@@ -55,21 +65,26 @@ const data = [
     "possible_answers": [
       [
         "Alle Einwohner / Einwohnerinnen und der Staat m\u00fcssen sich an die Gesetze halten.",
-        true
+        true,
+        "All residents and the state must comply with the laws."
       ],
       [
         "Der Staat muss sich nicht an die Gesetze halten.",
-        false
+        false,
+        "The state does not have to comply with the laws."
       ],
       [
         "Nur Deutsche m\u00fcssen die Gesetze befolgen.",
-        false
+        false,
+        "Only Germans must comply with the laws."
       ],
       [
         "Die Gerichte machen die Gesetze.",
-        false
+        false,
+        "The courts do the laws."
       ]
-    ]
+    ],
+    "translated_question": "Germany is a rule of law. What does that mean?\n"
   },
   {
     "seq": "4",
@@ -79,21 +94,26 @@ const data = [
     "possible_answers": [
       [
         "Waffenbesitz",
-        false
+        false,
+        "Weapons"
       ],
       [
         "Faustrecht",
-        false
+        false,
+        "Right to vote"
       ],
       [
         "Meinungsfreiheit",
-        true
+        true,
+        "Freedom of expression"
       ],
       [
         "Selbstjustiz",
-        false
+        false,
+        "Self-adjustment"
       ]
-    ]
+    ],
+    "translated_question": "What is the right to fundamental rights in Germany?\n"
   },
   {
     "seq": "5",
@@ -103,21 +123,26 @@ const data = [
     "possible_answers": [
       [
         "Man darf Geld annehmen, wenn man daf\u00fcr einen bestimmten Kandidaten / eine bestimmte Kandidatin w\u00e4hlt.",
-        false
+        false,
+        "You can accept money if you choose a particular candidate / a certain candidate."
       ],
       [
         "Nur Personen, die noch nie im Gef\u00e4ngnis waren, d\u00fcrfen w\u00e4hlen.",
-        false
+        false,
+        "Only people who have never been in prison can choose."
       ],
       [
         "Der W\u00e4hler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
-        true
+        true,
+        "The voter must not be influenced or forced to vote for a specific vote and must not have any disadvantages by the vote."
       ],
       [
         "Alle wahlberechtigten Personen m\u00fcssen w\u00e4hlen.",
-        false
+        false,
+        "All eligible persons must choose."
       ]
-    ]
+    ],
+    "translated_question": "Elections in Germany are free. What does that mean?\n"
   },
   {
     "seq": "6",
@@ -127,21 +152,26 @@ const data = [
     "possible_answers": [
       [
         "Volksgesetz",
-        false
+        false,
+        "National law"
       ],
       [
         "Bundesgesetz",
-        false
+        false,
+        "Federal Law"
       ],
       [
         "Deutsches Gesetz",
-        false
+        false,
+        "German law"
       ],
       [
         "Grundgesetz",
-        true
+        true,
+        "Basic Law"
       ]
-    ]
+    ],
+    "translated_question": "What is the German constitution?\n"
   },
   {
     "seq": "7",
@@ -151,21 +181,26 @@ const data = [
     "possible_answers": [
       [
         "Glaubens- und Gewissensfreiheit.",
-        true
+        true,
+        "Freedom of belief and conscience."
       ],
       [
         "Unterhaltung.",
-        false
+        false,
+        "Entertainment."
       ],
       [
         "Arbeit.",
-        false
+        false,
+        "Work."
       ],
       [
         "Wohnung.",
-        false
+        false,
+        "Apartment."
       ]
-    ]
+    ],
+    "translated_question": "What is the right to fundamental rights, which is based on\nGerman constitution are guaranteed? The right\n\n"
   },
   {
     "seq": "8",
@@ -175,21 +210,26 @@ const data = [
     "possible_answers": [
       [
         "Die W\u00fcrde des Menschen ist unantastbar.",
-        false
+        false,
+        "The dignity of man is inviolable."
       ],
       [
         "Alle sollen gleich viel Geld haben.",
-        true
+        true,
+        "They're supposed to have a lot of money."
       ],
       [
         "Jeder Mensch darf seine Meinung sagen.",
-        false
+        false,
+        "Everyone can say his opinion."
       ],
       [
         "Alle sind vor dem Gesetz gleich.",
-        false
+        false,
+        "All are equal before the law."
       ]
-    ]
+    ],
+    "translated_question": "What is not the Basic Law of Germany?\n"
   },
   {
     "seq": "9",
@@ -199,21 +239,26 @@ const data = [
     "possible_answers": [
       [
         "Schutz der Familie",
-        false
+        false,
+        "Protection of family"
       ],
       [
         "Menschenw\u00fcrde",
-        false
+        false,
+        "Human dignity"
       ],
       [
         "Asyl",
-        true
+        true,
+        "Asylum"
       ],
       [
         "Meinungsfreiheit",
-        false
+        false,
+        "Freedom of expression"
       ]
-    ]
+    ],
+    "translated_question": "What is the basic right in Germany only for foreigners /\n\u201cAusl\u00e4nderinnen? The basic right...\n"
   },
   {
     "seq": "10",
@@ -223,21 +268,26 @@ const data = [
     "possible_answers": [
       [
         "die Pr\u00fcgelstrafe",
-        false
+        false,
+        "the fight"
       ],
       [
         "die Folter",
-        false
+        false,
+        "the torture"
       ],
       [
         "die Todesstrafe",
-        false
+        false,
+        "the death penalty"
       ],
       [
         "die Geldstrafe",
-        true
+        true,
+        "the fine"
       ]
-    ]
+    ],
+    "translated_question": "What is compatible with the German Basic Law?\n"
   },
   {
     "seq": "11",
@@ -247,21 +297,26 @@ const data = [
     "possible_answers": [
       [
         "Grundgesetz",
-        true
+        true,
+        "Basic Law"
       ],
       [
         "Bundesverfassung",
-        false
+        false,
+        "Federal Constitution"
       ],
       [
         "Gesetzbuch",
-        false
+        false,
+        "Legislation"
       ],
       [
         "Verfassungsvertrag",
-        false
+        false,
+        "Constitutional Treaty"
       ]
-    ]
+    ],
+    "translated_question": "What is the Constitution of the Federal Republic of Germany?\n"
   },
   {
     "seq": "12",
@@ -271,21 +326,26 @@ const data = [
     "possible_answers": [
       [
         "Ja, wenn mehr als die H\u00e4lfte der Abgeordneten im Bundestag daf\u00fcr sind.",
-        false
+        false,
+        "Yes, if more than half of the Members in the Bundestag are for this."
       ],
       [
         "Ja, aber dazu m\u00fcssen zwei Drittel der Abgeordneten im Bundestag daf\u00fcr sein.",
-        false
+        false,
+        "Yes, but there must be two thirds of the Members in the Bundestag."
       ],
       [
         "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
-        true
+        true,
+        "No, because the freedom of the press is a fundamental right. It cannot be abolished."
       ],
       [
         "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
-        false
+        false,
+        "No, because only the Federal Council can abolish press freedom."
       ]
-    ]
+    ],
+    "translated_question": "A party in the German Bundestag wants to abolish press freedom\nIs that possible?\n"
   },
   {
     "seq": "13",
@@ -295,21 +355,26 @@ const data = [
     "possible_answers": [
       [
         "die regierenden Parteien.",
-        false
+        false,
+        "the ruling parties."
       ],
       [
         "die Fraktion mit den meisten Abgeordneten.",
-        false
+        false,
+        "the group with most Members."
       ],
       [
         "alle Parteien, die bei der letzten Wahl die 5%-H\u00fcrde erreichen konnten.",
-        false
+        false,
+        "all parties that were able to reach the 5% guarantee at the last election."
       ],
       [
         "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien geh\u00f6ren.",
-        true
+        true,
+        "all MEPs who do not belong to the Government Party(s)."
       ]
-    ]
+    ],
+    "translated_question": "in Parliament, the term \u2018Opposition\u2019 stands for ...\n"
   },
   {
     "seq": "14",
@@ -319,21 +384,26 @@ const data = [
     "possible_answers": [
       [
         "Passanten auf der Stra\u00dfe beschimpfen darf",
-        false
+        false,
+        "Passers on the street may be sworn"
       ],
       [
         "meine Meinung im Internet \u00e4u\u00dfern kann",
-        true
+        true,
+        "can express my opinion on the Internet"
       ],
       [
         "Nazi-, Hamas- oder Islamischer Staat-Symbole \u00f6ffentlich tragen darf",
-        false
+        false,
+        "National, Hamas or Islamic State symbols may bear publicly"
       ],
       [
         "meine Meinung nur dann \u00e4u\u00dfern darf, solange ich der Regierung nicht widerspreche",
-        false
+        false,
+        "I can only express my opinion as long as I do not object to the government"
       ]
-    ]
+    ],
+    "translated_question": "Freedom of expression in Germany means, for example, that I"
   },
   {
     "seq": "15",
@@ -343,21 +413,26 @@ const data = [
     "possible_answers": [
       [
         "Milit\u00e4rdienst",
-        false
+        false,
+        "Military service"
       ],
       [
         "Zwangsarbeit",
-        true
+        true,
+        "Forced work"
       ],
       [
         "freie Berufswahl",
-        false
+        false,
+        "free choice of profession"
       ],
       [
         "Arbeit im Ausland",
-        false
+        false,
+        "Working abroad"
       ]
-    ]
+    ],
+    "translated_question": "What does the German Basic Law prohibit?\n"
   },
   {
     "seq": "16",
@@ -367,21 +442,26 @@ const data = [
     "possible_answers": [
       [
         "bei der \u00f6ffentlichen Verbreitung falscher Behauptungen \u00fcber einzelne Personen",
-        true
+        true,
+        "in the public dissemination of false claims about individual persons"
       ],
       [
         "bei Meinungs\u00e4u\u00dferungen \u00fcber die Bundesregierung",
-        false
+        false,
+        "in the opinion of the Federal Government"
       ],
       [
         "bei Diskussionen \u00fcber Religionen",
-        false
+        false,
+        "in discussions about religions"
       ],
       [
         "bei Kritik am Staat",
-        false
+        false,
+        "with criticism of the state"
       ]
-    ]
+    ],
+    "translated_question": "When is freedom of expression restricted in Germany?\n"
   },
   {
     "seq": "17",
@@ -391,21 +471,26 @@ const data = [
     "possible_answers": [
       [
         "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
-        false
+        false,
+        "Freedom of expression of residents."
       ],
       [
         "Petitionen der B\u00fcrger und B\u00fcrgerinnen.",
-        false
+        false,
+        "Petitions by citizens."
       ],
       [
         "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
-        false
+        false,
+        "Freedom of assembly of residents."
       ],
       [
         "Ungleichbehandlung der B\u00fcrger und B\u00fcrgerinnen durch den Staat.",
-        true
+        true,
+        "Unequal treatment of citizens by the state."
       ]
-    ]
+    ],
+    "translated_question": "The German laws prohibit ...\n"
   },
   {
     "seq": "18",
@@ -415,21 +500,26 @@ const data = [
     "possible_answers": [
       [
         "die Unantastbarkeit der Menschenw\u00fcrde",
-        true
+        true,
+        "the inviolability of human dignity"
       ],
       [
         "das Recht auf Leben",
-        false
+        false,
+        "the right to life"
       ],
       [
         "Religionsfreiheit",
-        false
+        false,
+        "Freedom of religion"
       ],
       [
         "Meinungsfreiheit",
-        false
+        false,
+        "Freedom of expression"
       ]
-    ]
+    ],
+    "translated_question": "What is the fundamental right in Article 1 of the Basic Law of\nFederal Republic of Germany guaranteed?\n"
   },
   {
     "seq": "19",
@@ -439,21 +529,26 @@ const data = [
     "possible_answers": [
       [
         "Man darf sich seinen Wohnort selbst aussuchen.",
-        true
+        true,
+        "You can choose your own place of residence."
       ],
       [
         "Man kann seinen Beruf wechseln.",
-        false
+        false,
+        "You can change your job."
       ],
       [
         "Man darf sich f\u00fcr eine andere Religion entscheiden.",
-        false
+        false,
+        "You can choose another religion."
       ],
       [
         "Man darf sich in der \u00d6ffentlichkeit nur leicht bekleidet bewegen.",
-        false
+        false,
+        "It is only possible to move slightly clothed in the public."
       ]
-    ]
+    ],
+    "translated_question": "What is meant by the right of \u201cfreedom\u201d in\nGermany?\n"
   },
   {
     "seq": "20",
@@ -463,21 +558,26 @@ const data = [
     "possible_answers": [
       [
         "tolerant.",
-        false
+        false,
+        "tolerant."
       ],
       [
         "rechtsstaatlich orientiert.",
-        false
+        false,
+        "Legally oriented."
       ],
       [
         "gesetzestreu.",
-        false
+        false,
+        "law."
       ],
       [
         "verfassungswidrig.",
-        true
+        true,
+        "unconstitutional."
       ]
-    ]
+    ],
+    "translated_question": "A party in Germany pursues the goal of a dictatorship\nset up. She's...\n"
   },
   {
     "seq": "21",
@@ -487,21 +587,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        true
+        true,
+        "1"
       ],
       [
         "2",
-        false
+        false,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        false
+        false,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "What is the coat of arms of the Federal Republic of Germany?\n\n"
   },
   {
     "seq": "22",
@@ -511,21 +616,26 @@ const data = [
     "possible_answers": [
       [
         "Monarchie",
-        false
+        false,
+        "Monarchy"
       ],
       [
         "Diktatur",
-        false
+        false,
+        "dictatorship"
       ],
       [
         "Republik",
-        true
+        true,
+        "Republic of"
       ],
       [
         "F\u00fcrstentum",
-        false
+        false,
+        "Principality"
       ]
-    ]
+    ],
+    "translated_question": "What kind of state has Germany ?\n"
   },
   {
     "seq": "23",
@@ -535,21 +645,26 @@ const data = [
     "possible_answers": [
       [
         "in kleinen Familienunternehmen besch\u00e4ftigt.",
-        false
+        false,
+        "in small family businesses."
       ],
       [
         "ehrenamtlich f\u00fcr ein Bundesland t\u00e4tig.",
-        false
+        false,
+        "volunteer for a federal state."
       ],
       [
         "selbst\u00e4ndig mit einer eigenen Firma t\u00e4tig.",
-        false
+        false,
+        "independent with its own company."
       ],
       [
         "bei einer Firma oder Beh\u00f6rde besch\u00e4ftigt.",
-        true
+        true,
+        "a company or authority."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, most people are employed ...\n"
   },
   {
     "seq": "24",
@@ -559,21 +674,26 @@ const data = [
     "possible_answers": [
       [
         "14",
-        false
+        false,
+        "14"
       ],
       [
         "15",
-        false
+        false,
+        "15"
       ],
       [
         "16",
-        true
+        true,
+        "16"
       ],
       [
         "17",
-        false
+        false,
+        "17"
       ]
-    ]
+    ],
+    "translated_question": "How many federal states have the Federal Republic of Germany?\n"
   },
   {
     "seq": "25",
@@ -583,21 +703,26 @@ const data = [
     "possible_answers": [
       [
         "Elsass-Lothringen",
-        true
+        true,
+        "Alsace-Lothringen"
       ],
       [
         "Nordrhein-Westfalen",
-        false
+        false,
+        "North Rhine-Westphalia"
       ],
       [
         "Mecklenburg-Vorpommern",
-        false
+        false,
+        "Mecklenburg-Western Pomerania"
       ],
       [
         "Sachsen-Anhalt",
-        false
+        false,
+        "Saxony-Anhalt"
       ]
-    ]
+    ],
+    "translated_question": "What is not a federal state of the Federal Republic of Germany?\n"
   },
   {
     "seq": "26",
@@ -607,21 +732,26 @@ const data = [
     "possible_answers": [
       [
         "eine kommunistische Republik.",
-        false
+        false,
+        "a communist republic."
       ],
       [
         "ein demokratischer und sozialer Bundesstaat.",
-        true
+        true,
+        "a democratic and social state."
       ],
       [
         "eine kapitalistische und soziale Monarchie.",
-        false
+        false,
+        "a capitalist and social monarchy."
       ],
       [
         "ein sozialer und sozialistischer Bundesstaat.",
-        false
+        false,
+        "a social and socialist state."
       ]
-    ]
+    ],
+    "translated_question": "Germany is...\n"
   },
   {
     "seq": "27",
@@ -631,21 +761,26 @@ const data = [
     "possible_answers": [
       [
         "ein sozialistischer Staat.",
-        false
+        false,
+        "a socialist state."
       ],
       [
         "ein Bundesstaat.",
-        true
+        true,
+        "a state."
       ],
       [
         "eine Diktatur.",
-        false
+        false,
+        "a dictatorship."
       ],
       [
         "eine Monarchie.",
-        false
+        false,
+        "a monarchy."
       ]
-    ]
+    ],
+    "translated_question": "Germany is...\n"
   },
   {
     "seq": "28",
@@ -655,21 +790,26 @@ const data = [
     "possible_answers": [
       [
         "das Milit\u00e4r",
-        false
+        false,
+        "the military"
       ],
       [
         "die Wirtschaft",
-        false
+        false,
+        "The economy"
       ],
       [
         "das wahlberechtigte Volk",
-        true
+        true,
+        "the electoral people"
       ],
       [
         "die Verwaltung",
-        false
+        false,
+        "Administration"
       ]
-    ]
+    ],
+    "translated_question": "Who chooses the members of the Bundestag in Germany?\n"
   },
   {
     "seq": "29",
@@ -679,21 +819,26 @@ const data = [
     "possible_answers": [
       [
         "L\u00f6we",
-        false
+        false,
+        "lion"
       ],
       [
         "Adler",
-        true
+        true,
+        "Eagle"
       ],
       [
         "B\u00e4r",
-        false
+        false,
+        "Bear"
       ],
       [
         "Pferd",
-        false
+        false,
+        "Horse"
       ]
-    ]
+    ],
+    "translated_question": "What animal is the coat of arms of the Federal Republic of Germany?\n"
   },
   {
     "seq": "30",
@@ -703,21 +848,26 @@ const data = [
     "possible_answers": [
       [
         "regelm\u00e4\u00dfige Wahlen",
-        false
+        false,
+        "regular elections"
       ],
       [
         "Pressezensur",
-        true
+        true,
+        "Press review"
       ],
       [
         "Meinungsfreiheit",
-        false
+        false,
+        "Freedom of expression"
       ],
       [
         "verschiedene Parteien",
-        false
+        false,
+        "different parties"
       ]
-    ]
+    ],
+    "translated_question": "What is not a feature of our democracy?\n"
   },
   {
     "seq": "31",
@@ -727,21 +877,26 @@ const data = [
     "possible_answers": [
       [
         "Einheit.",
-        false
+        false,
+        "Unit."
       ],
       [
         "Koalition.",
-        true
+        true,
+        "Coalition."
       ],
       [
         "Ministerium.",
-        false
+        false,
+        "Ministry."
       ],
       [
         "Fraktion.",
-        false
+        false,
+        "Group."
       ]
-    ]
+    ],
+    "translated_question": "Cooperation between parties to form a government\nis called in Germany\n"
   },
   {
     "seq": "32",
@@ -751,21 +906,26 @@ const data = [
     "possible_answers": [
       [
         "Gesetzgebung",
-        false
+        false,
+        "Legislation"
       ],
       [
         "Regierung",
-        false
+        false,
+        "Government"
       ],
       [
         "Presse",
-        true
+        true,
+        "Press release"
       ],
       [
         "Rechtsprechung",
-        false
+        false,
+        "Case"
       ]
-    ]
+    ],
+    "translated_question": "What is no state violence in Germany?\n"
   },
   {
     "seq": "33",
@@ -775,21 +935,26 @@ const data = [
     "possible_answers": [
       [
         "sind Staat und Religionsgemeinschaften voneinander getrennt.",
-        true
+        true,
+        "State and religious communities are separated from each other."
       ],
       [
         "bilden die Religionsgemeinschaften den Staat.",
-        false
+        false,
+        "the religious communities form the state."
       ],
       [
         "ist der Staat abh\u00e4ngig von den Religionsgemeinschaften.",
-        false
+        false,
+        "the state depends on the religious communities."
       ],
       [
         "bilden Staat und Religionsgemeinschaften eine Einheit.",
-        false
+        false,
+        "State and religious communities form a unity."
       ]
-    ]
+    ],
+    "translated_question": "Soft statement is right? In Germany ...\n"
   },
   {
     "seq": "34",
@@ -799,21 +964,26 @@ const data = [
     "possible_answers": [
       [
         "eine Demokratie",
-        false
+        false,
+        "a democracy"
       ],
       [
         "ein Rechtsstaat",
-        false
+        false,
+        "a rule of law"
       ],
       [
         "eine Monarchie",
-        true
+        true,
+        "a monarchy"
       ],
       [
         "ein Sozialstaat",
-        false
+        false,
+        "a social state"
       ]
-    ]
+    ],
+    "translated_question": "What isn't Germany?\n"
   },
   {
     "seq": "35",
@@ -823,21 +993,26 @@ const data = [
     "possible_answers": [
       [
         "Kirchensteuern",
-        false
+        false,
+        "Church taxes"
       ],
       [
         "Sozialabgaben",
-        true
+        true,
+        "Social contributions"
       ],
       [
         "Spendengeldern",
-        false
+        false,
+        "Donations"
       ],
       [
         "Vereinsbeitr\u00e4gen",
-        false
+        false,
+        "Association contributions"
       ]
-    ]
+    ],
+    "translated_question": "What does the German state finance social security?\n"
   },
   {
     "seq": "36",
@@ -847,21 +1022,26 @@ const data = [
     "possible_answers": [
       [
         "die Krankenversicherung",
-        true
+        true,
+        "Health insurance"
       ],
       [
         "die Autoversicherung",
-        false
+        false,
+        "car insurance"
       ],
       [
         "die Geb\u00e4udeversicherung",
-        false
+        false,
+        "building insurance"
       ],
       [
         "die Haftpflichtversicherung",
-        false
+        false,
+        "the liability insurance"
       ]
-    ]
+    ],
+    "translated_question": "What is the soft measure of social security in Germany?\n"
   },
   {
     "seq": "37",
@@ -871,21 +1051,26 @@ const data = [
     "possible_answers": [
       [
         "Erster Minister/ Erste Ministerin",
-        false
+        false,
+        "First Minister"
       ],
       [
         "Premierminister/ Premierministerin",
-        false
+        false,
+        "Prime Minister"
       ],
       [
         "Senator/ Senatorin",
-        false
+        false,
+        "Senator"
       ],
       [
         "Ministerpr\u00e4sident/ Ministerpr\u00e4sidentin",
-        true
+        true,
+        "Prime Minister/ Prime Minister"
       ]
-    ]
+    ],
+    "translated_question": "How to become Heads of Government\nmost federal states in Germany?\n"
   },
   {
     "seq": "38",
@@ -895,21 +1080,26 @@ const data = [
     "possible_answers": [
       [
         "Staatenverbund.",
-        false
+        false,
+        "States."
       ],
       [
         "Bundesstaat.",
-        true
+        true,
+        "State."
       ],
       [
         "Staatenbund.",
-        false
+        false,
+        "Federation of States."
       ],
       [
         "Zentralstaat.",
-        false
+        false,
+        "Central state."
       ]
-    ]
+    ],
+    "translated_question": "The Federal Republic of Germany is a democratic and\nsocial...\n"
   },
   {
     "seq": "39",
@@ -919,21 +1109,26 @@ const data = [
     "possible_answers": [
       [
         "einen eigenen Au\u00dfenminister / eine eigene Au\u00dfenministerin",
-        false
+        false,
+        "a Foreign Minister of his own"
       ],
       [
         "eine eigene W\u00e4hrung",
-        false
+        false,
+        "own currency"
       ],
       [
         "eine eigene Armee",
-        false
+        false,
+        "a separate army"
       ],
       [
         "eine eigene Regierung",
-        true
+        true,
+        "own government"
       ]
-    ]
+    ],
+    "translated_question": "What does every German federal state have?\n"
   },
   {
     "seq": "40",
@@ -943,21 +1138,26 @@ const data = [
     "possible_answers": [
       [
         "V\u00f6lker, h\u00f6rt die Signale ...",
-        false
+        false,
+        "Peoples, hear the signals..."
       ],
       [
         "Einigkeit und Recht und Freiheit ...",
-        true
+        true,
+        "Unity and law and freedom..."
       ],
       [
         "Freude sch\u00f6ner G\u00f6tterfunken ...",
-        false
+        false,
+        "Joy of beautiful god sparks..."
       ],
       [
         "Deutschland einig Vaterland ...",
-        false
+        false,
+        "Germany single fatherland ..."
       ]
-    ]
+    ],
+    "translated_question": "In soft words, the German national anthem begins?\n"
   },
   {
     "seq": "41",
@@ -967,21 +1167,26 @@ const data = [
     "possible_answers": [
       [
         "weil dadurch die unterschiedlichen Meinungen der B\u00fcrger und B\u00fcrgerinnen vertreten werden",
-        true
+        true,
+        "because they represent the different opinions of citizens"
       ],
       [
         "damit Bestechung in der Politik begrenzt wird",
-        false
+        false,
+        "to limit bribery in politics"
       ],
       [
         "um politische Demonstrationen zu verhindern",
-        false
+        false,
+        "to prevent political demonstrations"
       ],
       [
         "um wirtschaftlichen Wettbewerb anzuregen",
-        false
+        false,
+        "to stimulate economic competition"
       ]
-    ]
+    ],
+    "translated_question": "Why is there more than one party in a democracy?\n"
   },
   {
     "seq": "42",
@@ -991,21 +1196,26 @@ const data = [
     "possible_answers": [
       [
         "die Regierung",
-        false
+        false,
+        "the government"
       ],
       [
         "das Parlament",
-        true
+        true,
+        "Parliament"
       ],
       [
         "die Gerichte",
-        false
+        false,
+        "the dishes"
       ],
       [
         "die Polizei",
-        false
+        false,
+        "The police"
       ]
-    ]
+    ],
+    "translated_question": "Who decides a new law in Germany?\n"
   },
   {
     "seq": "43",
@@ -1015,21 +1225,26 @@ const data = [
     "possible_answers": [
       [
         "wenn ihr Wahlkampf zu teuer ist",
-        false
+        false,
+        "if your campaign is too expensive"
       ],
       [
         "wenn sie gegen die Verfassung k\u00e4mpft",
-        true
+        true,
+        "if she fights against the Constitution"
       ],
       [
         "wenn sie Kritik am Staatsoberhaupt \u00e4u\u00dfert",
-        false
+        false,
+        "when she makes criticism of the Head of State"
       ],
       [
         "wenn ihr Programm eine neue Richtung vorschl\u00e4gt",
-        false
+        false,
+        "if your program proposes a new direction"
       ]
-    ]
+    ],
+    "translated_question": "When can a party be banned in Germany?\n"
   },
   {
     "seq": "44",
@@ -1039,21 +1254,26 @@ const data = [
     "possible_answers": [
       [
         "Abgeordnete des EU-Parlaments",
-        false
+        false,
+        "Member of the EU Parliament"
       ],
       [
         "den Bundespr\u00e4sidenten / die Bundespr\u00e4sidentin",
-        true
+        true,
+        "the Federal President / the Federal President"
       ],
       [
         "Landtagsabgeordnete",
-        false
+        false,
+        "Country Members"
       ],
       [
         "Bundestagsabgeordnete",
-        false
+        false,
+        "Members of the Bundestag"
       ]
-    ]
+    ],
+    "translated_question": "Who can not be directly a citizen in Germany\nchoose?\n"
   },
   {
     "seq": "45",
@@ -1063,21 +1283,26 @@ const data = [
     "possible_answers": [
       [
         "Sozialversicherung",
-        true
+        true,
+        "Social security"
       ],
       [
         "Unfallversicherung",
-        false
+        false,
+        "Insurance"
       ],
       [
         "Hausratversicherung",
-        false
+        false,
+        "Insurance"
       ],
       [
         "Haftpflicht- und Feuerversicherung",
-        false
+        false,
+        "Compulsory and Fire Insurance"
       ]
-    ]
+    ],
+    "translated_question": "What insurance is the care insurance?\n"
   },
   {
     "seq": "46",
@@ -1087,21 +1312,26 @@ const data = [
     "possible_answers": [
       [
         "Er baut Stra\u00dfen und Schulen.",
-        true
+        true,
+        "He builds streets and schools."
       ],
       [
         "Er verkauft Lebensmittel und Kleidung.",
-        false
+        false,
+        "He sells food and clothing."
       ],
       [
         "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
-        false
+        false,
+        "It supplies all residents free of charge with newspapers."
       ],
       [
         "Er produziert Autos und Busse.",
-        false
+        false,
+        "He produces cars and buses."
       ]
-    ]
+    ],
+    "translated_question": "The German state has many tasks. What is the task of this?\n"
   },
   {
     "seq": "47",
@@ -1111,21 +1341,26 @@ const data = [
     "possible_answers": [
       [
         "Er bezahlt f\u00fcr alle Staatsangeh\u00f6rigen Urlaubsreisen.",
-        true
+        true,
+        "He pays for all nationals holiday trips."
       ],
       [
         "Er zahlt Kindergeld.",
-        false
+        false,
+        "He's paying child money."
       ],
       [
         "Er unterst\u00fctzt Museen.",
-        false
+        false,
+        "He supports museums."
       ],
       [
         "Er f\u00f6rdert Sportler und Sportlerinnen.",
-        false
+        false,
+        "He promotes athletes and athletes."
       ]
-    ]
+    ],
+    "translated_question": "The German state has many tasks. What does not belong\n?\n"
   },
   {
     "seq": "48",
@@ -1135,21 +1370,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundesrat",
-        false
+        false,
+        "the Federal Council"
       ],
       [
         "der Bundespr\u00e4sident / die Bundespr\u00e4sidentin",
-        false
+        false,
+        "the Federal President / the Federal President"
       ],
       [
         "die B\u00fcrgerversammlung",
-        true
+        true,
+        "the General Assembly"
       ],
       [
         "die Regierung",
-        false
+        false,
+        "the government"
       ]
-    ]
+    ],
+    "translated_question": "Which institution does not belong to the constitutional bodies\nGermany?\n"
   },
   {
     "seq": "49",
@@ -1159,21 +1399,26 @@ const data = [
     "possible_answers": [
       [
         "die Lehrer und Lehrerinnen",
-        false
+        false,
+        "the teachers"
       ],
       [
         "die Bundesl\u00e4nder",
-        true
+        true,
+        "the federal states"
       ],
       [
         "das Familienministerium",
-        false
+        false,
+        "the Ministry of Family"
       ],
       [
         "die Universit\u00e4ten",
-        false
+        false,
+        "the universities"
       ]
-    ]
+    ],
+    "translated_question": "Who determines school policy in Germany?\n"
   },
   {
     "seq": "50",
@@ -1183,21 +1428,26 @@ const data = [
     "possible_answers": [
       [
         "freie Zentralwirtschaft.",
-        false
+        false,
+        "free central economy."
       ],
       [
         "soziale Marktwirtschaft.",
-        true
+        true,
+        "social market economy."
       ],
       [
         "gelenkte Zentralwirtschaft.",
-        false
+        false,
+        "steered central economy."
       ],
       [
         "Planwirtschaft.",
-        false
+        false,
+        "Planning."
       ]
-    ]
+    ],
+    "translated_question": "The economic form in Germany is called\n"
   },
   {
     "seq": "51",
@@ -1207,21 +1457,26 @@ const data = [
     "possible_answers": [
       [
         "Menschen sich kritisch \u00fcber die Regierung \u00e4u\u00dfern k\u00f6nnen.",
-        false
+        false,
+        "People can speak critically about the government."
       ],
       [
         "B\u00fcrger friedlich demonstrieren gehen d\u00fcrfen.",
-        false
+        false,
+        "Citizens are allowed to demonstrate peacefully."
       ],
       [
         "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
-        true
+        true,
+        "People are arrested by a private police without reason."
       ],
       [
         "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
-        false
+        false,
+        "someone commits a crime and is therefore arrested."
       ]
-    ]
+    ],
+    "translated_question": "A democratic rule of law is not that ...\n"
   },
   {
     "seq": "52",
@@ -1231,21 +1486,26 @@ const data = [
     "possible_answers": [
       [
         "Volke aus.",
-        true
+        true,
+        "People out."
       ],
       [
         "Bundestag aus.",
-        false
+        false,
+        "Parliament."
       ],
       [
         "preu\u00dfischen K\u00f6nig aus.",
-        false
+        false,
+        "Prussian king."
       ],
       [
         "Bundesverfassungsgericht aus.",
-        false
+        false,
+        "Federal Constitutional Court."
       ]
-    ]
+    ],
+    "translated_question": "What does \u201cpeople sovereignty\u201d mean? All state violence goes from .\n"
   },
   {
     "seq": "53",
@@ -1255,21 +1515,26 @@ const data = [
     "possible_answers": [
       [
         "Der Staat hat Recht.",
-        false
+        false,
+        "The state is right."
       ],
       [
         "Es gibt nur rechte Parteien.",
-        false
+        false,
+        "There are only right parties."
       ],
       [
         "Die B\u00fcrger und B\u00fcrgerinnen entscheiden \u00fcber Gesetze.",
-        false
+        false,
+        "Citizens decide on laws."
       ],
       [
         "Der Staat muss die Gesetze einhalten.",
-        true
+        true,
+        "The state must respect the laws."
       ]
-    ]
+    ],
+    "translated_question": "What does \u201claw state\u201d mean in Germany?\n"
   },
   {
     "seq": "54",
@@ -1279,21 +1544,26 @@ const data = [
     "possible_answers": [
       [
         "Legislative",
-        false
+        false,
+        "Legislative"
       ],
       [
         "Judikative",
-        false
+        false,
+        "Judikative"
       ],
       [
         "Exekutive",
-        false
+        false,
+        "Executive"
       ],
       [
         "Direktive",
-        true
+        true,
+        "Directive"
       ]
-    ]
+    ],
+    "translated_question": "What is no state violence in Germany?\n"
   },
   {
     "seq": "55",
@@ -1303,21 +1573,26 @@ const data = [
     "possible_answers": [
       [
         "den Bundestagssitz in Berlin",
-        true
+        true,
+        "the Bundestagssitz in Berlin"
       ],
       [
         "das Bundesverfassungsgericht in Karlsruhe",
-        false
+        false,
+        "the Federal Constitutional Court in Karlsruhe"
       ],
       [
         "das Bundesratsgeb\u00e4ude in Berlin",
-        false
+        false,
+        "the Federal Council building in Berlin"
       ],
       [
         "das Bundeskanzleramt in Berlin",
-        false
+        false,
+        "the Federal Chancellery in Berlin"
       ]
-    ]
+    ],
+    "translated_question": "What does this picture show?\n\n"
   },
   {
     "seq": "56",
@@ -1327,21 +1602,26 @@ const data = [
     "possible_answers": [
       [
         "Pfarramt",
-        false
+        false,
+        "Parish"
       ],
       [
         "Ordnungsamt",
-        true
+        true,
+        "Order Office"
       ],
       [
         "Finanzamt",
-        false
+        false,
+        "Taxation"
       ],
       [
         "Ausw\u00e4rtiges Amt",
-        false
+        false,
+        "Ausw\u00e4rtiges Amt"
       ]
-    ]
+    ],
+    "translated_question": "Which office belongs to the municipal administration in Germany?\n"
   },
   {
     "seq": "57",
@@ -1351,21 +1631,26 @@ const data = [
     "possible_answers": [
       [
         "der / die \u00e4lteste Abgeordnete im Parlament",
-        false
+        false,
+        "the oldest Member in Parliament"
       ],
       [
         "der Ministerpr\u00e4sident / die Ministerpr\u00e4sidentin des gr\u00f6\u00dften Bundeslandes",
-        false
+        false,
+        "the Prime Minister / the Prime Minister of the largest federal state"
       ],
       [
         "ein ehemaliger Bundeskanzler / eine ehemalige Bundeskanzlerin",
-        false
+        false,
+        "a former Chancellor / a former Chancellor"
       ],
       [
         "ein Abgeordneter / eine Abgeordnete der st\u00e4rksten Fraktion",
-        true
+        true,
+        "a member of the strongest group"
       ]
-    ]
+    ],
+    "translated_question": "Who usually becomes President/President of the\nGerman Bundestags elected?\n"
   },
   {
     "seq": "58",
@@ -1375,21 +1660,26 @@ const data = [
     "possible_answers": [
       [
         "der Pr\u00e4sident / die Pr\u00e4sidentin des Bundesverfassungsgerichtes",
-        false
+        false,
+        "the President / the President of the Federal Constitutional Court"
       ],
       [
         "der Bundespr\u00e4sident / die Bundespr\u00e4sidentin",
-        true
+        true,
+        "the Federal President / the Federal President"
       ],
       [
         "der Bundesratspr\u00e4sident / die Bundesratspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Federal Council"
       ],
       [
         "der Bundestagspr\u00e4sident / die Bundestagspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Bundestag / the President of the Bundestag"
       ]
-    ]
+    ],
+    "translated_question": "Who appoints the ministers in Germany\nFederal Government?\n"
   },
   {
     "seq": "59",
@@ -1399,21 +1689,26 @@ const data = [
     "possible_answers": [
       [
         "vor etwa 300 Jahren",
-        false
+        false,
+        "about 300 years ago"
       ],
       [
         "vor etwa 700 Jahren",
-        false
+        false,
+        "about 700 years ago"
       ],
       [
         "vor etwa 1150 Jahren",
-        false
+        false,
+        "about 1150 years ago"
       ],
       [
         "vor etwa 1700 Jahren",
-        true
+        true,
+        "about 1700 years ago"
       ]
-    ]
+    ],
+    "translated_question": "How many years ago was there for the first time a Jewish community in today's Germany?"
   },
   {
     "seq": "60",
@@ -1423,21 +1718,26 @@ const data = [
     "possible_answers": [
       [
         "Exekutive.",
-        false
+        false,
+        "Executive."
       ],
       [
         "Legislative.",
-        true
+        true,
+        "Legislative."
       ],
       [
         "Direktive.",
-        false
+        false,
+        "Direct."
       ],
       [
         "Judikative.",
-        false
+        false,
+        "Judicative."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, the Bundestag and the Federal Council belong to the\n\n"
   },
   {
     "seq": "61",
@@ -1447,21 +1747,26 @@ const data = [
     "possible_answers": [
       [
         "Der K\u00f6nig / die K\u00f6nigin herrscht \u00fcber das Volk.",
-        false
+        false,
+        "The king / the queen reigns over the people."
       ],
       [
         "Das Bundesverfassungsgericht steht \u00fcber der Verfassung.",
-        false
+        false,
+        "The Federal Constitutional Court is above the Constitution."
       ],
       [
         "Die Interessenverb\u00e4nde \u00fcben die Souver\u00e4nit\u00e4t zusammen mit der Regierung aus.",
-        false
+        false,
+        "The interest groups exercise sovereignty together with the government."
       ],
       [
         "Die Staatsgewalt geht vom Volke aus.",
-        true
+        true,
+        "The power of state goes from the people."
       ]
-    ]
+    ],
+    "translated_question": "What does \u201cpeople sovereignty\u201d mean?\n"
   },
   {
     "seq": "62",
@@ -1471,21 +1776,26 @@ const data = [
     "possible_answers": [
       [
         "Kommunalwahl.",
-        false
+        false,
+        "Local elections."
       ],
       [
         "Landtagswahl.",
-        true
+        true,
+        "Local elections."
       ],
       [
         "Europawahl.",
-        false
+        false,
+        "European elections."
       ],
       [
         "Bundestagswahl.",
-        false
+        false,
+        "Bundestag election."
       ]
-    ]
+    ],
+    "translated_question": "If the parliament of a German federal state is elected,\nis it called...\n"
   },
   {
     "seq": "63",
@@ -1495,21 +1805,26 @@ const data = [
     "possible_answers": [
       [
         "die Polizei",
-        false
+        false,
+        "The police"
       ],
       [
         "die Gerichte",
-        true
+        true,
+        "the dishes"
       ],
       [
         "das Finanzamt",
-        false
+        false,
+        "the tax office"
       ],
       [
         "die Ministerien",
-        false
+        false,
+        "the ministers"
       ]
-    ]
+    ],
+    "translated_question": "What does not belong to the executive in Germany?\n"
   },
   {
     "seq": "64",
@@ -1519,21 +1834,26 @@ const data = [
     "possible_answers": [
       [
         "vier Besatzungszonen.",
-        false
+        false,
+        "four occupation zones."
       ],
       [
         "einen Oststaat und einen Weststaat.",
-        false
+        false,
+        "an East state and a West state."
       ],
       [
         "16 Kantone.",
-        false
+        false,
+        "16 cantons."
       ],
       [
         "Bund, L\u00e4nder und Kommunen.",
-        true
+        true,
+        "Covenant, countries and municipalities."
       ]
-    ]
+    ],
+    "translated_question": "The Federal Republic of Germany is now divided into ...\n"
   },
   {
     "seq": "65",
@@ -1543,21 +1863,26 @@ const data = [
     "possible_answers": [
       [
         "Gesetze zu entwerfen.",
-        false
+        false,
+        "to design laws."
       ],
       [
         "die Bundesregierung zu kontrollieren.",
-        false
+        false,
+        "to control the federal government."
       ],
       [
         "den Bundeskanzler / die Bundeskanzlerin zu w\u00e4hlen.",
-        false
+        false,
+        "to choose the Chancellor / the Chancellor."
       ],
       [
         "das Bundeskabinett zu bilden.",
-        true
+        true,
+        "to form the Federal Cabinet."
       ]
-    ]
+    ],
+    "translated_question": "It is not one of the tasks of the German Bundestag ...\n"
   },
   {
     "seq": "66",
@@ -1567,21 +1892,26 @@ const data = [
     "possible_answers": [
       [
         "Berlin und M\u00fcnchen",
-        true
+        true,
+        "Berlin and Munich"
       ],
       [
         "Hamburg und Essen",
-        false
+        false,
+        "Hamburg and Essen"
       ],
       [
         "N\u00fcrnberg und Stuttgart",
-        false
+        false,
+        "Nuremberg and Stuttgart"
       ],
       [
         "Worms und Speyer",
-        false
+        false,
+        "Worms and Speyer"
       ]
-    ]
+    ],
+    "translated_question": "Which cities have the largest Jewish communities in Germany?"
   },
   {
     "seq": "67",
@@ -1591,21 +1921,26 @@ const data = [
     "possible_answers": [
       [
         "Verteidigungspolitik",
-        false
+        false,
+        "Defence"
       ],
       [
         "Au\u00dfenpolitik",
-        false
+        false,
+        "Foreign policy"
       ],
       [
         "Wirtschaftspolitik",
-        false
+        false,
+        "Economic policy"
       ],
       [
         "Schulpolitik",
-        true
+        true,
+        "School policy"
       ]
-    ]
+    ],
+    "translated_question": "What is a task of the federal states in Germany?\n"
   },
   {
     "seq": "68",
@@ -1615,21 +1950,26 @@ const data = [
     "possible_answers": [
       [
         "weil es in Deutschland nur staatliche Schulen gibt",
-        false
+        false,
+        "because there are only state schools in Germany"
       ],
       [
         "weil alle Sch\u00fcler und Sch\u00fclerinnen einen Schulabschluss haben m\u00fcssen",
-        false
+        false,
+        "because all students have to have a school degree"
       ],
       [
         "weil es in den Bundesl\u00e4ndern verschiedene Schulen gibt",
-        false
+        false,
+        "because there are different schools in the federal states"
       ],
       [
         "weil es nach dem Grundgesetz seine Aufgabe ist",
-        true
+        true,
+        "because it is his task according to the Basic Law"
       ]
-    ]
+    ],
+    "translated_question": "Why does the state in Germany control schooling?\n"
   },
   {
     "seq": "69",
@@ -1639,21 +1979,26 @@ const data = [
     "possible_answers": [
       [
         "Stadtr\u00e4te",
-        false
+        false,
+        "City councils"
       ],
       [
         "Landr\u00e4te",
-        false
+        false,
+        "Councils"
       ],
       [
         "Gemeinden",
-        true
+        true,
+        "Communities"
       ],
       [
         "Bezirks\u00e4mter",
-        false
+        false,
+        "District offices"
       ]
-    ]
+    ],
+    "translated_question": "The Federal Republic of Germany has a three-stage\nAdministrative structure. What is the lowest political level?\n"
   },
   {
     "seq": "70",
@@ -1663,21 +2008,26 @@ const data = [
     "possible_answers": [
       [
         "Er / Sie f\u00fchrt die Regierungsgesch\u00e4fte.",
-        false
+        false,
+        "He/she leads the government business."
       ],
       [
         "Er / Sie kontrolliert die Regierungspartei.",
-        false
+        false,
+        "He/she controls the government party."
       ],
       [
         "Er / Sie w\u00e4hlt die Minister / Ministerinnen aus.",
-        false
+        false,
+        "He/she selects the ministers."
       ],
       [
         "Er / Sie schl\u00e4gt den Kanzler / die Kanzlerin zur Wahl vor.",
-        true
+        true,
+        "He/she suggests the chancellor/the chancellor to choose from."
       ]
-    ]
+    ],
+    "translated_question": "German President Gustav Heinemann gives Helmut Schmidt\nIn 1974, the German Chancellor's Emennung certificate. What?\nis one of the tasks of the German Federal President\nGerman Federal President?\n\n"
   },
   {
     "seq": "71",
@@ -1687,21 +2037,26 @@ const data = [
     "possible_answers": [
       [
         "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
-        false
+        false,
+        "in Bonn, because there are the Federal Chancellery and the Bundestag."
       ],
       [
         "auf Schloss Meseberg, dem G\u00e4stehaus der Bundesregierung, um Staatsg\u00e4ste zu empfangen.",
-        false
+        false,
+        "at Schloss Meseberg, the guesthouse of the Federal Government to receive state guests."
       ],
       [
         "auf Schloss Bellevue, dem Amtssitz des Bundespr\u00e4sidenten / der Bundespr\u00e4sidentin, um Staatsg\u00e4ste zu empfangen.",
-        false
+        false,
+        "on Bellevue Castle, the seat of the Federal President / the Federal President to receive state guests."
       ],
       [
         "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
-        true
+        true,
+        "in Berlin, because there are the Federal Chancellery and the Bundestag."
       ]
-    ]
+    ],
+    "translated_question": "Where is the German Chancellor?\nChancellor most often on? The most common is he/she ...\n"
   },
   {
     "seq": "72",
@@ -1711,21 +2066,26 @@ const data = [
     "possible_answers": [
       [
         "Gerhard Schr\u00f6der",
-        false
+        false,
+        "Gerhard Schr\u00f6der"
       ],
       [
         "Angela Merkel",
-        false
+        false,
+        "Angela Merkel"
       ],
       [
         "Ursula von der Leyen",
-        false
+        false,
+        "Ursula of the Leyen"
       ],
       [
         "Friedrich Merz",
-        true
+        true,
+        "Friedrich Merz"
       ]
-    ]
+    ],
+    "translated_question": "What is the current Chancellor / the current Chancellor\nfrom Germany?\n"
   },
   {
     "seq": "73",
@@ -1735,21 +2095,26 @@ const data = [
     "possible_answers": [
       [
         "CDU/CSU und AfD.",
-        true
+        true,
+        "CDU/CSU and AfD."
       ],
       [
         "Die Linke und B\u00fcndnis 90/Die Gr\u00fcnen.",
-        false
+        false,
+        "The left and alliance 90/The Greens."
       ],
       [
         "B\u00fcndnis 90/Die Gr\u00fcnen und SPD.",
-        false
+        false,
+        "Alliance 90/The Greens and SPD."
       ],
       [
         "Die Linke und CDU/CSU.",
-        false
+        false,
+        "The left and CDU/CSU."
       ]
-    ]
+    ],
+    "translated_question": "The two largest groups in the German Bundestag are\nat present\n\n"
   },
   {
     "seq": "74",
@@ -1759,21 +2124,26 @@ const data = [
     "possible_answers": [
       [
         "Bundesversammlung",
-        false
+        false,
+        "Federal Assembly"
       ],
       [
         "Volkskammer",
-        false
+        false,
+        "Chamber of Commerce"
       ],
       [
         "Bundestag",
-        true
+        true,
+        "Parliament"
       ],
       [
         "Bundesgerichtshof",
-        false
+        false,
+        "Bundesgerichtshof"
       ]
-    ]
+    ],
+    "translated_question": "What is the name of Parliament for Germany?\n"
   },
   {
     "seq": "75",
@@ -1783,21 +2153,26 @@ const data = [
     "possible_answers": [
       [
         "Frank-Walter Steinmeier",
-        true
+        true,
+        "Frank-Walter Steinmeier"
       ],
       [
         "B\u00e4rbel Bas",
-        false
+        false,
+        "B\u00e4rbel Bas"
       ],
       [
         "Bodo Ramelow",
-        false
+        false,
+        "Bodo Ramelow"
       ],
       [
         "Joachim Gauck",
-        false
+        false,
+        "Joachim Gauck"
       ]
-    ]
+    ],
+    "translated_question": "What is Germany's head of state today?\n"
   },
   {
     "seq": "76",
@@ -1807,21 +2182,26 @@ const data = [
     "possible_answers": [
       [
         "Christliche Deutsche Union",
-        false
+        false,
+        "Christian German Union"
       ],
       [
         "Club Deutscher Unternehmer",
-        false
+        false,
+        "Club German entrepreneur"
       ],
       [
         "Christlicher Deutscher Umweltschutz",
-        false
+        false,
+        "Christian German environmental protection"
       ],
       [
         "Christlich Demokratische Union",
-        true
+        true,
+        "Christian Democratic Union"
       ]
-    ]
+    ],
+    "translated_question": "What does the abbreviation CDU mean in Germany?\n"
   },
   {
     "seq": "77",
@@ -1831,21 +2211,26 @@ const data = [
     "possible_answers": [
       [
         "die deutsche Polizei",
-        false
+        false,
+        "the German police"
       ],
       [
         "ein deutscher Hafen",
-        false
+        false,
+        "a German port"
       ],
       [
         "eine deutsche B\u00fcrgerinitiative",
-        false
+        false,
+        "a German citizen initiative"
       ],
       [
         "die deutsche Armee",
-        true
+        true,
+        "the German army"
       ]
-    ]
+    ],
+    "translated_question": "What is the Bundeswehr?\n"
   },
   {
     "seq": "78",
@@ -1855,21 +2240,26 @@ const data = [
     "possible_answers": [
       [
         "Sozialistische Partei Deutschlands",
-        false
+        false,
+        "Socialist Party of Germany"
       ],
       [
         "Sozialpolitische Partei Deutschlands",
-        false
+        false,
+        "Socialist Party of Germany"
       ],
       [
         "Sozialdemokratische Partei Deutschlands",
-        true
+        true,
+        "Social Democratic Party of Germany"
       ],
       [
         "Sozialgerechte Partei Deutschlands",
-        false
+        false,
+        "Socially fair party of Germany"
       ]
-    ]
+    ],
+    "translated_question": "What does the abbreviation SPD mean?\n"
   },
   {
     "seq": "79",
@@ -1879,21 +2269,26 @@ const data = [
     "possible_answers": [
       [
         "Friedliche Demonstrative Partei",
-        false
+        false,
+        "Peaceful Demonstrative Party"
       ],
       [
         "Freie Deutschland Partei",
-        false
+        false,
+        "Free Germany Party"
       ],
       [
         "F\u00fchrende Demokratische Partei",
-        false
+        false,
+        "Leading Democratic Party"
       ],
       [
         "Freie Demokratische Partei",
-        true
+        true,
+        "Free Democratic Party"
       ]
-    ]
+    ],
+    "translated_question": "What does the abbreviation FDP mean in Germany?\n"
   },
   {
     "seq": "80",
@@ -1903,21 +2298,26 @@ const data = [
     "possible_answers": [
       [
         "Oberlandesgericht",
-        false
+        false,
+        "Oberlandesgericht"
       ],
       [
         "Amtsgericht",
-        false
+        false,
+        "Court of Justice"
       ],
       [
         "Bundesverfassungsgericht",
-        true
+        true,
+        "Federal Constitutional Court"
       ],
       [
         "Verwaltungsgericht",
-        false
+        false,
+        "Administrative Court"
       ]
-    ]
+    ],
+    "translated_question": "Which court in Germany is responsible for the interpretation\nof the Basic Law?\n"
   },
   {
     "seq": "81",
@@ -1927,21 +2327,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundesrat",
-        false
+        false,
+        "the Federal Council"
       ],
       [
         "die Bundesversammlung",
-        false
+        false,
+        "the Federal Assembly"
       ],
       [
         "das Volk",
-        false
+        false,
+        "the people"
       ],
       [
         "der Bundestag",
-        true
+        true,
+        "The Bundestag"
       ]
-    ]
+    ],
+    "translated_question": "Who chooses the Chancellor / the Chancellor in\nGermany?\n"
   },
   {
     "seq": "82",
@@ -1951,21 +2356,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundestagspr\u00e4sident / die Bundestagspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Bundestag / the President of the Bundestag"
       ],
       [
         "der Bundespr\u00e4sident / die Bundespr\u00e4sidentin",
-        false
+        false,
+        "the Federal President / the Federal President"
       ],
       [
         "der Bundesratspr\u00e4sident / die Bundesratspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Federal Council"
       ],
       [
         "der Bundeskanzler / die Bundeskanzlerin",
-        true
+        true,
+        "the Chancellor of the Federal Chancellor"
       ]
-    ]
+    ],
+    "translated_question": "Who heads the German federal cabinet?\n"
   },
   {
     "seq": "83",
@@ -1975,21 +2385,26 @@ const data = [
     "possible_answers": [
       [
         "das Volk",
-        false
+        false,
+        "the people"
       ],
       [
         "die Bundesversammlung",
-        false
+        false,
+        "the Federal Assembly"
       ],
       [
         "der Bundestag",
-        true
+        true,
+        "The Bundestag"
       ],
       [
         "die Bundesregierung",
-        false
+        false,
+        "the Federal Government"
       ]
-    ]
+    ],
+    "translated_question": "Who chooses the German Chancellor / the German\nChancellor?\n"
   },
   {
     "seq": "84",
@@ -1999,21 +2414,26 @@ const data = [
     "possible_answers": [
       [
         "regiert das Land.",
-        false
+        false,
+        "governs the country."
       ],
       [
         "entwirft die Gesetze.",
-        false
+        false,
+        "drafts the laws."
       ],
       [
         "repr\u00e4sentiert das Land.",
-        true
+        true,
+        "represents the country."
       ],
       [
         "\u00fcberwacht die Einhaltung der Gesetze.",
-        false
+        false,
+        "monitors compliance with the laws."
       ]
-    ]
+    ],
+    "translated_question": "The German Federal President/\nGerman Federal President? He/she...\n"
   },
   {
     "seq": "85",
@@ -2023,21 +2443,26 @@ const data = [
     "possible_answers": [
       [
         "die Abgeordneten des Bundestages",
-        false
+        false,
+        "Members of the Bundestag"
       ],
       [
         "die Minister und Ministerinnen der Bundesregierung",
-        false
+        false,
+        "the ministers of the Federal Government"
       ],
       [
         "die Regierungsvertreter der Bundesl\u00e4nder",
-        true
+        true,
+        "the government representatives of the federal states"
       ],
       [
         "die Parteimitglieder",
-        false
+        false,
+        "the party members"
       ]
-    ]
+    ],
+    "translated_question": "Who is the German Federal Council?\n"
   },
   {
     "seq": "86",
@@ -2047,21 +2472,26 @@ const data = [
     "possible_answers": [
       [
         "die Bundesversammlung",
-        true
+        true,
+        "the Federal Assembly"
       ],
       [
         "der Bundesrat",
-        false
+        false,
+        "the Federal Council"
       ],
       [
         "das Bundesparlament",
-        false
+        false,
+        "the federal parliament"
       ],
       [
         "das Bundesverfassungsgericht",
-        false
+        false,
+        "the Federal Constitutional Court"
       ]
-    ]
+    ],
+    "translated_question": "Who chooses the Federal President in Germany\nFederal President?\n"
   },
   {
     "seq": "87",
@@ -2071,21 +2501,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundeskanzler / die Bundeskanzlerin",
-        false
+        false,
+        "the Chancellor of the Federal Chancellor"
       ],
       [
         "der Bundespr\u00e4sident / die Bundespr\u00e4sidentin",
-        true
+        true,
+        "the Federal President / the Federal President"
       ],
       [
         "der Bundesratspr\u00e4sident / die Bundesratspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Federal Council"
       ],
       [
         "der Bundestagspr\u00e4sident / die Bundestagspr\u00e4sidentin",
-        false
+        false,
+        "the President of the Bundestag / the President of the Bundestag"
       ]
-    ]
+    ],
+    "translated_question": "Who is the head of the Federal Republic of Germany?\n"
   },
   {
     "seq": "88",
@@ -2095,21 +2530,26 @@ const data = [
     "possible_answers": [
       [
         "kontrolliert die Regierung.",
-        true
+        true,
+        "controls the government."
       ],
       [
         "entscheidet, wer Bundesminister / Bundesministerin wird.",
-        false
+        false,
+        "decides who becomes Federal Minister / Federal Minister."
       ],
       [
         "bestimmt, wer im Bundesrat sitzt.",
-        false
+        false,
+        "who sits in the Federal Council."
       ],
       [
         "schl\u00e4gt die Regierungschefs / Regierungschefinnen der L\u00e4nder vor.",
-        false
+        false,
+        "proposes the heads of government of the countries."
       ]
-    ]
+    ],
+    "translated_question": "The parliamentary opposition in the German Bundestag ...\n"
   },
   {
     "seq": "89",
@@ -2119,21 +2559,26 @@ const data = [
     "possible_answers": [
       [
         "Verband",
-        false
+        false,
+        "Association"
       ],
       [
         "\u00c4ltestenrat",
-        false
+        false,
+        "Elder Council"
       ],
       [
         "Fraktion",
-        true
+        true,
+        "Group"
       ],
       [
         "Opposition",
-        false
+        false,
+        "Opposition"
       ]
-    ]
+    ],
+    "translated_question": "What is called the Association of Members in Germany\na party in Parliament ?\n"
   },
   {
     "seq": "90",
@@ -2143,21 +2588,26 @@ const data = [
     "possible_answers": [
       [
         "den Bundesrat.",
-        true
+        true,
+        "the Federal Council."
       ],
       [
         "die Bundesversammlung.",
-        false
+        false,
+        "the Federal Assembly."
       ],
       [
         "den Bundestag.",
-        false
+        false,
+        "the Bundestag."
       ],
       [
         "die Bundesregierung.",
-        false
+        false,
+        "the federal government."
       ]
-    ]
+    ],
+    "translated_question": "The German L\u00e4nder act on the legislation of the\nFederal with by .\n"
   },
   {
     "seq": "91",
@@ -2167,21 +2617,26 @@ const data = [
     "possible_answers": [
       [
         "schwieriger, wenn sich dadurch die Mehrheit im Bundestag \u00e4ndert.",
-        false
+        false,
+        "more difficult when the majority in the Bundestag changes."
       ],
       [
         "leichter, wenn dadurch neue Parteien in den Bundesrat kommen.",
-        false
+        false,
+        "easier when new parties come to the Federal Council."
       ],
       [
         "schwieriger, wenn dadurch die Mehrheit im Bundesrat ver\u00e4ndert wird.",
-        true
+        true,
+        "more difficult when the majority in the Federal Council is changed."
       ],
       [
         "leichter, wenn es sich um ein reiches Bundesland handelt.",
-        false
+        false,
+        "easier if it is a rich federal state."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, a change in government in a federal state\n\u201cEffects on federal policy. Regulating\n\n"
   },
   {
     "seq": "92",
@@ -2191,21 +2646,26 @@ const data = [
     "possible_answers": [
       [
         "Christlich Sichere Union",
-        false
+        false,
+        "Christian Secure Union"
       ],
       [
         "Christlich S\u00fcddeutsche Union",
-        false
+        false,
+        "Christian Southern German Union"
       ],
       [
         "Christlich Sozialer Unternehmerverband",
-        false
+        false,
+        "Christian Social Entrepreneurship"
       ],
       [
         "Christlich Soziale Union",
-        true
+        true,
+        "Christian Social Union"
       ]
-    ]
+    ],
+    "translated_question": "What does the abbreviation CSU mean in Germany?\n"
   },
   {
     "seq": "93",
@@ -2215,21 +2675,26 @@ const data = [
     "possible_answers": [
       [
         "weniger Erststimmen kann sie haben.",
-        false
+        false,
+        "they can have less initial votes."
       ],
       [
         "mehr Direktkandidaten der Partei ziehen ins Parlament ein.",
-        false
+        false,
+        "more direct candidates of the party move into parliament."
       ],
       [
         "gr\u00f6\u00dfer ist das Risiko, eine Koalition bilden zu m\u00fcssen.",
-        false
+        false,
+        "greater is the risk of forming a coalition."
       ],
       [
         "mehr Sitze erh\u00e4lt die Partei im Parlament.",
-        true
+        true,
+        "the party receives more seats in Parliament."
       ]
-    ]
+    ],
+    "translated_question": "The more \u201csecond voices\u201d a party at a Bundestag election\nthe...\n"
   },
   {
     "seq": "94",
@@ -2239,21 +2704,26 @@ const data = [
     "possible_answers": [
       [
         "16",
-        false
+        false,
+        "16"
       ],
       [
         "18",
-        true
+        true,
+        "18"
       ],
       [
         "21",
-        false
+        false,
+        "21"
       ],
       [
         "23",
-        false
+        false,
+        "23"
       ]
-    ]
+    ],
+    "translated_question": "\u201cFrom what age can you choose in Germany?\nGerman Bundestag?\n"
   },
   {
     "seq": "95",
@@ -2263,21 +2733,26 @@ const data = [
     "possible_answers": [
       [
         "Wahlpflicht",
-        false
+        false,
+        "Duty to vote"
       ],
       [
         "Schulpflicht",
-        true
+        true,
+        "School compulsory"
       ],
       [
         "Schweigepflicht",
-        false
+        false,
+        "Liability"
       ],
       [
         "Religionspflicht",
-        false
+        false,
+        "Religious duty"
       ]
-    ]
+    ],
+    "translated_question": "What applies to most children in Germany?\n"
   },
   {
     "seq": "96",
@@ -2287,21 +2762,26 @@ const data = [
     "possible_answers": [
       [
         "K\u00fcrzung sozialer Leistungen",
-        false
+        false,
+        "Reduction of social benefits"
       ],
       [
         "bis zu 100 Sozialstunden",
-        false
+        false,
+        "up to 100 social hours"
       ],
       [
         "gar nicht, Holocaustleugnung ist erlaubt",
-        false
+        false,
+        "not at all, Holocaust denial is allowed"
       ],
       [
         "mit Freiheitsstrafe bis zu f\u00fcnf Jahren oder mit Geldstrafe",
-        true
+        true,
+        "with imprisonment up to five years or with fine"
       ]
-    ]
+    ],
+    "translated_question": "How can anyone who denies the Holocaust be punished?"
   },
   {
     "seq": "97",
@@ -2311,21 +2791,26 @@ const data = [
     "possible_answers": [
       [
         "Sozialversicherung",
-        true
+        true,
+        "Social security"
       ],
       [
         "Sozialhilfe",
-        false
+        false,
+        "Social assistance"
       ],
       [
         "Kindergeld",
-        false
+        false,
+        "Child benefit"
       ],
       [
         "Wohngeld",
-        false
+        false,
+        "Benefits"
       ]
-    ]
+    ],
+    "translated_question": "What is paid automatically in Germany when you are fixed\nis hired?\n"
   },
   {
     "seq": "98",
@@ -2335,21 +2820,26 @@ const data = [
     "possible_answers": [
       [
         "d\u00fcrfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen.",
-        false
+        false,
+        "they must no longer participate in Parliament's meetings."
       ],
       [
         "kann die Regierung ihre Mehrheit verlieren.",
-        true
+        true,
+        "the government can lose its majority."
       ],
       [
         "muss der Bundespr\u00e4sident / die Bundespr\u00e4sidentin zuvor sein / ihr Einverst\u00e4ndnis geben.",
-        false
+        false,
+        "the Federal President / the Federal President must be before / give her consent."
       ],
       [
         "d\u00fcrfen die W\u00e4hler / W\u00e4hlerinnen dieser Abgeordneten noch einmal w\u00e4hlen.",
-        false
+        false,
+        "the voters / voters of these Members may choose again."
       ]
-    ]
+    ],
+    "translated_question": "If MEPs in the German Bundestag\nchange, ...\n"
   },
   {
     "seq": "99",
@@ -2359,21 +2849,26 @@ const data = [
     "possible_answers": [
       [
         "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
-        true
+        true,
+        "Employers / Employers / Workers"
       ],
       [
         "nur Arbeitnehmer / Arbeitnehmerinnen",
-        false
+        false,
+        "only employees"
       ],
       [
         "alle Staatsangeh\u00f6rigen",
-        false
+        false,
+        "all nationals"
       ],
       [
         "nur Arbeitgeber / Arbeitgeberinnen",
-        false
+        false,
+        "Employers only"
       ]
-    ]
+    ],
+    "translated_question": "Who pays social security in Germany?\n"
   },
   {
     "seq": "100",
@@ -2383,21 +2878,26 @@ const data = [
     "possible_answers": [
       [
         "die Lebensversicherung",
-        true
+        true,
+        "Life insurance"
       ],
       [
         "die gesetzliche Rentenversicherung",
-        false
+        false,
+        "the statutory pension insurance"
       ],
       [
         "die Arbeitslosenversicherung",
-        false
+        false,
+        "Unemployment insurance"
       ],
       [
         "die Pflegeversicherung",
-        false
+        false,
+        "care insurance"
       ]
-    ]
+    ],
+    "translated_question": "What does not belong to statutory social security?\n"
   },
   {
     "seq": "101",
@@ -2407,21 +2907,26 @@ const data = [
     "possible_answers": [
       [
         "Jugendlichen.",
-        false
+        false,
+        "Young people."
       ],
       [
         "Arbeitnehmer und Arbeitnehmerinnen.",
-        true
+        true,
+        "Workers."
       ],
       [
         "Rentner und Rentnerinnen.",
-        false
+        false,
+        "Pensioners and pensioners."
       ],
       [
         "Arbeitgeber und Arbeitgeberinnen.",
-        false
+        false,
+        "Employers."
       ]
-    ]
+    ],
+    "translated_question": "Trade unions are associations of interests\n\n"
   },
   {
     "seq": "102",
@@ -2431,21 +2936,26 @@ const data = [
     "possible_answers": [
       [
         "Bundesverdienstkreuz",
-        true
+        true,
+        "Federal Cross of Merit"
       ],
       [
         "Bundesadler",
-        false
+        false,
+        "Federal eagle"
       ],
       [
         "Vaterl\u00e4ndischen Verdienstorden",
-        false
+        false,
+        "Occupational Orders"
       ],
       [
         "Ehrentitel \"Held der Deutschen Demokratischen Republik\"",
-        false
+        false,
+        "Honorary title \"Held of the German Democratic Republic\""
       ]
-    ]
+    ],
+    "translated_question": "What to honor in the Federal Republic of Germany\nif you are on political, economic, cultural,\nmental or social services\n\nhas? With the...\n"
   },
   {
     "seq": "103",
@@ -2455,21 +2965,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundestagsfraktionen von CDU und CSU",
-        false
+        false,
+        "the parliamentary groups of CDU and CSU"
       ],
       [
         "von SPD, FDP und B\u00fcndnis 90/Die Gr\u00fcnen in einer Regierung",
-        true
+        true,
+        "by SPD, FDP and Alliance 90/The Greens in a Government"
       ],
       [
         "von CSU, Die LINKE und B\u00fcndnis 90/Die Gr\u00fcnen in einer Regierung",
-        false
+        false,
+        "by CSU, The LINKE and Alliance 90/The Greens in a government"
       ],
       [
         "der Bundestagsfraktionen von CDU und SPD",
-        false
+        false,
+        "the parliamentary groups of CDU and SPD"
       ]
-    ]
+    ],
+    "translated_question": "What will be described in Germany as \u201cAmpelkoalition\u201d\nCooperation ...\n"
   },
   {
     "seq": "104",
@@ -2479,21 +2994,26 @@ const data = [
     "possible_answers": [
       [
         "Die Frau ist lange krank und arbeitsunf\u00e4hig.",
-        false
+        false,
+        "The woman is long sick and incapable of work."
       ],
       [
         "Die Frau kam oft zu sp\u00e4t zur Arbeit.",
-        false
+        false,
+        "The woman came to work often too late."
       ],
       [
         "Die Frau erledigt private Sachen w\u00e4hrend der Arbeitszeit.",
-        false
+        false,
+        "The woman does private things during working hours."
       ],
       [
         "Die Frau bekommt ein Kind und ihr Chef wei\u00df das.",
-        true
+        true,
+        "The woman gets a child and her boss knows that."
       ]
-    ]
+    ],
+    "translated_question": "A woman in Germany loses her work. What is not the reason\nfor this dismissal?\n"
   },
   {
     "seq": "105",
@@ -2503,21 +3023,26 @@ const data = [
     "possible_answers": [
       [
         "Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine.",
-        false
+        false,
+        "They help old people to vote in the voting booth."
       ],
       [
         "Sie schreiben die Wahlbenachrichtigungen vor der Wahl.",
-        false
+        false,
+        "You'll write the election notifications before the election."
       ],
       [
         "Sie geben Zwischenergebnisse an die Medien weiter.",
-        false
+        false,
+        "They pass interim results to the media."
       ],
       [
         "Sie z\u00e4hlen die Stimmen nach dem Ende der Wahl.",
-        true
+        true,
+        "They count the votes after the end of the election."
       ]
-    ]
+    ],
+    "translated_question": "What is a task of elective heifers/elective heifers in\nGermany?\n"
   },
   {
     "seq": "106",
@@ -2527,21 +3052,26 @@ const data = [
     "possible_answers": [
       [
         "Sie helfen Kindern und alten Menschen beim W\u00e4hlen.",
-        false
+        false,
+        "They help children and old people choose."
       ],
       [
         "Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
-        false
+        false,
+        "You write cards and letters indicating the polling place."
       ],
       [
         "Sie geben Zwischenergebnisse an Journalisten weiter.",
-        false
+        false,
+        "They pass interim results to journalists."
       ],
       [
         "Sie z\u00e4hlen die Stimmen nach dem Ende der Wahl.",
-        true
+        true,
+        "They count the votes after the end of the election."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, volunteers and electives help\nthe elections. What is a task of electives /\nElective women?\n"
   },
   {
     "seq": "107",
@@ -2551,21 +3081,26 @@ const data = [
     "possible_answers": [
       [
         "2 Jahre",
-        false
+        false,
+        "2 years"
       ],
       [
         "4 Jahre",
-        true
+        true,
+        "4 years"
       ],
       [
         "6 Jahre",
-        false
+        false,
+        "6 years"
       ],
       [
         "8 Jahre",
-        false
+        false,
+        "8 years"
       ]
-    ]
+    ],
+    "translated_question": "How many years will the Bundestag be elected in Germany?\n"
   },
   {
     "seq": "108",
@@ -2575,21 +3110,26 @@ const data = [
     "possible_answers": [
       [
         "in der Bundesrepublik Deutschland wohnt und w\u00e4hlen m\u00f6chte.",
-        false
+        false,
+        "in the Federal Republic of Germany."
       ],
       [
         "B\u00fcrger / B\u00fcrgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.",
-        true
+        true,
+        "Citizens / citizen of the Federal Republic of Germany is at least 18 years old."
       ],
       [
         "seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt.",
-        false
+        false,
+        "for at least 3 years in the Federal Republic of Germany."
       ],
       [
         "B\u00fcrger / B\u00fcrgerin der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist.",
-        false
+        false,
+        "Citizens of the Federal Republic of Germany are at least 21 years old."
       ]
-    ]
+    ],
+    "translated_question": "In the case of a parliamentary election in Germany, everyone may choose...\n"
   },
   {
     "seq": "109",
@@ -2599,21 +3139,26 @@ const data = [
     "possible_answers": [
       [
         "alle drei Jahre",
-        false
+        false,
+        "all three years"
       ],
       [
         "alle vier Jahre",
-        true
+        true,
+        "all four years"
       ],
       [
         "alle f\u00fcnf Jahre",
-        false
+        false,
+        "all five years"
       ],
       [
         "alle sechs Jahre",
-        false
+        false,
+        "every six years"
       ]
-    ]
+    ],
+    "translated_question": "How many times are there usually Bundestag elections in Germany?\n"
   },
   {
     "seq": "110",
@@ -2623,21 +3168,26 @@ const data = [
     "possible_answers": [
       [
         "2 Jahre",
-        false
+        false,
+        "2 years"
       ],
       [
         "3 Jahre",
-        false
+        false,
+        "3 years"
       ],
       [
         "4 Jahre",
-        true
+        true,
+        "4 years"
       ],
       [
         "5 Jahre",
-        false
+        false,
+        "5 years"
       ]
-    ]
+    ],
+    "translated_question": "How many years will the Bundestag be elected in Germany?\n"
   },
   {
     "seq": "111",
@@ -2647,21 +3197,26 @@ const data = [
     "possible_answers": [
       [
         "die Politik Israels \u00f6ffentlich kritisieren",
-        false
+        false,
+        "publicly criticize Israel's policy"
       ],
       [
         "das Aufh\u00e4ngen einer israelischen Flagge auf dem Privatgrundst\u00fcck",
-        false
+        false,
+        "hanging an Israeli flag on the private property"
       ],
       [
         "eine Diskussion \u00fcber die Politik Israels",
-        false
+        false,
+        "a discussion on Israel's policy"
       ],
       [
         "der \u00f6ffentliche Aufruf zur Vernichtung Israels",
-        true
+        true,
+        "the public call for the destruction of Israel"
       ]
-    ]
+    ],
+    "translated_question": "What action with regard to the State of Israel is prohibited in Germany?"
   },
   {
     "seq": "112",
@@ -2671,21 +3226,26 @@ const data = [
     "possible_answers": [
       [
         "speziell.",
-        false
+        false,
+        "special."
       ],
       [
         "geheim.",
-        true
+        true,
+        "secret."
       ],
       [
         "berufsbezogen.",
-        false
+        false,
+        "professional."
       ],
       [
         "geschlechtsabh\u00e4ngig.",
-        false
+        false,
+        "dependent on sex."
       ]
-    ]
+    ],
+    "translated_question": "The elections in Germany are...\n"
   },
   {
     "seq": "113",
@@ -2695,21 +3255,26 @@ const data = [
     "possible_answers": [
       [
         "die meisten Stimmen bekommt.",
-        true
+        true,
+        "most voices get."
       ],
       [
         "die meisten M\u00e4nner mehrheitlich gew\u00e4hlt haben.",
-        false
+        false,
+        "most men have chosen majority."
       ],
       [
         "die meisten Stimmen bei den Arbeitern / Arbeiterinnen bekommen hat.",
-        false
+        false,
+        "most of the votes with the workers."
       ],
       [
         "die meisten Erststimmen f\u00fcr ihren Kanzlerkandidaten / ihre Kanzlerkandidatin erhalten hat.",
-        false
+        false,
+        "most initial votes for their chancellor candidate / their chancellor candidate have received."
       ]
-    ]
+    ],
+    "translated_question": "Elections in Germany wins the party that...\n"
   },
   {
     "seq": "114",
@@ -2719,21 +3284,26 @@ const data = [
     "possible_answers": [
       [
         "eine Pflicht.",
-        false
+        false,
+        "a duty."
       ],
       [
         "ein Recht.",
-        true
+        true,
+        "a right."
       ],
       [
         "ein Zwang.",
-        false
+        false,
+        "a compulsion."
       ],
       [
         "eine Last.",
-        false
+        false,
+        "a load."
       ]
-    ]
+    ],
+    "translated_question": "To participate in democratic elections in Germany...\n"
   },
   {
     "seq": "115",
@@ -2743,21 +3313,26 @@ const data = [
     "possible_answers": [
       [
         "Man kann gew\u00e4hlt werden.",
-        false
+        false,
+        "You can be chosen."
       ],
       [
         "Man muss w\u00e4hlen gehen.",
-        false
+        false,
+        "You have to go."
       ],
       [
         "Man kann w\u00e4hlen.",
-        true
+        true,
+        "You can choose."
       ],
       [
         "Man muss zur Ausz\u00e4hlung der Stimmen gehen.",
-        false
+        false,
+        "You have to go to counting the voices."
       ]
-    ]
+    ],
+    "translated_question": "What does \u201cactive voting right\u201d mean in Germany?\n"
   },
   {
     "seq": "116",
@@ -2767,21 +3342,26 @@ const data = [
     "possible_answers": [
       [
         "aktive Wahlkampagne.",
-        false
+        false,
+        "active campaign."
       ],
       [
         "aktives Wahlverfahren.",
-        false
+        false,
+        "active electoral procedure."
       ],
       [
         "aktiver Wahlkampf.",
-        false
+        false,
+        "active campaign."
       ],
       [
         "aktives Wahlrecht.",
-        true
+        true,
+        "active voting rights."
       ]
-    ]
+    ],
+    "translated_question": "If you are allowed to vote in Germany for a Bundestag election,\nthe\n\n"
   },
   {
     "seq": "117",
@@ -2791,21 +3371,26 @@ const data = [
     "possible_answers": [
       [
         "3%",
-        false
+        false,
+        "3 %"
       ],
       [
         "4%",
-        false
+        false,
+        "4 %"
       ],
       [
         "5%",
-        true
+        true,
+        "5 %"
       ],
       [
         "6%",
-        false
+        false,
+        "6 %"
       ]
-    ]
+    ],
+    "translated_question": "How much percent of the second votes must parties at least\nto be elected to the German Bundestag?\n"
   },
   {
     "seq": "118",
@@ -2815,21 +3400,26 @@ const data = [
     "possible_answers": [
       [
         "nur Deutsche",
-        false
+        false,
+        "only German"
       ],
       [
         "nur Israelis",
-        false
+        false,
+        "only Israelis"
       ],
       [
         "nur religi\u00f6se Menschen",
-        false
+        false,
+        "only religious people"
       ],
       [
         "alle Menschen",
-        true
+        true,
+        "all people"
       ]
-    ]
+    ],
+    "translated_question": "Who can become a member of the 40 Jewish Makkabi sports clubs?"
   },
   {
     "seq": "119",
@@ -2839,21 +3429,26 @@ const data = [
     "possible_answers": [
       [
         "Alle verurteilten Straft\u00e4ter / Straft\u00e4terinnen d\u00fcrfen nicht w\u00e4hlen.",
-        false
+        false,
+        "All convicted offenders / offenders must not choose."
       ],
       [
         "Wenn ich w\u00e4hlen gehen m\u00f6chte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
-        false
+        false,
+        "If I want to go, my employer must give me free."
       ],
       [
         "Jede Person kann ohne Zwang entscheiden, ob sie w\u00e4hlen m\u00f6chte und wen sie w\u00e4hlen m\u00f6chte.",
-        true
+        true,
+        "Each person can decide without compulsion whether to choose and who to choose them."
       ],
       [
         "Ich kann frei entscheiden, wo ich w\u00e4hlen gehen m\u00f6chte.",
-        false
+        false,
+        "I can decide freely where to choose."
       ]
-    ]
+    ],
+    "translated_question": "Elections in Germany are free. What does that mean?\n"
   },
   {
     "seq": "120",
@@ -2863,21 +3458,26 @@ const data = [
     "possible_answers": [
       [
         "Zensuswahlrecht.",
-        false
+        false,
+        "Census right."
       ],
       [
         "Dreiklassenwahlrecht.",
-        false
+        false,
+        "Three-class voting right."
       ],
       [
         "Mehrheits- und Verh\u00e4ltniswahlrecht.",
-        true
+        true,
+        "Majority and proportional voting rights."
       ],
       [
         "allgemeines M\u00e4nnerwahlrecht.",
-        false
+        false,
+        "general rule of men's choice."
       ]
-    ]
+    ],
+    "translated_question": "The electoral system in Germany is a\n\n"
   },
   {
     "seq": "121",
@@ -2887,21 +3487,26 @@ const data = [
     "possible_answers": [
       [
         "5%-H\u00fcrde.",
-        true
+        true,
+        "5% puree."
       ],
       [
         "Zulassungsgrenze.",
-        false
+        false,
+        "Admission limit."
       ],
       [
         "Basiswert.",
-        false
+        false,
+        "Basic value."
       ],
       [
         "Richtlinie.",
-        false
+        false,
+        "Directive."
       ]
-    ]
+    ],
+    "translated_question": "A party wants to go to the German Bundestag. She must\nhave a minimum proportion of voters. That means\n"
   },
   {
     "seq": "122",
@@ -2911,21 +3516,26 @@ const data = [
     "possible_answers": [
       [
         "frei, gleich, geheim.",
-        true
+        true,
+        "free, equal, secret."
       ],
       [
         "offen, sicher, frei.",
-        false
+        false,
+        "open, safe, free."
       ],
       [
         "geschlossen, gleich, sicher.",
-        false
+        false,
+        "closed, equal, safe."
       ],
       [
         "sicher, offen, freiwillig.",
-        false
+        false,
+        "safe, open, voluntary."
       ]
-    ]
+    ],
+    "translated_question": "What is the principle of voting in Germany? Elections in\nGermany are...\n"
   },
   {
     "seq": "123",
@@ -2935,21 +3545,26 @@ const data = [
     "possible_answers": [
       [
         "Abstimmungsregelung im Bundestag f\u00fcr kleine Parteien",
-        false
+        false,
+        "Voting arrangements in the Bundestag for small parties"
       ],
       [
         "Anwesenheitskontrolle im Bundestag f\u00fcr Abstimmungen",
-        false
+        false,
+        "Presence control in the Bundestag for votes"
       ],
       [
         "Mindestanteil an W\u00e4hlerstimmen, um ins Parlament zu kommen",
-        true
+        true,
+        "Minimum proportion of votes to come to Parliament"
       ],
       [
         "Anwesenheitskontrolle im Bundesrat f\u00fcr Abstimmungen",
-        false
+        false,
+        "Presence check in the Federal Council for Voting"
       ]
-    ]
+    ],
+    "translated_question": "What is the \u201c5% strength\u201d in Germany\n"
   },
   {
     "seq": "124",
@@ -2959,21 +3574,26 @@ const data = [
     "possible_answers": [
       [
         "des Bundeskanzlers / der Bundeskanzlerin.",
-        false
+        false,
+        "the Chancellor of the Federal Chancellor."
       ],
       [
         "der Parlamente der L\u00e4nder.",
-        false
+        false,
+        "the parliaments of the countries."
       ],
       [
         "des Parlaments f\u00fcr Deutschland.",
-        true
+        true,
+        "Parliament for Germany."
       ],
       [
         "des Bundespr\u00e4sidenten / der Bundespr\u00e4sidentin.",
-        false
+        false,
+        "of the Federal President / the Federal President."
       ]
-    ]
+    ],
+    "translated_question": "The Bundestag elections in Germany are the election ...\n"
   },
   {
     "seq": "125",
@@ -2983,21 +3603,26 @@ const data = [
     "possible_answers": [
       [
         "die B\u00fcrger und B\u00fcrgerinnen zu zwingen, ihre Stimme abzugeben.",
-        false
+        false,
+        "to force citizens to vote."
       ],
       [
         "nach dem Willen der W\u00e4hlermehrheit den Wechsel der Regierung zu erm\u00f6glichen.",
-        true
+        true,
+        "to enable the government to change according to the will of the majority of voters."
       ],
       [
         "im Land bestehende Gesetze beizubehalten.",
-        false
+        false,
+        "to maintain existing laws in the country."
       ],
       [
         "den Armen mehr Macht zu geben.",
-        false
+        false,
+        "to give the poor more power."
       ]
-    ]
+    ],
+    "translated_question": "In a democracy is a function of regular elections\n\n"
   },
   {
     "seq": "126",
@@ -3007,21 +3632,26 @@ const data = [
     "possible_answers": [
       [
         "eine Wahlbenachrichtigung von der Gemeinde",
-        true
+        true,
+        "an election notification from the municipality"
       ],
       [
         "eine Wahlerlaubnis vom Bundespr\u00e4sidenten / von der Bundespr\u00e4sidentin",
-        false
+        false,
+        "an election permit from the Federal President / from the Federal President"
       ],
       [
         "eine Benachrichtigung von der Bundesversammlung",
-        false
+        false,
+        "a notification from the Federal Assembly"
       ],
       [
         "eine Benachrichtigung vom Pfarramt",
-        false
+        false,
+        "a notification from the parish office"
       ]
-    ]
+    ],
+    "translated_question": "What to get elected citizens in\nGermany before a choice?\n"
   },
   {
     "seq": "127",
@@ -3031,21 +3661,26 @@ const data = [
     "possible_answers": [
       [
         "die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben.",
-        false
+        false,
+        "the programs of many small parties have many similarities."
       ],
       [
         "die B\u00fcrger und B\u00fcrgerinnen bei vielen kleinen Parteien die Orientierung verlieren k\u00f6nnen.",
-        false
+        false,
+        "citizens can lose orientation in many small parties."
       ],
       [
         "viele kleine Parteien die Regierungsbildung erschweren.",
-        true
+        true,
+        "many small parties make governmental education more difficult."
       ],
       [
         "die kleinen Parteien nicht so viel Geld haben, um die Politiker und Politikerinnen zu bezahlen.",
-        false
+        false,
+        "the small parties do not have so much money to pay the politicians."
       ]
-    ]
+    ],
+    "translated_question": "Why are there 5 % obstacles in the Federal Election Act?\nGermany? There's them because...\n"
   },
   {
     "seq": "128",
@@ -3055,21 +3690,26 @@ const data = [
     "possible_answers": [
       [
         "Abgeordnete.",
-        true
+        true,
+        "Members."
       ],
       [
         "Kanzler / Kanzlerinnen.",
-        false
+        false,
+        "Chancellor / Chancellor."
       ],
       [
         "Botschafter / Botschafterinnen.",
-        false
+        false,
+        "Ambassadors / Ambassadors."
       ],
       [
         "Ministerpr\u00e4sidenten / Ministerpr\u00e4sidentinnen.",
-        false
+        false,
+        "Prime Minister / Prime Minister."
       ]
-    ]
+    ],
+    "translated_question": "Members of Parliament, who are of the citizens\nthey are called .\n"
   },
   {
     "seq": "129",
@@ -3079,21 +3719,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundeskanzler / die Bundeskanzlerin.",
-        false
+        false,
+        "the Chancellor of the Federal Chancellor."
       ],
       [
         "der Ministerpr\u00e4sident / die Ministerpr\u00e4sidentin eines Bundeslandes.",
-        false
+        false,
+        "the Prime Minister / the Prime Minister of a federal state."
       ],
       [
         "der Bundestag.",
-        true
+        true,
+        "the Bundestag."
       ],
       [
         "der Bundespr\u00e4sident / die Bundespr\u00e4sidentin.",
-        false
+        false,
+        "the Federal President / the Federal President."
       ]
-    ]
+    ],
+    "translated_question": "elected by the people in Germany\n"
   },
   {
     "seq": "130",
@@ -3103,21 +3748,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        true
+        true,
+        "1"
       ],
       [
         "2",
-        false
+        false,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        false
+        false,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "What ballot would be valid in a Bundestag election?\n\nYou have 2 votes\nYou\n\nYou have 2 votes You have 2 votes\nxx \u2014\u2014\n*r.\n\nart voice her 4 pcs\n\nart voice brain voice\n\n"
   },
   {
     "seq": "131",
@@ -3127,21 +3777,26 @@ const data = [
     "possible_answers": [
       [
         "der Leiter / die Leiterin einer Schule.",
-        false
+        false,
+        "the director of a school."
       ],
       [
         "der Chef / die Chefin einer Bank.",
-        false
+        false,
+        "the boss of a bank."
       ],
       [
         "das Oberhaupt einer Gemeinde.",
-        true
+        true,
+        "the head of a community."
       ],
       [
         "der / die Vorsitzende einer Partei.",
-        false
+        false,
+        "the president of a party."
       ]
-    ]
+    ],
+    "translated_question": "In Germany is a mayor / mayor\n\n"
   },
   {
     "seq": "132",
@@ -3151,21 +3806,26 @@ const data = [
     "possible_answers": [
       [
         "Sie arbeiten als Soldaten / Soldatinnen.",
-        false
+        false,
+        "They work as soldiers / soldiers."
       ],
       [
         "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verb\u00e4nden.",
-        true
+        true,
+        "They work voluntarily and unpaid in associations and associations."
       ],
       [
         "Sie arbeiten in der Bundesregierung.",
-        false
+        false,
+        "They work in the federal government."
       ],
       [
         "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
-        false
+        false,
+        "They work in a hospital and earn money."
       ]
-    ]
+    ],
+    "translated_question": "Many people in Germany work volunteers in their spare time\nWhat does that mean?\n"
   },
   {
     "seq": "133",
@@ -3175,21 +3835,26 @@ const data = [
     "possible_answers": [
       [
         "Der Ehemann w\u00e4hlt f\u00fcr seine Frau mit.",
-        false
+        false,
+        "The husband chooses for his wife."
       ],
       [
         "Man kann durch Briefwahl seine Stimme abgeben.",
-        true
+        true,
+        "You can give your voice by lettering."
       ],
       [
         "Man kann am Wahltag telefonisch seine Stimme abgeben.",
-        false
+        false,
+        "You can give your voice by phone on the election day."
       ],
       [
         "Kinder ab dem Alter von 14 Jahren d\u00fcrfen w\u00e4hlen.",
-        false
+        false,
+        "Children aged 14 may choose."
       ]
-    ]
+    ],
+    "translated_question": "What is the case with Bundestag and Landtag elections in Germany\nallowed?\n"
   },
   {
     "seq": "134",
@@ -3199,21 +3864,26 @@ const data = [
     "possible_answers": [
       [
         "Ich beteilige mich an einer B\u00fcrgerinitiative f\u00fcr die Erhaltung der Buslinie oder gr\u00fcnde selber eine Initiative.",
-        true
+        true,
+        "I participate in a citizens' initiative for the maintenance of the bus line or start an initiative."
       ],
       [
         "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
-        false
+        false,
+        "I become a member of a sports club and train cycling."
       ],
       [
         "Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe.",
-        false
+        false,
+        "I turn to the tax office because I have a right to the bus line as a taxpayer/taxpayer."
       ],
       [
         "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
-        false
+        false,
+        "I'll write a letter to the Municipal Forest Office."
       ]
-    ]
+    ],
+    "translated_question": "You want to get rid of the bus line you always drive to work with\nWhat can you do to get the bus line?\n"
   },
   {
     "seq": "135",
@@ -3223,21 +3893,26 @@ const data = [
     "possible_answers": [
       [
         "gro\u00dfe Unternehmen",
-        false
+        false,
+        "Large enterprises"
       ],
       [
         "kleine Unternehmen",
-        false
+        false,
+        "small enterprises"
       ],
       [
         "Selbst\u00e4ndige",
-        false
+        false,
+        "Selfemployed"
       ],
       [
         "Arbeitnehmer und Arbeitnehmerinnen",
-        true
+        true,
+        "Employees"
       ]
-    ]
+    ],
+    "translated_question": "Who are the trade unions in Germany?\n"
   },
   {
     "seq": "136",
@@ -3247,21 +3922,26 @@ const data = [
     "possible_answers": [
       [
         "falscher Nebenkostenabrechnung.",
-        false
+        false,
+        "false cost accounting."
       ],
       [
         "ungerechtfertigter K\u00fcndigung durch Ihren Chef / Ihre Chefin.",
-        true
+        true,
+        "unjustified termination by your boss."
       ],
       [
         "Problemen mit den Nachbarn / Nachbarinnen.",
-        false
+        false,
+        "Problems with neighbors."
       ],
       [
         "Schwierigkeiten nach einem Verkehrsunfall.",
-        false
+        false,
+        "Difficulties after a traffic accident."
       ]
-    ]
+    ],
+    "translated_question": "You are going to work in Germany\n\n"
   },
   {
     "seq": "137",
@@ -3271,21 +3951,26 @@ const data = [
     "possible_answers": [
       [
         "das Familiengericht",
-        false
+        false,
+        "the family court"
       ],
       [
         "das Strafgericht",
-        false
+        false,
+        "the criminal court"
       ],
       [
         "das Arbeitsgericht",
-        true
+        true,
+        "the Labour Court"
       ],
       [
         "das Amtsgericht",
-        false
+        false,
+        "the District Court"
       ]
-    ]
+    ],
+    "translated_question": "What court is in Germany in conflicts in the world of work\nin charge?\n"
   },
   {
     "seq": "138",
@@ -3295,21 +3980,26 @@ const data = [
     "possible_answers": [
       [
         "zu einer anderen Religion \u00fcbertritt.",
-        false
+        false,
+        "to another religion."
       ],
       [
         "eine Straftat begangen hat und angeklagt wird.",
-        true
+        true,
+        "has committed a crime and is accused."
       ],
       [
         "eine andere Meinung als die der Regierung vertritt.",
-        false
+        false,
+        "an opinion other than that of the government."
       ],
       [
         "sein Auto falsch geparkt hat und es abgeschleppt wird.",
-        false
+        false,
+        "his car parked wrong and it is towed."
       ]
-    ]
+    ],
+    "translated_question": "What can I do in Germany if my employer /\nmy employer has failed?\n"
   },
   {
     "seq": "139",
@@ -3319,21 +4009,26 @@ const data = [
     "possible_answers": [
       [
         "zu einer anderen Religion \u00fcbertritt.",
-        false
+        false,
+        "to another religion."
       ],
       [
         "eine Straftat begangen hat und angeklagt wird.",
-        true
+        true,
+        "has committed a crime and is accused."
       ],
       [
         "eine andere Meinung als die der Regierung vertritt.",
-        false
+        false,
+        "an opinion other than that of the government."
       ],
       [
         "sein Auto falsch geparkt hat und es abgeschleppt wird.",
-        false
+        false,
+        "his car parked wrong and it is towed."
       ]
-    ]
+    ],
+    "translated_question": "When is a trial in Germany?\nIf someone\n"
   },
   {
     "seq": "140",
@@ -3343,21 +4038,26 @@ const data = [
     "possible_answers": [
       [
         "entscheidet mit Richtern / Richterinnen \u00fcber Schuld und Strafe.",
-        true
+        true,
+        "decides with judges / judges on guilt and punishment."
       ],
       [
         "gibt B\u00fcrgern / B\u00fcrgerinnen rechtlichen Rat.",
-        false
+        false,
+        "gives citizens legal advice."
       ],
       [
         "stellt Urkunden aus.",
-        false
+        false,
+        "issue documents."
       ],
       [
         "verteidigt den Angeklagten / die Angeklagte.",
-        false
+        false,
+        "defends the defendant / the accused."
       ]
-    ]
+    ],
+    "translated_question": "What does a Sch\u00f6ffen / a Sch\u00f6ffin in Germany do? He/she...\n"
   },
   {
     "seq": "141",
@@ -3367,21 +4067,26 @@ const data = [
     "possible_answers": [
       [
         "ein Rechtsanwalt / eine Rechtsanw\u00e4ltin",
-        true
+        true,
+        "a lawyer / a lawyer"
       ],
       [
         "ein Richter / eine Richterin",
-        false
+        false,
+        "a judge / a judge"
       ],
       [
         "ein Sch\u00f6ffe / eine Sch\u00f6ffin",
-        false
+        false,
+        "a spoon / a spoon"
       ],
       [
         "ein Staatsanwalt / eine Staatsanw\u00e4ltin",
-        false
+        false,
+        "a prosecutor / a prosecutor"
       ]
-    ]
+    ],
+    "translated_question": "Who advises in Germany persons on legal matters and represents\nthey in court?\n"
   },
   {
     "seq": "142",
@@ -3391,21 +4096,26 @@ const data = [
     "possible_answers": [
       [
         "vertritt B\u00fcrger und B\u00fcrgerinnen vor einem Gericht.",
-        false
+        false,
+        "represents citizens in court."
       ],
       [
         "arbeitet an einem Gericht und spricht Urteile.",
-        true
+        true,
+        "works on a court and speaks judgments."
       ],
       [
         "\u00e4ndert Gesetze.",
-        false
+        false,
+        "changes laws."
       ],
       [
         "betreut Jugendliche vor Gericht.",
-        false
+        false,
+        "supervises young people in court."
       ]
-    ]
+    ],
+    "translated_question": "What is the main task of a judge / judge in\nGermany? A judge or a judge...\n"
   },
   {
     "seq": "143",
@@ -3415,21 +4125,26 @@ const data = [
     "possible_answers": [
       [
         "Judikative.",
-        true
+        true,
+        "Judicative."
       ],
       [
         "Exekutive.",
-        false
+        false,
+        "Executive."
       ],
       [
         "Operative.",
-        false
+        false,
+        "Operational."
       ],
       [
         "Legislative.",
-        false
+        false,
+        "Legislative."
       ]
-    ]
+    ],
+    "translated_question": "A judge / a judge in Germany belongs to ...\n"
   },
   {
     "seq": "144",
@@ -3439,21 +4154,26 @@ const data = [
     "possible_answers": [
       [
         "vollziehenden Gewalt.",
-        false
+        false,
+        "violence."
       ],
       [
         "rechtsprechenden Gewalt.",
-        true
+        true,
+        "right-wing violence."
       ],
       [
         "planenden Gewalt.",
-        false
+        false,
+        "planning violence."
       ],
       [
         "gesetzgebenden Gewalt.",
-        false
+        false,
+        "Legislative violence."
       ]
-    ]
+    ],
+    "translated_question": "A judge / a judge belongs in Germany to ...\n"
   },
   {
     "seq": "145",
@@ -3463,21 +4183,26 @@ const data = [
     "possible_answers": [
       [
         "Judikative",
-        true
+        true,
+        "Judikative"
       ],
       [
         "Exekutive",
-        false
+        false,
+        "Executive"
       ],
       [
         "Presse",
-        false
+        false,
+        "Press release"
       ],
       [
         "Legislative",
-        false
+        false,
+        "Legislative"
       ]
-    ]
+    ],
+    "translated_question": "In Germany the state power is divided. For what state power\nis a judge working? For\n\n"
   },
   {
     "seq": "146",
@@ -3487,21 +4212,26 @@ const data = [
     "possible_answers": [
       [
         "Programm",
-        false
+        false,
+        "Programme"
       ],
       [
         "Prozedur",
-        false
+        false,
+        "Procedure"
       ],
       [
         "Protokoll",
-        false
+        false,
+        "Protocol"
       ],
       [
         "Prozess",
-        true
+        true,
+        "Process"
       ]
-    ]
+    ],
+    "translated_question": "How do you call a trial in Germany?\n"
   },
   {
     "seq": "147",
@@ -3511,21 +4241,26 @@ const data = [
     "possible_answers": [
       [
         "Deutschland regieren",
-        false
+        false,
+        "Manage Germany"
       ],
       [
         "Recht sprechen",
-        true
+        true,
+        "Right to speak"
       ],
       [
         "Pl\u00e4ne erstellen",
-        false
+        false,
+        "Create a plan"
       ],
       [
         "Gesetze erlassen",
-        false
+        false,
+        "Legislation"
       ]
-    ]
+    ],
+    "translated_question": "What is the work of a judge / judge in Germany?\n"
   },
   {
     "seq": "148",
@@ -3535,21 +4270,26 @@ const data = [
     "possible_answers": [
       [
         "das Land zu verteidigen",
-        false
+        false,
+        "defending the country"
       ],
       [
         "die B\u00fcrgerinnen und B\u00fcrger abzuh\u00f6ren",
-        false
+        false,
+        "to listen to the citizens"
       ],
       [
         "die Gesetze zu beschlie\u00dfen",
-        false
+        false,
+        "to decide the laws"
       ],
       [
         "die Einhaltung von Gesetzen zu \u00fcberwachen",
-        true
+        true,
+        "to monitor compliance with laws"
       ]
-    ]
+    ],
+    "translated_question": "What is a task of the police in Germany?\n"
   },
   {
     "seq": "149",
@@ -3559,21 +4299,26 @@ const data = [
     "possible_answers": [
       [
         "ein j\u00fcdisches Fest besuchen",
-        false
+        false,
+        "visit a Jewish feast"
       ],
       [
         "die israelische Regierung kritisieren",
-        false
+        false,
+        "criticize the Israeli government"
       ],
       [
         "den Holocaust leugnen",
-        true
+        true,
+        "deny the Holocaust"
       ],
       [
         "gegen Juden Fu\u00dfball spielen",
-        false
+        false,
+        "against Jews playing football"
       ]
-    ]
+    ],
+    "translated_question": "What is an example of anti-Semitic behavior?"
   },
   {
     "seq": "150",
@@ -3583,21 +4328,26 @@ const data = [
     "possible_answers": [
       [
         "der Stellvertreter / die Stellvertreterin des Stadtoberhaupts.",
-        false
+        false,
+        "the Deputy Director of the City."
       ],
       [
         "ein ehrenamtlicher Richter / eine ehrenamtliche Richterin.",
-        true
+        true,
+        "an honorary judge / an honorary judge."
       ],
       [
         "ein Mitglied eines Gemeinderats.",
-        false
+        false,
+        "a member of a municipal council."
       ],
       [
         "eine Person, die Jura studiert hat.",
-        false
+        false,
+        "a person who studied law."
       ]
-    ]
+    ],
+    "translated_question": "A courthouse / a courthouse in Germany is...\n"
   },
   {
     "seq": "151",
@@ -3607,21 +4357,26 @@ const data = [
     "possible_answers": [
       [
         "Gro\u00dfbritannien",
-        false
+        false,
+        "United Kingdom"
       ],
       [
         "die DDR",
-        true
+        true,
+        "the GDR"
       ],
       [
         "die Bundesrepublik Deutschland",
-        false
+        false,
+        "the Federal Republic of Germany"
       ],
       [
         "die USA",
-        false
+        false,
+        "USA"
       ]
-    ]
+    ],
+    "translated_question": "Who built the wall in Berlin?\n"
   },
   {
     "seq": "152",
@@ -3631,21 +4386,26 @@ const data = [
     "possible_answers": [
       [
         "1918 bis 1923",
-        false
+        false,
+        "1918 to 1923"
       ],
       [
         "1932 bis 1950",
-        false
+        false,
+        "1932 to 1950"
       ],
       [
         "1933 bis 1945",
-        true
+        true,
+        "1933 to 1945"
       ],
       [
         "1945 bis 1989",
-        false
+        false,
+        "1945 to 1989"
       ]
-    ]
+    ],
+    "translated_question": "When were the Nazis with Adolf Hitler in Germany\nother power?\n"
   },
   {
     "seq": "153",
@@ -3655,21 +4415,26 @@ const data = [
     "possible_answers": [
       [
         "Tod Adolf Hitlers",
-        false
+        false,
+        "Death of Adolf Hitler"
       ],
       [
         "Beginn des Berliner Mauerbaus",
-        false
+        false,
+        "Start of Berlin Wall Building"
       ],
       [
         "Wahl von Konrad Adenauer zum Bundeskanzler",
-        false
+        false,
+        "Choice of Konrad Adenauer as Chancellor"
       ],
       [
         "Ende des Zweiten Weltkriegs in Europa",
-        true
+        true,
+        "End of World War II in Europe"
       ]
-    ]
+    ],
+    "translated_question": "\\What was on the 8th May 1945?\n"
   },
   {
     "seq": "154",
@@ -3679,21 +4444,26 @@ const data = [
     "possible_answers": [
       [
         "1933",
-        false
+        false,
+        "1933"
       ],
       [
         "1945",
-        true
+        true,
+        "1945"
       ],
       [
         "1949",
-        false
+        false,
+        "1949"
       ],
       [
         "1961",
-        false
+        false,
+        "1961"
       ]
-    ]
+    ],
+    "translated_question": "When was World War II over?\n"
   },
   {
     "seq": "155",
@@ -3703,21 +4473,26 @@ const data = [
     "possible_answers": [
       [
         "1888 bis 1918",
-        false
+        false,
+        "1888 to 1918"
       ],
       [
         "1921 bis 1934",
-        false
+        false,
+        "1921 to 1934"
       ],
       [
         "1933 bis 1945",
-        true
+        true,
+        "1933 to 1945"
       ],
       [
         "1949 bis 1963",
-        false
+        false,
+        "1949 to 1963"
       ]
-    ]
+    ],
+    "translated_question": "When were the Nazis in Germany in power?\n"
   },
   {
     "seq": "156",
@@ -3727,21 +4502,26 @@ const data = [
     "possible_answers": [
       [
         "1923",
-        false
+        false,
+        "1923"
       ],
       [
         "1927",
-        false
+        false,
+        "1927"
       ],
       [
         "1933",
-        true
+        true,
+        "1933"
       ],
       [
         "1936",
-        false
+        false,
+        "1936"
       ]
-    ]
+    ],
+    "translated_question": "In what year did Hitler become Reichskanzier?\n"
   },
   {
     "seq": "157",
@@ -3751,21 +4531,26 @@ const data = [
     "possible_answers": [
       [
         "eine Diktatur.",
-        true
+        true,
+        "a dictatorship."
       ],
       [
         "einen demokratischen Staat.",
-        false
+        false,
+        "a democratic state."
       ],
       [
         "eine Monarchie.",
-        false
+        false,
+        "a monarchy."
       ],
       [
         "ein F\u00fcrstentum.",
-        false
+        false,
+        "a principality."
       ]
-    ]
+    ],
+    "translated_question": "The Nazis with Adolf Hitler built in 1933\nGermany ...\n"
   },
   {
     "seq": "158",
@@ -3775,21 +4560,26 @@ const data = [
     "possible_answers": [
       [
         "Diktatur.",
-        true
+        true,
+        "Dictator."
       ],
       [
         "Demokratie.",
-        false
+        false,
+        "Democracy."
       ],
       [
         "Monarchie.",
-        false
+        false,
+        "Monarchy."
       ],
       [
         "R\u00e4terepublik.",
-        false
+        false,
+        "R\u00e4terepublik."
       ]
-    ]
+    ],
+    "translated_question": "The Third Reich was a\n"
   },
   {
     "seq": "159",
@@ -3799,21 +4589,26 @@ const data = [
     "possible_answers": [
       [
         "freie Wahlen",
-        true
+        true,
+        "free elections"
       ],
       [
         "Pressezensur",
-        false
+        false,
+        "Press review"
       ],
       [
         "willk\u00fcrliche Verhaftungen",
-        false
+        false,
+        "arbitrary arrests"
       ],
       [
         "Verfolgung der Juden",
-        false
+        false,
+        "Persecution of Jews"
       ]
-    ]
+    ],
+    "translated_question": "What did not exist in Germany during the period\nNational Socialism?\n"
   },
   {
     "seq": "160",
@@ -3823,21 +4618,26 @@ const data = [
     "possible_answers": [
       [
         "der Erste Weltkrieg",
-        false
+        false,
+        "The First World War"
       ],
       [
         "der Zweite Weltkrieg",
-        true
+        true,
+        "The Second World War"
       ],
       [
         "der Vietnamkrieg",
-        false
+        false,
+        "The Vietnam War"
       ],
       [
         "der Golfkrieg",
-        false
+        false,
+        "The Gulf War"
       ]
-    ]
+    ],
+    "translated_question": "What war lasted from 1939 to 1945?\n"
   },
   {
     "seq": "161",
@@ -3847,21 +4647,26 @@ const data = [
     "possible_answers": [
       [
         "des staatlichen Rassismus",
-        true
+        true,
+        "State Racism"
       ],
       [
         "der Meinungsfreiheit",
-        false
+        false,
+        "freedom of expression"
       ],
       [
         "der allgemeinen Religionsfreiheit",
-        false
+        false,
+        "the general freedom of religion"
       ],
       [
         "der Entwicklung der Demokratie",
-        false
+        false,
+        "the development of democracy"
       ]
-    ]
+    ],
+    "translated_question": "What marked the NS state? A policy\n"
   },
   {
     "seq": "162",
@@ -3871,21 +4676,26 @@ const data = [
     "possible_answers": [
       [
         "eine Goldmedaille bei den Olympischen Spielen 1936.",
-        false
+        false,
+        "a gold medal at the 1936 Olympic Games."
       ],
       [
         "den Bau des Reichstagsgeb\u00e4udes.",
-        false
+        false,
+        "the construction of the Reichstag building."
       ],
       [
         "den Aufbau der Wehrmacht.",
-        false
+        false,
+        "the construction of the Wehrmacht."
       ],
       [
         "das Attentat auf Hitler am 20. Juli 1944.",
-        true
+        true,
+        "the assassination on Hitler on 20. July 1944."
       ]
-    ]
+    ],
+    "translated_question": "Claus Schenk Graf von Stauffenberg was known by ...\n"
   },
   {
     "seq": "163",
@@ -3895,21 +4705,26 @@ const data = [
     "possible_answers": [
       [
         "1925",
-        false
+        false,
+        "1925"
       ],
       [
         "1930",
-        false
+        false,
+        "1930"
       ],
       [
         "1938",
-        true
+        true,
+        "1938"
       ],
       [
         "1945",
-        false
+        false,
+        "1945"
       ]
-    ]
+    ],
+    "translated_question": "In a soft year, the Nazis destroyed synagogues and\nJewish shops in Germany?\n"
   },
   {
     "seq": "164",
@@ -3919,21 +4734,26 @@ const data = [
     "possible_answers": [
       [
         "Mit dem Angriff auf Polen beginnt der Zweite Weltkrieg.",
-        false
+        false,
+        "The Second World War begins with the attack on Poland."
       ],
       [
         "Die Nationalsozialisten verlieren eine Wahl und l\u00f6sen den Reichstag auf.",
-        false
+        false,
+        "The Nazis lose a choice and dissolve the Reichstag."
       ],
       [
         "J\u00fcdische Gesch\u00e4fte und Synagogen werden durch Nationalsozialisten und ihre Anh\u00e4nger zerst\u00f6rt.",
-        true
+        true,
+        "Jewish shops and synagogues are destroyed by Nazis and their followers."
       ],
       [
         "Hitler wird Reichspr\u00e4sident und l\u00e4sst alle Parteien verbieten.",
-        false
+        false,
+        "Hitler becomes Reich President and forbids all parties."
       ]
-    ]
+    ],
+    "translated_question": "\\What happened on the 9th November 1938 in Germany?\n"
   },
   {
     "seq": "165",
@@ -3943,21 +4763,26 @@ const data = [
     "possible_answers": [
       [
         "Konrad Adenauer",
-        true
+        true,
+        "Konrad Adenauer"
       ],
       [
         "Kurt Georg Kiesinger",
-        false
+        false,
+        "Kurt Georg Kiesinger"
       ],
       [
         "Helmut Schmidt",
-        false
+        false,
+        "Helmut Schmidt"
       ],
       [
         "Willy Brandt",
-        false
+        false,
+        "Willy Brandt"
       ]
-    ]
+    ],
+    "translated_question": "The first Chancellor of the Federal Republic\nGermany?\n"
   },
   {
     "seq": "166",
@@ -3967,21 +4792,26 @@ const data = [
     "possible_answers": [
       [
         "beim Arbeiteraufstand 1953 in der DDR",
-        false
+        false,
+        "in 1953 in the GDR"
       ],
       [
         "bei den Demonstrationen 1968 in der Bundesrepublik Deutschland",
-        false
+        false,
+        "at the 1968 demonstrations in the Federal Republic of Germany"
       ],
       [
         "bei den Anti-Atomkraft-Demonstrationen 1985 in der Bundesrepublik Deutschland",
-        false
+        false,
+        "in the anti-atom force demonstrations in 1985 in the Federal Republic of Germany"
       ],
       [
         "bei den Montagsdemonstrationen 1989 in der DDR",
-        true
+        true,
+        "during the Monday demonstrations in 1989 in the GDR"
       ]
-    ]
+    ],
+    "translated_question": "In what demonstrations in Germany people called\n\u201cWe are the people\u201d?\n"
   },
   {
     "seq": "167",
@@ -3991,21 +4821,26 @@ const data = [
     "possible_answers": [
       [
         "Sowjetunion, Gro\u00dfbritannien, Polen, Schweden",
-        false
+        false,
+        "United Kingdom, Poland, Sweden"
       ],
       [
         "Frankreich, Sowjetunion, Italien, Japan",
-        false
+        false,
+        "France, Soviet Union, Italy, Japan"
       ],
       [
         "USA, Sowjetunion, Spanien, Portugal",
-        false
+        false,
+        "United States, Soviet Union, Spain, Portugal"
       ],
       [
         "USA, Sowjetunion, Gro\u00dfbritannien, Frankreich",
-        true
+        true,
+        "United States, Soviet Union, United Kingdom, France"
       ]
-    ]
+    ],
+    "translated_question": "Which countries were in Germany after World War II\nreferred to as \u201cAllied occupying powers\u201d?\n"
   },
   {
     "seq": "168",
@@ -4015,21 +4850,26 @@ const data = [
     "possible_answers": [
       [
         "USA",
-        false
+        false,
+        "USA"
       ],
       [
         "Sowjetunion",
-        false
+        false,
+        "Soviet Union"
       ],
       [
         "Frankreich",
-        false
+        false,
+        "France"
       ],
       [
         "Japan",
-        true
+        true,
+        "Japan"
       ]
-    ]
+    ],
+    "translated_question": "Which country was not an \u201cOld occupation power\u201d in\nGermany?\n"
   },
   {
     "seq": "169",
@@ -4039,21 +4879,26 @@ const data = [
     "possible_answers": [
       [
         "1939",
-        false
+        false,
+        "1939"
       ],
       [
         "1945",
-        false
+        false,
+        "1945"
       ],
       [
         "1949",
-        true
+        true,
+        "1949"
       ],
       [
         "1951",
-        false
+        false,
+        "1951"
       ]
-    ]
+    ],
+    "translated_question": "When was the Federal Republic of Germany founded?\n"
   },
   {
     "seq": "170",
@@ -4063,21 +4908,26 @@ const data = [
     "possible_answers": [
       [
         "das Verbot von Parteien",
-        true
+        true,
+        "the prohibition of parties"
       ],
       [
         "das Recht zur freien Entfaltung der Pers\u00f6nlichkeit",
-        false
+        false,
+        "the right to free development of personality"
       ],
       [
         "Pressefreiheit",
-        false
+        false,
+        "Press release"
       ],
       [
         "den Schutz der Menschenw\u00fcrde",
-        false
+        false,
+        "the protection of human dignity"
       ]
-    ]
+    ],
+    "translated_question": "What happened during the time of National Socialism in\nGermany?\n"
   },
   {
     "seq": "171",
@@ -4087,21 +4937,26 @@ const data = [
     "possible_answers": [
       [
         "steuert sich allein nach Angebot und Nachfrage.",
-        false
+        false,
+        "controls itself for supply and demand."
       ],
       [
         "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht ber\u00fccksichtigt.",
-        false
+        false,
+        "is planned and controlled by the state, supply and demand are not taken into account."
       ],
       [
         "richtet sich nach der Nachfrage im Ausland.",
-        false
+        false,
+        "depends on demand abroad."
       ],
       [
         "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt f\u00fcr einen sozialen Ausgleich.",
-        true
+        true,
+        "depends on supply and demand, but the state ensures social compensation."
       ]
-    ]
+    ],
+    "translated_question": "Social market economy means economy ...\n"
   },
   {
     "seq": "172",
@@ -4111,21 +4966,26 @@ const data = [
     "possible_answers": [
       [
         "amerikanischen Besatzungszone",
-        false
+        false,
+        "American occupation zone"
       ],
       [
         "franz\u00f6sischen Besatzungszone",
-        false
+        false,
+        "French occupation zone"
       ],
       [
         "britischen Besatzungszone",
-        false
+        false,
+        "British occupation zone"
       ],
       [
         "sowjetischen Besatzungszone",
-        true
+        true,
+        "Soviet occupation zone"
       ]
-    ]
+    ],
+    "translated_question": "The GDR was founded in a soft occupation zone? In the...\n"
   },
   {
     "seq": "173",
@@ -4135,21 +4995,26 @@ const data = [
     "possible_answers": [
       [
         "des Nordatlantikpakts (NATO).",
-        false
+        false,
+        "of the North Atlantic Pact (NATO)."
       ],
       [
         "der Vereinten Nationen (VN).",
-        false
+        false,
+        "the United Nations (VN)."
       ],
       [
         "der Europ\u00e4ischen Union (EU).",
-        true
+        true,
+        "the European Union (EU)."
       ],
       [
         "des Warschauer Pakts.",
-        false
+        false,
+        "the Warsaw Pact."
       ]
-    ]
+    ],
+    "translated_question": "The Federal Republic of Germany is a founding member ...\n"
   },
   {
     "seq": "174",
@@ -4159,21 +5024,26 @@ const data = [
     "possible_answers": [
       [
         "1947",
-        false
+        false,
+        "1947"
       ],
       [
         "1949",
-        true
+        true,
+        "1949"
       ],
       [
         "1953",
-        false
+        false,
+        "1953"
       ],
       [
         "1956",
-        false
+        false,
+        "1956"
       ]
-    ]
+    ],
+    "translated_question": "When was the GDR founded?\n"
   },
   {
     "seq": "175",
@@ -4183,21 +5053,26 @@ const data = [
     "possible_answers": [
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        true
+        true,
+        "4"
       ],
       [
         "5",
-        false
+        false,
+        "5"
       ],
       [
         "6",
-        false
+        false,
+        "6"
       ]
-    ]
+    ],
+    "translated_question": "How many occupation zones existed in Germany after the\nWorld War II?\n"
   },
   {
     "seq": "176",
@@ -4207,21 +5082,26 @@ const data = [
     "possible_answers": [
       [
         "1=Gro\u00dfbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
-        false
+        false,
+        "1=Great Britain, 2=Soviet Union, 3=France, 4=USA"
       ],
       [
         "1=Sowjetunion, 2=Gro\u00dfbritannien, 3=USA, 4=Frankreich",
-        false
+        false,
+        "1=Soviet Union, 2=Great Britain, 3=USA, 4=France"
       ],
       [
         "1=Gro\u00dfbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
-        true
+        true,
+        "1=Great Britain, 2=Soviet Union, 3=USA, 4=France"
       ],
       [
         "1=Gro\u00dfbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich",
-        false
+        false,
+        "1=Great Britain, 2=USA, 3=Soviet Union, 4=France"
       ]
-    ]
+    ],
+    "translated_question": "How were the occupation zones of Germany distributed after 1945?\n\n"
   },
   {
     "seq": "177",
@@ -4231,21 +5111,26 @@ const data = [
     "possible_answers": [
       [
         "M\u00fcnchen",
-        false
+        false,
+        "Munich"
       ],
       [
         "Berlin",
-        true
+        true,
+        "Berlin"
       ],
       [
         "Dresden",
-        false
+        false,
+        "Dresden"
       ],
       [
         "Frankfurt/Oder",
-        false
+        false,
+        "Frankfurt/Oder"
       ]
-    ]
+    ],
+    "translated_question": "Which German city became after World War II in four\nSectors divided?\n"
   },
   {
     "seq": "178",
@@ -4255,21 +5140,26 @@ const data = [
     "possible_answers": [
       [
         "F\u00fcr Frankreich war eine Versorgung der West-Berliner Bev\u00f6lkerung mit dem Flugzeug kosteng\u00fcnstiger.",
-        false
+        false,
+        "For France, a supply of the West Berlin population with the aircraft was cheaper."
       ],
       [
         "Die amerikanischen Soldaten / Soldatinnen hatten beim Landtransport Angst vor \u00dcberf\u00e4llen.",
-        false
+        false,
+        "The American soldiers / soldiers were afraid of robberies during the land transport."
       ],
       [
         "F\u00fcr Gro\u00dfbritannien war die Versorgung \u00fcber die Luftbr\u00fccke schneller.",
-        false
+        false,
+        "For the UK, the supply via the air bridge was faster."
       ],
       [
         "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege.",
-        true
+        true,
+        "The Soviet Union interrupted all traffic in the country."
       ]
-    ]
+    ],
+    "translated_question": "From June 1948 to May 1949, citizens\nsupplied by West Berlin through an air bridge. What circumstance was\nresponsible?\n"
   },
   {
     "seq": "179",
@@ -4279,21 +5169,26 @@ const data = [
     "possible_answers": [
       [
         "mit dem Tod Adolf Hitlers",
-        false
+        false,
+        "with the death of Adolf Hitler"
       ],
       [
         "durch die bedingungslose Kapitulation Deutschlands",
-        true
+        true,
+        "by the unconditional surrender of Germany"
       ],
       [
         "mit dem R\u00fcckzug der Deutschen aus den besetzten Gebieten",
-        false
+        false,
+        "with the withdrawal of the Germans from the occupied territories"
       ],
       [
         "durch eine Revolution in Deutschland",
-        false
+        false,
+        "by a revolution in Germany"
       ]
-    ]
+    ],
+    "translated_question": "How did World War II officially end in Europe?\n"
   },
   {
     "seq": "180",
@@ -4303,21 +5198,26 @@ const data = [
     "possible_answers": [
       [
         "Ludwig Erhard.",
-        false
+        false,
+        "Ludwig Erhard."
       ],
       [
         "Willy Brandt.",
-        false
+        false,
+        "Willy Brandt."
       ],
       [
         "Konrad Adenauer.",
-        true
+        true,
+        "Konrad Adenauer."
       ],
       [
         "Gerhard Schr\u00f6der.",
-        false
+        false,
+        "Gerhard Schr\u00f6der."
       ]
-    ]
+    ],
+    "translated_question": "The first Chancellor of the Federal Republic of Germany was\n\n"
   },
   {
     "seq": "181",
@@ -4327,21 +5227,26 @@ const data = [
     "possible_answers": [
       [
         "Er hat sich den ehemaligen Alliierten unterworfen.",
-        false
+        false,
+        "He was subject to the former Allies."
       ],
       [
         "Er bat Polen und die polnischen Juden um Vergebung.",
-        true
+        true,
+        "He asked Poland and the Polish Jews for forgiveness."
       ],
       [
         "Er zeigte seine Demut vor dem Warschauer Pakt.",
-        false
+        false,
+        "He showed his humility before the Warsaw Pact."
       ],
       [
         "Er sprach ein Gebet am Grab des Unbekannten Soldaten.",
-        false
+        false,
+        "He spoke a prayer at the grave of the unknown soldier."
       ]
-    ]
+    ],
+    "translated_question": "What Willy Brandt wanted with his knee fall in 1970 in the former\nExpress Jewish ghetto in Warsaw?\n\n"
   },
   {
     "seq": "182",
@@ -4351,21 +5256,26 @@ const data = [
     "possible_answers": [
       [
         "Basilika",
-        false
+        false,
+        "Basil"
       ],
       [
         "Moschee",
-        false
+        false,
+        "Mosque"
       ],
       [
         "Synagoge",
-        true
+        true,
+        "Synagogue"
       ],
       [
         "Kirche",
-        false
+        false,
+        "Church"
       ]
-    ]
+    ],
+    "translated_question": "What is the name of the Jewish prayer house?"
   },
   {
     "seq": "183",
@@ -4375,21 +5285,26 @@ const data = [
     "possible_answers": [
       [
         "40er Jahre",
-        false
+        false,
+        "40 years"
       ],
       [
         "50er Jahre",
-        true
+        true,
+        "50 years"
       ],
       [
         "70er Jahre",
-        false
+        false,
+        "70 years"
       ],
       [
         "80er Jahre",
-        false
+        false,
+        "80 years"
       ]
-    ]
+    ],
+    "translated_question": "When in the Federal Republic of Germany\n\u2018economic miracle\u2019?\n"
   },
   {
     "seq": "184",
@@ -4399,21 +5314,26 @@ const data = [
     "possible_answers": [
       [
         "eine Resolution der Vereinten Nationen",
-        true
+        true,
+        "a United Nations Resolution"
       ],
       [
         "ein Beschluss des Zionistenkongresses",
-        false
+        false,
+        "a decision of the Zionist Congress"
       ],
       [
         "ein Vorschlag der Bundesregierung",
-        false
+        false,
+        "a proposal from the Federal Government"
       ],
       [
         "ein Vorschlag der UdSSR",
-        false
+        false,
+        "a proposal from the USSR"
       ]
-    ]
+    ],
+    "translated_question": "On what legal basis was the state of Israel founded?"
   },
   {
     "seq": "185",
@@ -4423,21 +5343,26 @@ const data = [
     "possible_answers": [
       [
         "des Warschauer Pakts gegen den Westen",
-        true
+        true,
+        "the Warsaw Pact against the West"
       ],
       [
         "Norddeutschlands gegen S\u00fcddeutschland",
-        false
+        false,
+        "North Germany against Southern Germany"
       ],
       [
         "Nazi-Deutschlands gegen die Alliierten",
-        false
+        false,
+        "Nazi Germany against the Allies"
       ],
       [
         "Europas gegen die USA",
-        false
+        false,
+        "Europe against the USA"
       ]
-    ]
+    ],
+    "translated_question": "What was the term \u201ciron curtain\u201d for? For\nClosure\n\n"
   },
   {
     "seq": "186",
@@ -4447,21 +5372,26 @@ const data = [
     "possible_answers": [
       [
         "1. Mai",
-        false
+        false,
+        "1. May"
       ],
       [
         "17. Juni",
-        true
+        true,
+        "17. June"
       ],
       [
         "20. Juli",
-        false
+        false,
+        "20. July"
       ],
       [
         "9. November",
-        false
+        false,
+        "9. November"
       ]
-    ]
+    ],
+    "translated_question": "In 1953 there was an uprising in the GDR, at the long time in\nFederal Republic of Germany recalled a holiday. When was that?\n"
   },
   {
     "seq": "187",
@@ -4471,21 +5401,26 @@ const data = [
     "possible_answers": [
       [
         "Preu\u00dfen",
-        false
+        false,
+        "Prussia"
       ],
       [
         "Bundesrepublik Deutschland",
-        false
+        false,
+        "Germany"
       ],
       [
         "\"Drittes Reich\"",
-        false
+        false,
+        "\"Third Kingdom\""
       ],
       [
         "DDR",
-        true
+        true,
+        "GDR"
       ]
-    ]
+    ],
+    "translated_question": "Which German state had a black-red-golden flag with\nHammer, circle and earring?\n\n"
   },
   {
     "seq": "188",
@@ -4495,21 +5430,26 @@ const data = [
     "possible_answers": [
       [
         "1953",
-        false
+        false,
+        "1953"
       ],
       [
         "1956",
-        false
+        false,
+        "1956"
       ],
       [
         "1959",
-        false
+        false,
+        "1959"
       ],
       [
         "1961",
-        true
+        true,
+        "1961"
       ]
-    ]
+    ],
+    "translated_question": "What year was the Wall built in Berlin?\n"
   },
   {
     "seq": "189",
@@ -4519,21 +5459,26 @@ const data = [
     "possible_answers": [
       [
         "1919",
-        false
+        false,
+        "1919"
       ],
       [
         "1933",
-        false
+        false,
+        "1933"
       ],
       [
         "1961",
-        true
+        true,
+        "1961"
       ],
       [
         "1990",
-        false
+        false,
+        "1990"
       ]
-    ]
+    ],
+    "translated_question": "When did the GDR build the wall in Berlin?\n"
   },
   {
     "seq": "190",
@@ -4543,21 +5488,26 @@ const data = [
     "possible_answers": [
       [
         "Dritter Deutscher Rundfunk",
-        false
+        false,
+        "Third German Radio"
       ],
       [
         "Die Deutsche Republik",
-        false
+        false,
+        "The German Republic"
       ],
       [
         "Dritte Deutsche Republik",
-        false
+        false,
+        "Third German Republic"
       ],
       [
         "Deutsche Demokratische Republik",
-        true
+        true,
+        "German Democratic Republic"
       ]
-    ]
+    ],
+    "translated_question": "What does the abbreviation GDR mean?\n"
   },
   {
     "seq": "191",
@@ -4567,21 +5517,26 @@ const data = [
     "possible_answers": [
       [
         "1987",
-        false
+        false,
+        "1987"
       ],
       [
         "1989",
-        true
+        true,
+        "1989"
       ],
       [
         "1992",
-        false
+        false,
+        "1992"
       ],
       [
         "1995",
-        false
+        false,
+        "1995"
       ]
-    ]
+    ],
+    "translated_question": "When was the Berlin Wall opened for everyone?\n"
   },
   {
     "seq": "192",
@@ -4591,21 +5546,26 @@ const data = [
     "possible_answers": [
       [
         "Brandenburg",
-        true
+        true,
+        "Brandenburg"
       ],
       [
         "Bayern",
-        false
+        false,
+        "Bavaria"
       ],
       [
         "Saarland",
-        false
+        false,
+        "Saarland"
       ],
       [
         "Hessen",
-        false
+        false,
+        "Eat"
       ]
-    ]
+    ],
+    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
   },
   {
     "seq": "193",
@@ -4615,21 +5575,26 @@ const data = [
     "possible_answers": [
       [
         "ohne B\u00fcrgermeister.",
-        false
+        false,
+        "without mayor."
       ],
       [
         "ein eigener Staat.",
-        false
+        false,
+        "own state."
       ],
       [
         "durch eine Mauer geteilt.",
-        true
+        true,
+        "divided by a wall."
       ],
       [
         "nur mit dem Flugzeug erreichbar.",
-        false
+        false,
+        "only accessible by plane."
       ]
-    ]
+    ],
+    "translated_question": "From 1961 to 1989 Berlin was...\n"
   },
   {
     "seq": "194",
@@ -4639,21 +5604,26 @@ const data = [
     "possible_answers": [
       [
         "Einheit.",
-        true
+        true,
+        "Unit."
       ],
       [
         "Nation.",
-        false
+        false,
+        "Nation."
       ],
       [
         "Bundesl\u00e4nder.",
-        false
+        false,
+        "L\u00e4nder."
       ],
       [
         "St\u00e4dte.",
-        false
+        false,
+        "Cities."
       ]
-    ]
+    ],
+    "translated_question": "\u201cOn 3 October, Germany celebrates the German Day ...\n"
   },
   {
     "seq": "195",
@@ -4663,21 +5633,26 @@ const data = [
     "possible_answers": [
       [
         "Hessen",
-        false
+        false,
+        "Eat"
       ],
       [
         "Sachsen-Anhalt",
-        true
+        true,
+        "Saxony-Anhalt"
       ],
       [
         "Nordrhein-Westfalen",
-        false
+        false,
+        "North Rhine-Westphalia"
       ],
       [
         "Saarland",
-        false
+        false,
+        "Saarland"
       ]
-    ]
+    ],
+    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
   },
   {
     "seq": "196",
@@ -4687,21 +5662,26 @@ const data = [
     "possible_answers": [
       [
         "von einer Diktatur zur Demokratie.",
-        true
+        true,
+        "from a dictatorship to democracy."
       ],
       [
         "von einer liberalen Marktwirtschaft zum Sozialismus.",
-        false
+        false,
+        "from a liberal market economy to socialism."
       ],
       [
         "von einer Monarchie zur Sozialdemokratie.",
-        false
+        false,
+        "from a monarchy to social democracy."
       ],
       [
         "von einem religi\u00f6sen Staat zu einem kommunistischen Staat.",
-        false
+        false,
+        "from a religious state to a communist state."
       ]
-    ]
+    ],
+    "translated_question": "Why do you call the time in autumn 1989 in the GDR \u201cThe Turn\u201d?\nIn this time the GDR changed politically\n\n"
   },
   {
     "seq": "197",
@@ -4711,21 +5691,26 @@ const data = [
     "possible_answers": [
       [
         "Th\u00fcringen",
-        true
+        true,
+        "Thuringia"
       ],
       [
         "Hessen",
-        false
+        false,
+        "Eat"
       ],
       [
         "Bayern",
-        false
+        false,
+        "Bavaria"
       ],
       [
         "Bremen",
-        false
+        false,
+        "Bremen"
       ]
-    ]
+    ],
+    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
   },
   {
     "seq": "198",
@@ -4735,21 +5720,26 @@ const data = [
     "possible_answers": [
       [
         "Bayern",
-        false
+        false,
+        "Bavaria"
       ],
       [
         "Niedersachsen",
-        false
+        false,
+        "Lower Saxony"
       ],
       [
         "Sachsen",
-        true
+        true,
+        "Saxony"
       ],
       [
         "Baden-W\u00fcrttemberg",
-        false
+        false,
+        "Baden-W\u00fcrttemberg"
       ]
-    ]
+    ],
+    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
   },
   {
     "seq": "199",
@@ -4759,21 +5749,26 @@ const data = [
     "possible_answers": [
       [
         "das Parlament.",
-        false
+        false,
+        "Parliament."
       ],
       [
         "das Ministerium f\u00fcr Staatssicherheit.",
-        true
+        true,
+        "the Ministry of State Security."
       ],
       [
         "eine regierende Partei.",
-        false
+        false,
+        "a ruling party."
       ],
       [
         "das Ministerium f\u00fcr Volksbildung.",
-        false
+        false,
+        "the Ministry of Education."
       ]
-    ]
+    ],
+    "translated_question": "With the abbreviation \u201cStasi\u201d one meant in the GDR ...\n"
   },
   {
     "seq": "200",
@@ -4783,21 +5778,26 @@ const data = [
     "possible_answers": [
       [
         "Hessen",
-        false
+        false,
+        "Eat"
       ],
       [
         "Schleswig-Holstein",
-        false
+        false,
+        "Schleswig-Holstein"
       ],
       [
         "Mecklenburg-Vorpommern",
-        true
+        true,
+        "Mecklenburg-Western Pomerania"
       ],
       [
         "Saarland",
-        false
+        false,
+        "Saarland"
       ]
-    ]
+    ],
+    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
   },
   {
     "seq": "201",
@@ -4807,21 +5807,26 @@ const data = [
     "possible_answers": [
       [
         "Niedersachsen, Nordrhein-Westfalen, Hessen, Schleswig-Holstein, Brandenburg",
-        false
+        false,
+        "Lower Saxony, North Rhine-Westphalia, Hessen, Schleswig-Holstein, Brandenburg"
       ],
       [
         "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Th\u00fcringen",
-        true
+        true,
+        "Mecklenburg-Vorpommern, Brandenburg, Saxony, Saxony-Anhalt, Thuringia"
       ],
       [
         "Bayern, Baden-W\u00fcrttemberg, Rheinland-Pfalz, Th\u00fcringen, Sachsen",
-        false
+        false,
+        "Bavaria, Baden-W\u00fcrttemberg, Rhineland-Palatinate, Thuringia, Saxony"
       ],
       [
         "Sachsen, Th\u00fcringen, Hessen, Niedersachen, Brandenburg",
-        false
+        false,
+        "Saxony, Thuringia, Hesse, Lower Saxony, Brandenburg"
       ]
-    ]
+    ],
+    "translated_question": "The following lists only contain federal states which\nthe territory of the former GDR?\n"
   },
   {
     "seq": "202",
@@ -4831,21 +5836,26 @@ const data = [
     "possible_answers": [
       [
         "zu den Westm\u00e4chten",
-        false
+        false,
+        "to the Western powers"
       ],
       [
         "zum Warschauer Pakt",
-        true
+        true,
+        "to the Warsaw Pact"
       ],
       [
         "zur NATO",
-        false
+        false,
+        "to NATO"
       ],
       [
         "zu den blockfreien Staaten",
-        false
+        false,
+        "to block-free states"
       ]
-    ]
+    ],
+    "translated_question": "Who was the GDR?\n"
   },
   {
     "seq": "203",
@@ -4855,21 +5865,26 @@ const data = [
     "possible_answers": [
       [
         "Marktwirtschaft",
-        false
+        false,
+        "Market economy"
       ],
       [
         "Planwirtschaft",
-        true
+        true,
+        "Planning"
       ],
       [
         "Angebot und Nachfrage",
-        false
+        false,
+        "Supply and demand"
       ],
       [
         "Kapitalismus",
-        false
+        false,
+        "Capital"
       ]
-    ]
+    ],
+    "translated_question": "What was the name of the GDR economic system?\n"
   },
   {
     "seq": "204",
@@ -4879,21 +5894,26 @@ const data = [
     "possible_answers": [
       [
         "Die Bundesrepublik hat die DDR besetzt.",
-        false
+        false,
+        "The Federal Republic has occupied the GDR."
       ],
       [
         "Die heutigen f\u00fcnf \u00f6stlichen Bundesl\u00e4nder sind der Bundesrepublik Deutschland beigetreten.",
-        true
+        true,
+        "The five eastern L\u00e4nder have joined the Federal Republic of Germany."
       ],
       [
         "Die westlichen Bundesl\u00e4nder sind der DDR beigetreten.",
-        false
+        false,
+        "The western L\u00e4nder joined the GDR."
       ],
       [
         "Die DDR hat die Bundesrepublik Deutschland besetzt.",
-        false
+        false,
+        "The GDR occupied the Federal Republic of Germany."
       ]
-    ]
+    ],
+    "translated_question": "How have the Federal Republic of Germany and the GDR become a\nState?\n"
   },
   {
     "seq": "205",
@@ -4903,21 +5923,26 @@ const data = [
     "possible_answers": [
       [
         "zur Europ\u00e4ischen Union.",
-        true
+        true,
+        "on the European Union."
       ],
       [
         "zum Warschauer Pakt.",
-        false
+        false,
+        "the Warsaw Pact."
       ],
       [
         "zur OPEC.",
-        false
+        false,
+        "to OPEC."
       ],
       [
         "zur Europ\u00e4ischen Verteidigungsgemeinschaft.",
-        false
+        false,
+        "on the European Defence Community."
       ]
-    ]
+    ],
+    "translated_question": "With the accession of the GDR to the Federal Republic of Germany\nthe new L\u00e4nder now also ...\n"
   },
   {
     "seq": "206",
@@ -4927,21 +5952,26 @@ const data = [
     "possible_answers": [
       [
         "an ber\u00fchmte deutsche Politikerinnen und Politiker",
-        false
+        false,
+        "to famous German politicians"
       ],
       [
         "an die Opfer des Nationalsozialismus",
-        true
+        true,
+        "to the victims of Nazism"
       ],
       [
         "an Verkehrstote",
-        false
+        false,
+        "to traffic dead"
       ],
       [
         "an bekannte j\u00fcdische Musiker",
-        false
+        false,
+        "to famous Jewish musicians"
       ]
-    ]
+    ],
+    "translated_question": "What do the so-called \u201cStolpersteine\u201d remember in Germany?"
   },
   {
     "seq": "207",
@@ -4951,21 +5981,26 @@ const data = [
     "possible_answers": [
       [
         "in der NATO",
-        false
+        false,
+        "in NATO"
       ],
       [
         "im Rheinbund",
-        false
+        false,
+        "in the Rheinbund"
       ],
       [
         "im Warschauer Pakt",
-        true
+        true,
+        "in the Warsaw Pact"
       ],
       [
         "im Europab\u00fcndnis",
-        false
+        false,
+        "in the European Covenant"
       ]
-    ]
+    ],
+    "translated_question": "In what military alliance was the GDR member?\n"
   },
   {
     "seq": "208",
@@ -4975,21 +6010,26 @@ const data = [
     "possible_answers": [
       [
         "der Geheimdienst im \"Dritten Reich\"",
-        false
+        false,
+        "the secret service in the \"Third Reich\""
       ],
       [
         "eine ber\u00fchmte deutsche Gedenkst\u00e4tte",
-        false
+        false,
+        "a famous German memorial"
       ],
       [
         "der Geheimdienst der DDR",
-        true
+        true,
+        "the secret service of the GDR"
       ],
       [
         "ein deutscher Sportverein w\u00e4hrend des Zweiten Weltkrieges",
-        false
+        false,
+        "a German sports club during World War II"
       ]
-    ]
+    ],
+    "translated_question": "What was the Stasi?\n"
   },
   {
     "seq": "209",
@@ -4999,21 +6039,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        false
+        false,
+        "1"
       ],
       [
         "2",
-        false
+        false,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        true
+        true,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "Which was the coat of arms of the German Democratic\nRepublic?\n\n"
   },
   {
     "seq": "210",
@@ -5023,21 +6068,26 @@ const data = [
     "possible_answers": [
       [
         "der feierliche Beitritt zum Warschauer Pakt",
-        false
+        false,
+        "the solemn accession to the Warsaw Pact"
       ],
       [
         "landesweite Streiks und ein Volksaufstand",
-        true
+        true,
+        "national strikes and a popular uprising"
       ],
       [
         "der 1. SED-Parteitag",
-        false
+        false,
+        "the 1st SED Party Day"
       ],
       [
         "der erste Besuch Fidel Castros",
-        false
+        false,
+        "the first visit to Fidel Castros"
       ]
-    ]
+    ],
+    "translated_question": "What happened on 17. June 1953 in the GDR?\n"
   },
   {
     "seq": "211",
@@ -5047,21 +6097,26 @@ const data = [
     "possible_answers": [
       [
         "Helmut Kohl",
-        false
+        false,
+        "Helmut Kohl"
       ],
       [
         "Willy Brandt",
-        true
+        true,
+        "Willy Brandt"
       ],
       [
         "Michail Gorbatschow",
-        false
+        false,
+        "Mikhail Gorbachev"
       ],
       [
         "Ludwig Erhard",
-        false
+        false,
+        "Ludwig Erhard"
       ]
-    ]
+    ],
+    "translated_question": "What politician stands for the \u201cEastern Treaties\u201d ?\n"
   },
   {
     "seq": "212",
@@ -5071,21 +6126,26 @@ const data = [
     "possible_answers": [
       [
         "Bundesstaat Deutschland",
-        false
+        false,
+        "State Germany"
       ],
       [
         "Bundesl\u00e4nder Deutschland",
-        false
+        false,
+        "Germany"
       ],
       [
         "Bundesrepublik Deutschland",
-        true
+        true,
+        "Germany"
       ],
       [
         "Bundesbezirk Deutschland",
-        false
+        false,
+        "Federal Republic of Germany"
       ]
-    ]
+    ],
+    "translated_question": "What is Germany with full name?\n"
   },
   {
     "seq": "213",
@@ -5095,21 +6155,26 @@ const data = [
     "possible_answers": [
       [
         "70 Millionen",
-        false
+        false,
+        "70 million"
       ],
       [
         "78 Millionen",
-        false
+        false,
+        "78 million"
       ],
       [
         "84 Millionen",
-        true
+        true,
+        "84 million"
       ],
       [
         "90 Millionen",
-        false
+        false,
+        "90 million"
       ]
-    ]
+    ],
+    "translated_question": "How many inhabitants does Germany have?\n"
   },
   {
     "seq": "214",
@@ -5119,21 +6184,26 @@ const data = [
     "possible_answers": [
       [
         "schwarz-rot-gold",
-        true
+        true,
+        "black-red gold"
       ],
       [
         "rot-wei\u00df-schwarz",
-        false
+        false,
+        "red-white-black"
       ],
       [
         "schwarz-rot-gr\u00fcn",
-        false
+        false,
+        "black-red green"
       ],
       [
         "schwarz-gelb-rot",
-        false
+        false,
+        "black yellow-red"
       ]
-    ]
+    ],
+    "translated_question": "The German flag has soft colors?\n"
   },
   {
     "seq": "215",
@@ -5143,21 +6213,26 @@ const data = [
     "possible_answers": [
       [
         "Gerhard Schr\u00f6der",
-        false
+        false,
+        "Gerhard Schr\u00f6der"
       ],
       [
         "Helmut Kohl",
-        true
+        true,
+        "Helmut Kohl"
       ],
       [
         "Konrad Adenauer",
-        false
+        false,
+        "Konrad Adenauer"
       ],
       [
         "Helmut Schmidt",
-        false
+        false,
+        "Helmut Schmidt"
       ]
-    ]
+    ],
+    "translated_question": "Who is called the Chancellor of the German Unity?\n"
   },
   {
     "seq": "216",
@@ -5167,21 +6242,26 @@ const data = [
     "possible_answers": [
       [
         "der Bundesadler.",
-        true
+        true,
+        "the federal eagle."
       ],
       [
         "die Fahne der Stadt Berlin.",
-        false
+        false,
+        "the flag of Berlin."
       ],
       [
         "der Reichsadler.",
-        false
+        false,
+        "the empire settlers."
       ],
       [
         "die Reichskrone.",
-        false
+        false,
+        "the kingdom crown."
       ]
-    ]
+    ],
+    "translated_question": "What is the symbol in the Chamber of the German Bundestag\nsee?\n\n"
   },
   {
     "seq": "217",
@@ -5191,21 +6271,26 @@ const data = [
     "possible_answers": [
       [
         "1919 bis 1927",
-        false
+        false,
+        "1919 to 1927"
       ],
       [
         "1933 bis 1945",
-        false
+        false,
+        "1933 to 1945"
       ],
       [
         "1945 bis 1961",
-        false
+        false,
+        "1945 to 1961"
       ],
       [
         "1949 bis 1990",
-        true
+        true,
+        "1949 to 1990"
       ]
-    ]
+    ],
+    "translated_question": "The German Democratic Republic\nDDR?\n"
   },
   {
     "seq": "218",
@@ -5215,21 +6300,26 @@ const data = [
     "possible_answers": [
       [
         "4",
-        false
+        false,
+        "4"
       ],
       [
         "5",
-        true
+        true,
+        "5"
       ],
       [
         "6",
-        false
+        false,
+        "6"
       ],
       [
         "7",
-        false
+        false,
+        "7"
       ]
-    ]
+    ],
+    "translated_question": "How many federal states came to reunification in 1990\nFederal Republic of Germany\n"
   },
   {
     "seq": "219",
@@ -5239,21 +6329,26 @@ const data = [
     "possible_answers": [
       [
         "1933",
-        false
+        false,
+        "1933"
       ],
       [
         "1949",
-        false
+        false,
+        "1949"
       ],
       [
         "1971",
-        false
+        false,
+        "1971"
       ],
       [
         "1990",
-        true
+        true,
+        "1990"
       ]
-    ]
+    ],
+    "translated_question": "The Federal Republic of Germany has the limits of today...\n"
   },
   {
     "seq": "220",
@@ -5263,21 +6358,26 @@ const data = [
     "possible_answers": [
       [
         "an das Ende des Zweiten Weltkrieges",
-        false
+        false,
+        "to the end of World War II"
       ],
       [
         "an die Verabschiedung des Grundgesetzes",
-        false
+        false,
+        "to the adoption of the Basic Law"
       ],
       [
         "an die Wiedervereinigung Deutschlands",
-        false
+        false,
+        "to the reunification of Germany"
       ],
       [
         "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)",
-        true
+        true,
+        "to the victims of National Socialism (Day of the liberation of the Auschwitz extermination camp)"
       ]
-    ]
+    ],
+    "translated_question": "January 27 is an official commemorative day in Germany. Root\nremembers this day?\n"
   },
   {
     "seq": "221",
@@ -5287,21 +6387,26 @@ const data = [
     "possible_answers": [
       [
         "Deutsche k\u00f6nnen in viele L\u00e4nder Europas ohne Passkontrolle reisen.",
-        true
+        true,
+        "Germans can travel to many countries in Europe without passport control."
       ],
       [
         "Alle Menschen k\u00f6nnen ohne Personenkontrolle in Deutschland einreisen.",
-        false
+        false,
+        "All people can enter Germany without personal control."
       ],
       [
         "Deutsche k\u00f6nnen ohne Passkontrolle in jedes Land reisen.",
-        false
+        false,
+        "Germans can travel to any country without passport control."
       ],
       [
         "Deutsche k\u00f6nnen in jedem Land mit dem Euro bezahlen.",
-        false
+        false,
+        "Germans can pay with the euro in any country."
       ]
-    ]
+    ],
+    "translated_question": "Germany is a member of the Schengen Agreement. What means\nthat?\n"
   },
   {
     "seq": "222",
@@ -5311,21 +6416,26 @@ const data = [
     "possible_answers": [
       [
         "Ungarn",
-        false
+        false,
+        "Hungary"
       ],
       [
         "Portugal",
-        false
+        false,
+        "Portugal"
       ],
       [
         "Spanien",
-        false
+        false,
+        "Spain"
       ],
       [
         "Schweiz",
-        true
+        true,
+        "Switzerland"
       ]
-    ]
+    ],
+    "translated_question": "What country is a neighbouring country of Germany?\n"
   },
   {
     "seq": "223",
@@ -5335,21 +6445,26 @@ const data = [
     "possible_answers": [
       [
         "Rum\u00e4nien",
-        false
+        false,
+        "Romania"
       ],
       [
         "Bulgarien",
-        false
+        false,
+        "Bulgaria"
       ],
       [
         "Polen",
-        true
+        true,
+        "Poland"
       ],
       [
         "Griechenland",
-        false
+        false,
+        "Greece"
       ]
-    ]
+    ],
+    "translated_question": "What country is a neighbouring country of Germany?\n"
   },
   {
     "seq": "224",
@@ -5359,21 +6474,26 @@ const data = [
     "possible_answers": [
       [
         "Europ\u00e4ische Unternehmen",
-        false
+        false,
+        "European companies"
       ],
       [
         "Europ\u00e4ische Union",
-        true
+        true,
+        "European Union"
       ],
       [
         "Einheitliche Union",
-        false
+        false,
+        "Single Union"
       ],
       [
         "Euro Union",
-        false
+        false,
+        "Euro Union"
       ]
-    ]
+    ],
+    "translated_question": "What does the EU abbreviation mean?\n"
   },
   {
     "seq": "225",
@@ -5383,21 +6503,26 @@ const data = [
     "possible_answers": [
       [
         "Tschechien",
-        false
+        false,
+        "Czech Republic"
       ],
       [
         "Norwegen",
-        false
+        false,
+        "Norway"
       ],
       [
         "Spanien",
-        false
+        false,
+        "Spain"
       ],
       [
         "\u00d6sterreich",
-        true
+        true,
+        "Austria"
       ]
-    ]
+    ],
+    "translated_question": "In soft other countries there is a large German-speaking country\nPopulation?\n"
   },
   {
     "seq": "226",
@@ -5407,21 +6532,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        false
+        false,
+        "1"
       ],
       [
         "2",
-        true
+        true,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        false
+        false,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "What is the flag of the European Union?\n\n"
   },
   {
     "seq": "227",
@@ -5431,21 +6561,26 @@ const data = [
     "possible_answers": [
       [
         "Finnland",
-        false
+        false,
+        "Finland"
       ],
       [
         "D\u00e4nemark",
-        true
+        true,
+        "Denmark"
       ],
       [
         "Norwegen",
-        false
+        false,
+        "Norway"
       ],
       [
         "Schweden",
-        false
+        false,
+        "Sweden"
       ]
-    ]
+    ],
+    "translated_question": "What country is a neighbouring country of Germany?\n"
   },
   {
     "seq": "228",
@@ -5455,21 +6590,26 @@ const data = [
     "possible_answers": [
       [
         "NATO-Osterweiterung",
-        false
+        false,
+        "NATO eastward enlargement"
       ],
       [
         "EU-Osterweiterung",
-        false
+        false,
+        "EU eastward enlargement"
       ],
       [
         "Deutsche Wiedervereinigung",
-        true
+        true,
+        "German reunification"
       ],
       [
         "Europ\u00e4ische Gemeinschaft",
-        false
+        false,
+        "European Community"
       ]
-    ]
+    ],
+    "translated_question": "How will the GDR join the Federal Republic of Germany in\nYear 1990\n"
   },
   {
     "seq": "229",
@@ -5479,21 +6619,26 @@ const data = [
     "possible_answers": [
       [
         "Spanien",
-        false
+        false,
+        "Spain"
       ],
       [
         "Bulgarien",
-        false
+        false,
+        "Bulgaria"
       ],
       [
         "Norwegen",
-        false
+        false,
+        "Norway"
       ],
       [
         "Luxemburg",
-        true
+        true,
+        "Luxembourg"
       ]
-    ]
+    ],
+    "translated_question": "What country is a neighbouring country of Germany?\n"
   },
   {
     "seq": "230",
@@ -5503,21 +6648,26 @@ const data = [
     "possible_answers": [
       [
         "5 Jahre.",
-        true
+        true,
+        "Five years."
       ],
       [
         "6 Jahre.",
-        false
+        false,
+        "Six years."
       ],
       [
         "7 Jahre.",
-        false
+        false,
+        "Seven years."
       ],
       [
         "8 Jahre.",
-        false
+        false,
+        "8 years."
       ]
-    ]
+    ],
+    "translated_question": "The European Parliament is regularly elected, namely all\n\n"
   },
   {
     "seq": "231",
@@ -5527,21 +6677,26 @@ const data = [
     "possible_answers": [
       [
         "Damit sind amerikanische Einwanderer in Europa gemeint.",
-        false
+        false,
+        "This means American immigrants in Europe."
       ],
       [
         "Der Begriff meint den Einwanderungsstopp nach Europa.",
-        false
+        false,
+        "The term means a stop to immigration to Europe."
       ],
       [
         "Damit sind europ\u00e4ische Auswanderer in den USA gemeint.",
-        false
+        false,
+        "This means European emigrants in the USA."
       ],
       [
         "Der Begriff meint den Zusammenschluss europ\u00e4ischer Staaten zur EU.",
-        true
+        true,
+        "The term refers to the merger of European states to the EU."
       ]
-    ]
+    ],
+    "translated_question": "What does the term \u2018European integration\u2019 mean?\n"
   },
   {
     "seq": "232",
@@ -5551,21 +6706,26 @@ const data = [
     "possible_answers": [
       [
         "die Europ\u00e4ische Kommission",
-        false
+        false,
+        "The European Commission"
       ],
       [
         "die L\u00e4nder, die in die EU eintreten d\u00fcrfen",
-        false
+        false,
+        "the countries that may enter the EU"
       ],
       [
         "die Abgeordneten des Europ\u00e4ischen Parlaments",
-        true
+        true,
+        "Members of the European Parliament"
       ],
       [
         "die europ\u00e4ische Verfassung",
-        false
+        false,
+        "the European Constitution"
       ]
-    ]
+    ],
+    "translated_question": "Who will be chosen at the European elections\n"
   },
   {
     "seq": "233",
@@ -5575,21 +6735,26 @@ const data = [
     "possible_answers": [
       [
         "Tschechien",
-        true
+        true,
+        "Czech Republic"
       ],
       [
         "Bulgarien",
-        false
+        false,
+        "Bulgaria"
       ],
       [
         "Griechenland",
-        false
+        false,
+        "Greece"
       ],
       [
         "Portugal",
-        false
+        false,
+        "Portugal"
       ]
-    ]
+    ],
+    "translated_question": "What country is a neighbouring country of Germany?\n"
   },
   {
     "seq": "234",
@@ -5599,21 +6764,26 @@ const data = [
     "possible_answers": [
       [
         "London",
-        false
+        false,
+        "London"
       ],
       [
         "Paris",
-        false
+        false,
+        "Paris"
       ],
       [
         "Berlin",
-        false
+        false,
+        "Berlin"
       ],
       [
         "Stra\u00dfburg",
-        true
+        true,
+        "Strasbourg"
       ]
-    ]
+    ],
+    "translated_question": "Where is the seat of the European Parliament?"
   },
   {
     "seq": "235",
@@ -5623,21 +6793,26 @@ const data = [
     "possible_answers": [
       [
         "Freundschaft zwischen England und Deutschland",
-        false
+        false,
+        "Friendship between England and Germany"
       ],
       [
         "Reisefreiheit in alle L\u00e4nder der EU",
-        false
+        false,
+        "Freedom of travel in all EU countries"
       ],
       [
         "Frieden und Sicherheit in den L\u00e4ndern der EU",
-        true
+        true,
+        "Peace and security in EU countries"
       ],
       [
         "einheitliche Feiertage in den L\u00e4ndern der EU",
-        false
+        false,
+        "Unified holidays in EU countries"
       ]
-    ]
+    ],
+    "translated_question": "French President Francois Mitterrand and the German\nChancellor Helmut Kohl thinks together in Verdun the dead\nboth world wars. What objective of the European Union will be\nthis meeting clearly?\n\n"
   },
   {
     "seq": "236",
@@ -5647,21 +6822,26 @@ const data = [
     "possible_answers": [
       [
         "21",
-        false
+        false,
+        "21"
       ],
       [
         "23",
-        false
+        false,
+        "23"
       ],
       [
         "25",
-        false
+        false,
+        "25"
       ],
       [
         "27",
-        true
+        true,
+        "27"
       ]
-    ]
+    ],
+    "translated_question": "How many Member States have the EU today?\n"
   },
   {
     "seq": "237",
@@ -5671,21 +6851,26 @@ const data = [
     "possible_answers": [
       [
         "Beitritt Deutschlands zur NATO",
-        false
+        false,
+        "Accession of Germany to NATO"
       ],
       [
         "Gr\u00fcndung der Europ\u00e4ischen Wirtschaftsgemeinschaft (EWG)",
-        true
+        true,
+        "Foundation of the European Economic Community (EEC)"
       ],
       [
         "Verpflichtung Deutschlands zu Reparationsleistungen",
-        false
+        false,
+        "Germany's obligation to repair services"
       ],
       [
         "Festlegung der Oder-Nei\u00dfe-Linie als Ostgrenze",
-        false
+        false,
+        "Defining the Oder-Nei\u00dfe line as an east boundary"
       ]
-    ]
+    ],
+    "translated_question": "The 50th anniversary of the \"Roman Treaties\" was celebrated in 2007.\nWhat was the content of the contracts?\n"
   },
   {
     "seq": "238",
@@ -5695,21 +6880,26 @@ const data = [
     "possible_answers": [
       [
         "Paris, London und Den Haag",
-        false
+        false,
+        "Paris, London and The Hague"
       ],
       [
         "Stra\u00dfburg, Luxemburg und Br\u00fcssel",
-        true
+        true,
+        "Strasbourg, Luxembourg and Brussels"
       ],
       [
         "Rom, Bern und Wien",
-        false
+        false,
+        "Rome, Bern and Vienna"
       ],
       [
         "Bonn, Z\u00fcrich und Mailand",
-        false
+        false,
+        "Bonn, Zurich and Milan"
       ]
-    ]
+    ],
+    "translated_question": "\u201cIn which places does the European Parliament work?\n"
   },
   {
     "seq": "239",
@@ -5719,21 +6909,26 @@ const data = [
     "possible_answers": [
       [
         "durch die \"Hamburger Vertr\u00e4ge\"",
-        false
+        false,
+        "by the \"Hamburger Treaties\""
       ],
       [
         "durch die \"R\u00f6mischen Vertr\u00e4ge\"",
-        true
+        true,
+        "by the \"Roman Treaties\""
       ],
       [
         "durch die \"Pariser Vertr\u00e4ge\"",
-        false
+        false,
+        "through the \"Paris Treaties\""
       ],
       [
         "durch die \"Londoner Vertr\u00e4ge\"",
-        false
+        false,
+        "through the \"London Treaties\""
       ]
-    ]
+    ],
+    "translated_question": "By which agreements the Federal Republic of Germany concluded\nGermany with other countries\nEconomic Community together?\n"
   },
   {
     "seq": "240",
@@ -5743,21 +6938,26 @@ const data = [
     "possible_answers": [
       [
         "1995",
-        false
+        false,
+        "1995"
       ],
       [
         "1998",
-        false
+        false,
+        "1998"
       ],
       [
         "2002",
-        true
+        true,
+        "2002"
       ],
       [
         "2005",
-        false
+        false,
+        "2005"
       ]
-    ]
+    ],
+    "translated_question": "Since when do you pay in Germany in cash?\n"
   },
   {
     "seq": "241",
@@ -5767,21 +6967,26 @@ const data = [
     "possible_answers": [
       [
         "Sie muss an ihre Krankenkasse schreiben.",
-        false
+        false,
+        "She has to write to her health insurance."
       ],
       [
         "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
-        true
+        true,
+        "She has to submit an application to the parental leave office."
       ],
       [
         "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
-        false
+        false,
+        "She doesn't have to do anything because she automatically gets parental money."
       ],
       [
         "Sie muss das Arbeitsamt um Erlaubnis bitten.",
-        false
+        false,
+        "She must ask the employment office for permission."
       ]
-    ]
+    ],
+    "translated_question": "Mrs. Seger gets a child. What does she have to do to parental allowance\nobtained?\n"
   },
   {
     "seq": "242",
@@ -5791,21 +6996,26 @@ const data = [
     "possible_answers": [
       [
         "der Staat",
-        false
+        false,
+        "the State"
       ],
       [
         "die Bundesl\u00e4nder",
-        false
+        false,
+        "the federal states"
       ],
       [
         "die Eltern/die Erziehungsberechtigten",
-        true
+        true,
+        "the parents/children"
       ],
       [
         "die Schulen",
-        false
+        false,
+        "schools"
       ]
-    ]
+    ],
+    "translated_question": "Who decides if a child in Germany in kindergarten\ngo?\n"
   },
   {
     "seq": "243",
@@ -5815,21 +7025,26 @@ const data = [
     "possible_answers": [
       [
         "Sie m\u00fcssen die Demonstration anmelden.",
-        true
+        true,
+        "You have to sign the demonstration."
       ],
       [
         "Sie m\u00fcssen nichts tun. Man darf in Deutschland jederzeit \u00fcberall demonstrieren.",
-        false
+        false,
+        "You don't have to do anything. You can demonstrate everywhere in Germany at any time."
       ],
       [
         "Sie k\u00f6nnen gar nichts tun, denn Demonstrationen sind in Deutschland grunds\u00e4tzlich verboten.",
-        false
+        false,
+        "You cannot do anything, because demonstrations are generally prohibited in Germany."
       ],
       [
         "Maik und Sybille m\u00fcssen einen neuen Verein gr\u00fcnden, weil nur Vereine demonstrieren d\u00fcrfen.",
-        false
+        false,
+        "Maik and Sybille must establish a new club because only clubs can demonstrate."
       ]
-    ]
+    ],
+    "translated_question": "Maik and Sybille want with friends at their German residence\nStop demonstration on the road. What do they have to do before?\n"
   },
   {
     "seq": "244",
@@ -5839,21 +7054,26 @@ const data = [
     "possible_answers": [
       [
         "das Abitur",
-        true
+        true,
+        "the Abitur"
       ],
       [
         "ein Diplom",
-        false
+        false,
+        "a diploma"
       ],
       [
         "die Prokura",
-        false
+        false,
+        "the procura"
       ],
       [
         "eine Gesellenpr\u00fcfung",
-        false
+        false,
+        "a Gesellenpr\u00fcfung"
       ]
-    ]
+    ],
+    "translated_question": "What kind of schooling is usually required to\nUniversity in Germany to start studying?\n"
   },
   {
     "seq": "245",
@@ -5863,21 +7083,26 @@ const data = [
     "possible_answers": [
       [
         "Hans (20 Jahre) und Marie (19 Jahre)",
-        false
+        false,
+        "Hans (20 years) and Marie (19 years)"
       ],
       [
         "Tom (20 Jahre) und Klaus (45 Jahre)",
-        false
+        false,
+        "Tom (20 years) and Klaus (45 years)"
       ],
       [
         "Sofie (35 Jahre) und Lisa (40 Jahre)",
-        false
+        false,
+        "Sofie (35 years) and Lisa (40 years)"
       ],
       [
         "Anne (13 Jahre) und Tim (25 Jahre)",
-        true
+        true,
+        "Anne (13 years) and Tim (25 years)"
       ]
-    ]
+    ],
+    "translated_question": "Who can't live together in Germany as a couple?\n"
   },
   {
     "seq": "246",
@@ -5887,21 +7112,26 @@ const data = [
     "possible_answers": [
       [
         "16",
-        false
+        false,
+        "16"
       ],
       [
         "18",
-        true
+        true,
+        "18"
       ],
       [
         "19",
-        false
+        false,
+        "19"
       ],
       [
         "21",
-        false
+        false,
+        "21"
       ]
-    ]
+    ],
+    "translated_question": "From a soft age one is in Germany full-year?\n"
   },
   {
     "seq": "247",
@@ -5911,21 +7141,26 @@ const data = [
     "possible_answers": [
       [
         "Elternzeit",
-        false
+        false,
+        "Parental leave"
       ],
       [
         "Mutterschutz",
-        true
+        true,
+        "Maternity protection"
       ],
       [
         "Geburtsvorbereitung",
-        false
+        false,
+        "Preparing birth"
       ],
       [
         "Wochenbett",
-        false
+        false,
+        "Weekly bed"
       ]
-    ]
+    ],
+    "translated_question": "A woman is pregnant. She is shortly before and after the birth of her\nChild especially protected by law. What is this protection?\n"
   },
   {
     "seq": "248",
@@ -5935,21 +7170,26 @@ const data = [
     "possible_answers": [
       [
         "des Staates.",
-        false
+        false,
+        "of the state."
       ],
       [
         "der Eltern.",
-        true
+        true,
+        "the parents."
       ],
       [
         "der Gro\u00dfeltern.",
-        false
+        false,
+        "the grandparents."
       ],
       [
         "der Schulen.",
-        false
+        false,
+        "schools."
       ]
-    ]
+    ],
+    "translated_question": "The education of children in Germany is primarily a task ...\n"
   },
   {
     "seq": "249",
@@ -5959,21 +7199,26 @@ const data = [
     "possible_answers": [
       [
         "der Staat",
-        false
+        false,
+        "the State"
       ],
       [
         "die Eltern",
-        true
+        true,
+        "the parents"
       ],
       [
         "die Verwandten",
-        false
+        false,
+        "the relatives"
       ],
       [
         "die Schulen",
-        false
+        false,
+        "schools"
       ]
-    ]
+    ],
+    "translated_question": "Who is primarily responsible in Germany for\nChild education?\n"
   },
   {
     "seq": "250",
@@ -5983,21 +7228,26 @@ const data = [
     "possible_answers": [
       [
         "katholisch ist.",
-        false
+        false,
+        "is Catholic."
       ],
       [
         "gut ausgebildet ist.",
-        true
+        true,
+        "is well designed."
       ],
       [
         "eine Frau ist.",
-        false
+        false,
+        "is a woman."
       ],
       [
         "Mitglied einer Partei ist.",
-        false
+        false,
+        "Member of a party."
       ]
-    ]
+    ],
+    "translated_question": "In Germany you have the best chances of a well-paid\nWorkplace when you ...\n"
   },
   {
     "seq": "251",
@@ -6007,21 +7257,26 @@ const data = [
     "possible_answers": [
       [
         "geht das niemanden etwas an.",
-        false
+        false,
+        "isn't that a thing to do?"
       ],
       [
         "geht das nur die Familie etwas an.",
-        false
+        false,
+        "only the family does."
       ],
       [
         "kann man daf\u00fcr nicht bestraft werden.",
-        false
+        false,
+        "can't be punished."
       ],
       [
         "kann man daf\u00fcr bestraft werden.",
-        true
+        true,
+        "can be punished for this."
       ]
-    ]
+    ],
+    "translated_question": "If you beat a child in Germany,\n"
   },
   {
     "seq": "252",
@@ -6031,21 +7286,26 @@ const data = [
     "possible_answers": [
       [
         "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein.",
-        true
+        true,
+        "at the same time you may only be married to a partner."
       ],
       [
         "kann man mehrere Ehepartner / Ehepartnerinnen gleichzeitig haben.",
-        false
+        false,
+        "you can have several spouses at the same time."
       ],
       [
         "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
-        false
+        false,
+        "you can't get married once you've been married."
       ],
       [
         "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
-        false
+        false,
+        "a woman must not marry again if her husband died."
       ]
-    ]
+    ],
+    "translated_question": ""
   },
   {
     "seq": "253",
@@ -6055,21 +7315,26 @@ const data = [
     "possible_answers": [
       [
         "beim Einwohnermeldeamt",
-        true
+        true,
+        "Inhabitant registration office"
       ],
       [
         "beim Standesamt",
-        false
+        false,
+        "at the registry office"
       ],
       [
         "beim Ordnungsamt",
-        false
+        false,
+        "at the Order Office"
       ],
       [
         "beim Gewerbeamt",
-        false
+        false,
+        "at the trade office"
       ]
-    ]
+    ],
+    "translated_question": "Where do you need to register if you are in Germany\nmove?\n"
   },
   {
     "seq": "254",
@@ -6079,21 +7344,26 @@ const data = [
     "possible_answers": [
       [
         "Der Scheidungsprozess dauert ein Jahr",
-        false
+        false,
+        "The divorce process lasts one year"
       ],
       [
         "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung m\u00f6glich",
-        false
+        false,
+        "The spouses are married one year, then divorce is possible"
       ],
       [
         "Das Besuchsrecht f\u00fcr die Kinder gilt ein Jahr",
-        false
+        false,
+        "The right to visit children is one year"
       ],
       [
         "Die Ehegatten f\u00fchren mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung m\u00f6glich",
-        true
+        true,
+        "The spouses live their own lives at least one year separately. After that, divorce is possible"
       ]
-    ]
+    ],
+    "translated_question": "In Germany, couples may be divorced. In most cases,\nto comply with the \u201cTrenning Year\u201d. What does that mean?\n"
   },
   {
     "seq": "255",
@@ -6103,21 +7373,26 @@ const data = [
     "possible_answers": [
       [
         "Ordnungsamt.",
-        false
+        false,
+        "Order Office."
       ],
       [
         "Schulamt.",
-        false
+        false,
+        "School office."
       ],
       [
         "Jugendamt.",
-        true
+        true,
+        "Youth Office."
       ],
       [
         "Gesundheitsamt.",
-        false
+        false,
+        "Health office."
       ]
-    ]
+    ],
+    "translated_question": "In the case of parental problems, ovine can help in Germany\n...\n"
   },
   {
     "seq": "256",
@@ -6127,21 +7402,26 @@ const data = [
     "possible_answers": [
       [
         "eine Erlaubnis der Polizei",
-        false
+        false,
+        "a police permit"
       ],
       [
         "eine Genehmigung einer Partei",
-        false
+        false,
+        "an approval of a party"
       ],
       [
         "eine Genehmigung des Einwohnermeldeamts",
-        false
+        false,
+        "an approval of the inhabitant registration office"
       ],
       [
         "eine Gastst\u00e4ttenerlaubnis von der zust\u00e4ndigen Beh\u00f6rde",
-        true
+        true,
+        "a restaurant permit from the competent authority"
       ]
-    ]
+    ],
+    "translated_question": "A couple wants to open a restaurant in Germany. What?\ndoes it need?\n"
   },
   {
     "seq": "257",
@@ -6151,21 +7431,26 @@ const data = [
     "possible_answers": [
       [
         "einer Hochschule.",
-        false
+        false,
+        "a college."
       ],
       [
         "einem Abendgymnasium.",
-        true
+        true,
+        "an evening gymnasium."
       ],
       [
         "einer Hauptschule.",
-        false
+        false,
+        "a primary school."
       ],
       [
         "einer Privatuniversit\u00e4t.",
-        false
+        false,
+        "a private university."
       ]
-    ]
+    ],
+    "translated_question": "An adult woman wants the Abitur in Germany\nRepeat. She can do that.\n"
   },
   {
     "seq": "258",
@@ -6175,21 +7460,26 @@ const data = [
     "possible_answers": [
       [
         "Es entscheidet, welche Schule das Kind besucht.",
-        false
+        false,
+        "It decides which school the child visits."
       ],
       [
         "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
-        true
+        true,
+        "It can take a child that is beaten or must starve out of the family."
       ],
       [
         "Es bezahlt das Kindergeld an die Eltern.",
-        false
+        false,
+        "It pays the child's money to the parents."
       ],
       [
         "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
-        false
+        false,
+        "It controls whether the child visits a kindergarten."
       ]
-    ]
+    ],
+    "translated_question": "What is the Youth Office in Germany?\n"
   },
   {
     "seq": "259",
@@ -6199,21 +7489,26 @@ const data = [
     "possible_answers": [
       [
         "Rentenberechnung.",
-        false
+        false,
+        "Pension calculation."
       ],
       [
         "Lehrstellensuche.",
-        true
+        true,
+        "Teaching."
       ],
       [
         "Steuererkl\u00e4rung.",
-        false
+        false,
+        "Tax declaration."
       ],
       [
         "Krankenversicherung.",
-        false
+        false,
+        "Health insurance."
       ]
-    ]
+    ],
+    "translated_question": "The Professional Information Centre BIZ at the Federal Agency for\n\u201cWork in Germany helps with ...\n"
   },
   {
     "seq": "260",
@@ -6223,21 +7518,26 @@ const data = [
     "possible_answers": [
       [
         "Recht auf unbegrenzte Freizeit.",
-        false
+        false,
+        "Right to unlimited leisure."
       ],
       [
         "Wahlfreiheit f\u00fcr alle F\u00e4cher.",
-        false
+        false,
+        "Freedom of choice for all subjects."
       ],
       [
         "Anspruch auf Schulgeld.",
-        false
+        false,
+        "entitlement to school allowance."
       ],
       [
         "Anwesenheitspflicht.",
-        true
+        true,
+        "Compulsory attendance."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, a child at school...\n"
   },
   {
     "seq": "261",
@@ -6247,21 +7547,26 @@ const data = [
     "possible_answers": [
       [
         "einer Hochschule",
-        false
+        false,
+        "a university"
       ],
       [
         "einem Abendgymnasium",
-        true
+        true,
+        "an evening gymnasium"
       ],
       [
         "einer Hauptschule",
-        false
+        false,
+        "a primary school"
       ],
       [
         "einer Privatuniversit\u00e4t",
-        false
+        false,
+        "a private university"
       ]
-    ]
+    ],
+    "translated_question": "A man wants to retrieve his Abitur at 30 years in Germany.\nWhere can he do that? An...\n"
   },
   {
     "seq": "262",
@@ -6271,21 +7576,26 @@ const data = [
     "possible_answers": [
       [
         "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
-        true
+        true,
+        "No one can be disadvantaged, for example, because of a disability."
       ],
       [
         "Man darf andere Personen benachteiligen, wenn ausreichende pers\u00f6nliche Gr\u00fcnde hierf\u00fcr vorliegen.",
-        false
+        false,
+        "Other persons may be disadvantaged if there are sufficient personal reasons for this."
       ],
       [
         "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
-        false
+        false,
+        "No one is allowed to sue people if they were disadvantaged."
       ],
       [
         "Es ist f\u00fcr alle Gesetz, benachteiligten Gruppen j\u00e4hrlich Geld zu spenden.",
-        false
+        false,
+        "It is for all laws to donate disadvantaged groups annually."
       ]
-    ]
+    ],
+    "translated_question": "What does the principle of\nEqual treatment?\n"
   },
   {
     "seq": "263",
@@ -6295,21 +7605,26 @@ const data = [
     "possible_answers": [
       [
         "werden bestraft.",
-        true
+        true,
+        "are punished."
       ],
       [
         "werden wie Erwachsene behandelt.",
-        false
+        false,
+        "are treated like adults."
       ],
       [
         "teilen die Strafe mit ihren Eltern.",
-        false
+        false,
+        "share the punishment with their parents."
       ],
       [
         "werden nicht bestraft.",
-        false
+        false,
+        "are not punished."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, young people from 14 years old are criminal. The\nmeans: young people who are 14 years and older and against\noffense,\n\n"
   },
   {
     "seq": "264",
@@ -6319,21 +7634,26 @@ const data = [
     "possible_answers": [
       [
         "am Rosenmontag",
-        true
+        true,
+        "on the Rose Monday"
       ],
       [
         "am Maifeiertag",
-        false
+        false,
+        "on May Day"
       ],
       [
         "beim Oktoberfest",
-        false
+        false,
+        "at the Oktoberfest"
       ],
       [
         "an Pfingsten",
-        false
+        false,
+        "at Pentecost"
       ]
-    ]
+    ],
+    "translated_question": "To what festival people in Germany wear colorful costumes\nand masks?\n"
   },
   {
     "seq": "265",
@@ -6343,21 +7663,26 @@ const data = [
     "possible_answers": [
       [
         "zum Einwohnermeldeamt",
-        false
+        false,
+        "inhabitant registration office"
       ],
       [
         "zum Ordnungsamt",
-        false
+        false,
+        "to the Order Office"
       ],
       [
         "zur Agentur f\u00fcr Arbeit",
-        false
+        false,
+        "to the Agency for Work"
       ],
       [
         "zum Standesamt",
-        true
+        true,
+        "to the Office"
       ]
-    ]
+    ],
+    "translated_question": "Where to go in Germany first when you get married\nwould you like?\n"
   },
   {
     "seq": "266",
@@ -6367,21 +7692,26 @@ const data = [
     "possible_answers": [
       [
         "wenn die Sonne untergeht",
-        false
+        false,
+        "when the sun goes down"
       ],
       [
         "wenn die Nachbarn schlafen gehen",
-        false
+        false,
+        "when neighbors go to sleep"
       ],
       [
         "um 0 Uhr, Mitternacht",
-        false
+        false,
+        "at 0 o'clock, midnight"
       ],
       [
         "um 22 Uhr",
-        true
+        true,
+        "at 22 o'clock"
       ]
-    ]
+    ],
+    "translated_question": "When does the statutory night rest begin in Germany?\n"
   },
   {
     "seq": "267",
@@ -6391,21 +7721,26 @@ const data = [
     "possible_answers": [
       [
         "Sie m\u00fcssen die Entscheidung der vollj\u00e4hrigen Tochter respektieren.",
-        true
+        true,
+        "You must respect the decision of the full-year daughter."
       ],
       [
         "Sie haben das Recht, die Tochter in die elterliche Wohnung zur\u00fcckzuholen.",
-        false
+        false,
+        "You have the right to return the daughter to the parental apartment."
       ],
       [
         "Sie k\u00f6nnen zur Polizei gehen und die Tochter anzeigen.",
-        false
+        false,
+        "You can go to the police and show the daughter."
       ],
       [
         "Sie suchen einen anderen Mann f\u00fcr die Tochter.",
-        false
+        false,
+        "They're looking for another man for the daughter."
       ]
-    ]
+    ],
+    "translated_question": "A young woman in Germany, 22 years old, lives with her boyfriend\ntogether. The parents of the woman don't find that good because they\nFriend doesn't like it. What can the parents do?\n"
   },
   {
     "seq": "268",
@@ -6415,21 +7750,26 @@ const data = [
     "possible_answers": [
       [
         "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den F\u00fchrerschein machen kann.",
-        false
+        false,
+        "She must live in Germany for at least ten years before she can make her license."
       ],
       [
         "Wenn sie kein Deutsch kann, darf sie keinen F\u00fchrerschein haben.",
-        false
+        false,
+        "If she can't get German, she can't have a license."
       ],
       [
         "Sie muss den F\u00fchrerschein in dem Land machen, in dem man ihre Sprache spricht.",
-        false
+        false,
+        "She has to make the driver's license in the country where you speak her language."
       ],
       [
         "Sie kann die Theorie-Pr\u00fcfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
-        true
+        true,
+        "She can do the theory exam in her mother tongue. There are more than ten languages to choose from."
       ]
-    ]
+    ],
+    "translated_question": "A young woman wants to make a license. She's afraid of\nExamination because their mother tongue is not German. What's right?\n"
   },
   {
     "seq": "269",
@@ -6439,21 +7779,26 @@ const data = [
     "possible_answers": [
       [
         "monatliches Taschengeld.",
-        false
+        false,
+        "monthly pocket money."
       ],
       [
         "einen Platz in einem Sportverein.",
-        false
+        false,
+        "a place in a sports club."
       ],
       [
         "einen Kindergartenplatz.",
-        true
+        true,
+        "a kindergarten place."
       ],
       [
         "einen Ferienpass.",
-        false
+        false,
+        "a holiday pass."
       ]
-    ]
+    ],
+    "translated_question": "In Germany, children from the age of three have up to\nErstein training a claim to ...\n"
   },
   {
     "seq": "270",
@@ -6463,21 +7808,26 @@ const data = [
     "possible_answers": [
       [
         "f\u00fcr den Religionsunterricht.",
-        false
+        false,
+        "for religious education."
       ],
       [
         "nur f\u00fcr Jugendliche.",
-        false
+        false,
+        "only for young people."
       ],
       [
         "zur Weiterbildung.",
-        true
+        true,
+        "for further training."
       ],
       [
         "nur f\u00fcr Rentner und Rentnerinnen.",
-        false
+        false,
+        "only for pensioners and pensioners."
       ]
-    ]
+    ],
+    "translated_question": "The Volkshochschule in Germany is an institution ...\n"
   },
   {
     "seq": "271",
@@ -6487,21 +7837,26 @@ const data = [
     "possible_answers": [
       [
         "bunte Eier verstecken",
-        false
+        false,
+        "hide colorful eggs"
       ],
       [
         "einen Tannenbaum schm\u00fccken",
-        true
+        true,
+        "decorate a pine tree"
       ],
       [
         "sich mit Masken und Kost\u00fcmen verkleiden",
-        false
+        false,
+        "dress up with masks and costumes"
       ],
       [
         "K\u00fcrbisse vor die T\u00fcr stellen",
-        false
+        false,
+        "Imagine pumpkins"
       ]
-    ]
+    ],
+    "translated_question": "What is a custom in Germany for Christmas?\n"
   },
   {
     "seq": "272",
@@ -6511,21 +7866,26 @@ const data = [
     "possible_answers": [
       [
         "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
-        false
+        false,
+        "Man and woman are divorced and live with new partners."
       ],
       [
         "Zwei Frauen leben zusammen.",
-        false
+        false,
+        "Two women live together."
       ],
       [
         "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
-        false
+        false,
+        "A single father lives with his two children."
       ],
       [
         "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
-        true
+        true,
+        "A man is married to two women at the same time."
       ]
-    ]
+    ],
+    "translated_question": "Soft life is not allowed in Germany ?\n"
   },
   {
     "seq": "273",
@@ -6535,21 +7895,26 @@ const data = [
     "possible_answers": [
       [
         "zum Arzt / zur \u00c4rztin.",
-        false
+        false,
+        "to the doctor."
       ],
       [
         "zum Gesundheitsamt.",
-        false
+        false,
+        "to the health office."
       ],
       [
         "zum Einwohnermeldeamt.",
-        false
+        false,
+        "to the population registration office."
       ],
       [
         "zum Jugendamt.",
-        true
+        true,
+        "to the youth office."
       ]
-    ]
+    ],
+    "translated_question": "In case of educational problems, go to Germany ...\n"
   },
   {
     "seq": "274",
@@ -6559,21 +7924,26 @@ const data = [
     "possible_answers": [
       [
         "das Schweigerecht",
-        false
+        false,
+        "the right to silence"
       ],
       [
         "das Briefgeheimnis",
-        true
+        true,
+        "the secret of the letter"
       ],
       [
         "die Schweigepflicht",
-        false
+        false,
+        "the obligation to remain silent"
       ],
       [
         "die Meinungsfreiheit",
-        false
+        false,
+        "freedom of expression"
       ]
-    ]
+    ],
+    "translated_question": "In Germany you have deliberately opened a letter to a\nother person is addressed. What did you not consider?\n"
   },
   {
     "seq": "275",
@@ -6583,21 +7953,26 @@ const data = [
     "possible_answers": [
       [
         "die Einwilligung der Eltern",
-        false
+        false,
+        "the consent of parents"
       ],
       [
         "ein Attest eines Arztes / einer \u00c4rztin",
-        false
+        false,
+        "an attest of a doctor"
       ],
       [
         "die Einwilligung der Kinder",
-        false
+        false,
+        "the consent of the children"
       ],
       [
         "die Unterst\u00fctzung eines Anwalts / einer Anw\u00e4ltin",
-        true
+        true,
+        "support of a lawyer / lawyer"
       ]
-    ]
+    ],
+    "translated_question": "What do you need for a divorce in Germany?\n"
   },
   {
     "seq": "276",
@@ -6607,21 +7982,26 @@ const data = [
     "possible_answers": [
       [
         "Ich kann nichts tun.",
-        false
+        false,
+        "I can't do anything."
       ],
       [
         "Ich muss mir diese Behandlung gefallen lassen.",
-        false
+        false,
+        "I have to let this treatment please me."
       ],
       [
         "Ich drohe der Person.",
-        false
+        false,
+        "I threaten the person."
       ],
       [
         "Ich kann mich beim Beh\u00f6rdenleiter / bei der Beh\u00f6rdenleiterin beschweren.",
-        true
+        true,
+        "I can complain to the head of the authorities."
       ]
-    ]
+    ],
+    "translated_question": "What should you do if you are from your contact person\n\u201cActivity partner in a German authority ill treated\nare you?\n"
   },
   {
     "seq": "277",
@@ -6631,21 +8011,26 @@ const data = [
     "possible_answers": [
       [
         "kein Englisch spricht.",
-        false
+        false,
+        "does not speak English."
       ],
       [
         "zu hohe Gehaltsvorstellungen hat.",
-        false
+        false,
+        "has too high salary expectations."
       ],
       [
         "keine Erfahrungen in diesem Beruf hat.",
-        false
+        false,
+        "has no experience in this profession."
       ],
       [
         "Mutter ist.",
-        true
+        true,
+        "Mother is."
       ]
-    ]
+    ],
+    "translated_question": "A woman who has a two-year-old child is applying in Germany\na place. What is an example of discrimination? She gets\nonly because they...\n"
   },
   {
     "seq": "278",
@@ -6655,21 +8040,26 @@ const data = [
     "possible_answers": [
       [
         "im Rollstuhl sitzt.",
-        true
+        true,
+        "sitting in a wheelchair."
       ],
       [
         "keine Erfahrung hat.",
-        false
+        false,
+        "has no experience."
       ],
       [
         "zu hohe Gehaltsvorstellungen hat.",
-        false
+        false,
+        "has too high salary expectations."
       ],
       [
         "kein Englisch spricht.",
-        false
+        false,
+        "does not speak English."
       ]
-    ]
+    ],
+    "translated_question": "A man in a wheelchair has applied to a place as a bookkeeper\nWhat is an example of discrimination? He only gets the place\nnot because he.\n"
   },
   {
     "seq": "279",
@@ -6679,21 +8069,26 @@ const data = [
     "possible_answers": [
       [
         "Regeln f\u00fcr die Benutzung \u00f6ffentlicher Verkehrsmittel.",
-        false
+        false,
+        "Rules for the use of public transport."
       ],
       [
         "alle Mieter und Mieterinnen im Haus.",
-        false
+        false,
+        "all tenants in the house."
       ],
       [
         "Regeln, an die sich alle Bewohner und Bewohnerinnen halten m\u00fcssen.",
-        true
+        true,
+        "Rules to which all residents must adhere."
       ],
       [
         "die Adresse des n\u00e4chsten Ordnungsamtes.",
-        false
+        false,
+        "the address of the next order."
       ]
-    ]
+    ],
+    "translated_question": "There is a 'home order' in most of the rental houses in Germany.\nWhat is in such a \u201chome order\u201d? She calls\n"
   },
   {
     "seq": "280",
@@ -6703,21 +8098,26 @@ const data = [
     "possible_answers": [
       [
         "nichts machen.",
-        false
+        false,
+        "don't do anything."
       ],
       [
         "den Bescheid wegwerfen.",
-        false
+        false,
+        "throw away the message."
       ],
       [
         "Einspruch einlegen.",
-        true
+        true,
+        "Objection."
       ],
       [
         "warten, bis ein anderer Bescheid kommt.",
-        false
+        false,
+        "Wait till another man comes in."
       ]
-    ]
+    ],
+    "translated_question": "If you are in Germany against a wrong tax decision\nyou have to...\n"
   },
   {
     "seq": "281",
@@ -6727,21 +8127,26 @@ const data = [
     "possible_answers": [
       [
         "Meinungsfreiheit.",
-        false
+        false,
+        "Freedom of expression."
       ],
       [
         "Gleichbehandlung.",
-        true
+        true,
+        "Equal treatment."
       ],
       [
         "Versammlungsfreiheit.",
-        false
+        false,
+        "Freedom of assembly."
       ],
       [
         "Freiz\u00fcgigkeit.",
-        false
+        false,
+        "Free movement."
       ]
-    ]
+    ],
+    "translated_question": "Two friends want to go to a public swimming pool in Germany\nBoth have a dark skin color and are therefore not\n\nin. What right is being violated in this situation? The\nLaw\n\n"
   },
   {
     "seq": "282",
@@ -6751,21 +8156,26 @@ const data = [
     "possible_answers": [
       [
         "Vereinstrainer / Vereinstrainerin",
-        false
+        false,
+        "Association coach / Vereinstrainer"
       ],
       [
         "Wahlhelfer / Wahlhelferin",
-        true
+        true,
+        "Electoral helper"
       ],
       [
         "Bibliotheksaufsicht",
-        false
+        false,
+        "Library supervision"
       ],
       [
         "Lehrer / Lehrerin",
-        false
+        false,
+        "Teacher / Teacher"
       ]
-    ]
+    ],
+    "translated_question": "What honorary office must German citizens /\ntake over female citizens when they are asked to do so\nare you?\n"
   },
   {
     "seq": "283",
@@ -6775,21 +8185,26 @@ const data = [
     "possible_answers": [
       [
         "Ich lasse die Rechnung liegen.",
-        false
+        false,
+        "I'll leave the bill."
       ],
       [
         "Ich lege Widerspruch bei der Beh\u00f6rde ein.",
-        true
+        true,
+        "I object to the authority."
       ],
       [
         "Ich schicke die Rechnung an die Beh\u00f6rde zur\u00fcck.",
-        false
+        false,
+        "I'll send the bill back to the authority."
       ],
       [
         "Ich gehe mit der Rechnung zum Finanzamt.",
-        false
+        false,
+        "I'm going to the tax office with the bill."
       ]
-    ]
+    ],
+    "translated_question": "What do you do if you have a false bill from a German\nGet authority?\n"
   },
   {
     "seq": "284",
@@ -6799,21 +8214,26 @@ const data = [
     "possible_answers": [
       [
         "Es ist egal, was man lernt.",
-        false
+        false,
+        "It doesn't matter what you learn."
       ],
       [
         "Erwachsene m\u00fcssen auch nach der Ausbildung immer weiter lernen.",
-        true
+        true,
+        "Adults must continue to learn after training."
       ],
       [
         "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
-        false
+        false,
+        "Children learn everything important in the profession at school. After school, you don't have to learn."
       ],
       [
         "Alle m\u00fcssen fr\u00fcher aufh\u00f6ren zu arbeiten, weil sich alles \u00e4ndert.",
-        false
+        false,
+        "Everyone has to stop working early because everything changes."
       ]
-    ]
+    ],
+    "translated_question": "What needs to be done changes in the future\nfast. What can you do?\n"
   },
   {
     "seq": "285",
@@ -6823,21 +8243,26 @@ const data = [
     "possible_answers": [
       [
         "Lohnsteuer",
-        false
+        false,
+        "Benefit tax"
       ],
       [
         "Beitr\u00e4ge zur Arbeitslosenversicherung",
-        false
+        false,
+        "Contributions to unemployment insurance"
       ],
       [
         "Beitr\u00e4ge zur Renten- und Krankenversicherung",
-        false
+        false,
+        "Contributions to pension and health insurance"
       ],
       [
         "Umsatzsteuer",
-        true
+        true,
+        "Value added tax"
       ]
-    ]
+    ],
+    "translated_question": "Ms. Frost works as a permanent employee in an office. What?\nDoesn't she have to pay for her salary?\n"
   },
   {
     "seq": "286",
@@ -6847,21 +8272,26 @@ const data = [
     "possible_answers": [
       [
         "der Betriebsrat",
-        true
+        true,
+        "the works council"
       ],
       [
         "der Betriebspr\u00fcfer / die Betriebspr\u00fcferin",
-        false
+        false,
+        "the auditor / the auditor"
       ],
       [
         "die Betriebsgruppe",
-        false
+        false,
+        "the operating group"
       ],
       [
         "das Betriebsmanagement",
-        false
+        false,
+        "the operational management"
       ]
-    ]
+    ],
+    "translated_question": "What organization in a company helps workers and\n\u201cEmployers with problems with the employer\n\u201cEmployer?\n"
   },
   {
     "seq": "287",
@@ -6871,21 +8301,26 @@ const data = [
     "possible_answers": [
       [
         "die Gehaltszahlungen",
-        false
+        false,
+        "the pays"
       ],
       [
         "die Arbeitszeit",
-        false
+        false,
+        "Working hours"
       ],
       [
         "die K\u00fcndigungsfrist",
-        true
+        true,
+        "the notice period"
       ],
       [
         "die Vers\u00edcherungspflicht",
-        false
+        false,
+        "the obligation to provide services"
       ]
-    ]
+    ],
+    "translated_question": "You would like to work with a company in Germany\nend. What do you need to consider?\n"
   },
   {
     "seq": "288",
@@ -6895,21 +8330,26 @@ const data = [
     "possible_answers": [
       [
         "aus der Mitgliedschaft in der Europ\u00e4ischen Union (EU)",
-        false
+        false,
+        "from membership in the European Union (EU)"
       ],
       [
         "aus den nationalsozialistischen Verbrechen gegen Juden",
-        true
+        true,
+        "from the Nazi crimes against Jews"
       ],
       [
         "aus dem Grundgesetz der Bundesrepublik Deutschland",
-        false
+        false,
+        "from the Basic Law of the Federal Republic of Germany"
       ],
       [
         "aus der christlichen Tradition",
-        false
+        false,
+        "from Christian tradition"
       ]
-    ]
+    ],
+    "translated_question": "What is the reason for Germany's special responsibility for Israel?"
   },
   {
     "seq": "289",
@@ -6919,21 +8359,26 @@ const data = [
     "possible_answers": [
       [
         "seine Deutschkenntnisse zu gering sind.",
-        false
+        false,
+        "his knowledge of German is too low."
       ],
       [
         "er zu hohe Gehaltsvorstellungen hat.",
-        false
+        false,
+        "he has too high salary expectations."
       ],
       [
         "er eine dunkle Haut hat.",
-        true
+        true,
+        "he has a dark skin."
       ],
       [
         "er keine Erfahrungen im Beruf hat.",
-        false
+        false,
+        "he has no experience in the profession."
       ]
-    ]
+    ],
+    "translated_question": "A man with a dark skin colour turns around a place as a waiter in\na restaurant in Germany. What is an example of\nDiscrimination? He doesn't get the job because...\n"
   },
   {
     "seq": "290",
@@ -6943,21 +8388,26 @@ const data = [
     "possible_answers": [
       [
         "eine Anzeige schreiben",
-        false
+        false,
+        "write an ad"
       ],
       [
         "den Fernseher reklamieren",
-        true
+        true,
+        "the TV"
       ],
       [
         "das Ger\u00e4t ungefragt austauschen",
-        false
+        false,
+        "exchange the device unquestioned"
       ],
       [
         "die Garantie verl\u00e4ngern",
-        false
+        false,
+        "extend the guarantee"
       ]
-    ]
+    ],
+    "translated_question": "They bought a TV in Germany. Packing at home\nShe's running the TV, but he doesn't work. The TV is\nbroken. What can you do?\n"
   },
   {
     "seq": "291",
@@ -6967,21 +8417,26 @@ const data = [
     "possible_answers": [
       [
         "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer gekn\u00fcpft ist.",
-        true
+        true,
+        "there is a church tax linked to income and wage tax."
       ],
       [
         "das f\u00fcr die Statistik in Deutschland wichtig ist.",
-        false
+        false,
+        "which is important for statistics in Germany."
       ],
       [
         "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche geh\u00f6rt.",
-        false
+        false,
+        "you have to pay more taxes if you don't belong to a church."
       ],
       [
         "die Kirche f\u00fcr die Steuererkl\u00e4rung verantwortlich ist.",
-        false
+        false,
+        "the church is responsible for the tax return."
       ]
-    ]
+    ],
+    "translated_question": "Why do you need a tax return in Germany?\nwhether you belong to a church or not? Because...\n"
   },
   {
     "seq": "292",
@@ -6991,21 +8446,26 @@ const data = [
     "possible_answers": [
       [
         "Es d\u00fcrfen keine Moscheen gebaut werden.",
-        false
+        false,
+        "No mosques may be built."
       ],
       [
         "Alle Menschen glauben an Gott.",
-        false
+        false,
+        "All people believe in God."
       ],
       [
         "Jeder kann glauben, was er m\u00f6chte.",
-        true
+        true,
+        "Everyone can believe what he wants."
       ],
       [
         "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
-        false
+        false,
+        "The state decides what God believes in people."
       ]
-    ]
+    ],
+    "translated_question": "People in Germany live according to the principle of religious\nTolerance. What does that mean?\n"
   },
   {
     "seq": "293",
@@ -7015,21 +8475,26 @@ const data = [
     "possible_answers": [
       [
         "K\u00fcrbisse vor die T\u00fcr stellen",
-        false
+        false,
+        "Imagine pumpkins"
       ],
       [
         "einen Tannenbaum schm\u00fccken",
-        false
+        false,
+        "decorate a pine tree"
       ],
       [
         "Eier bemalen",
-        true
+        true,
+        "Paint eggs"
       ],
       [
         "Raketen in die Luft schie\u00dfen",
-        false
+        false,
+        "Shoot missiles in the air"
       ]
-    ]
+    ],
+    "translated_question": "What is a custom in Germany for Easter?\n"
   },
   {
     "seq": "294",
@@ -7039,21 +8504,26 @@ const data = [
     "possible_answers": [
       [
         "christlicher Feiertag.",
-        true
+        true,
+        "Christian holiday."
       ],
       [
         "deutscher Gedenktag.",
-        false
+        false,
+        "German commemorative day."
       ],
       [
         "internationaler Trauertag.",
-        false
+        false,
+        "international wedding day."
       ],
       [
         "bayerischer Brauch.",
-        false
+        false,
+        "Bavarian custom."
       ]
-    ]
+    ],
+    "translated_question": "Pentecost is a...\n"
   },
   {
     "seq": "295",
@@ -7063,21 +8533,26 @@ const data = [
     "possible_answers": [
       [
         "der Hinduismus",
-        false
+        false,
+        "the Hinduism"
       ],
       [
         "das Christentum",
-        true
+        true,
+        "Christianity"
       ],
       [
         "der Buddhismus",
-        false
+        false,
+        "of Buddhism"
       ],
       [
         "der Islam",
-        false
+        false,
+        "Islam"
       ]
-    ]
+    ],
+    "translated_question": "Soft religion has shaped European and German culture?\n"
   },
   {
     "seq": "296",
@@ -7087,21 +8562,26 @@ const data = [
     "possible_answers": [
       [
         "den Bu\u00df- und Bettag.",
-        false
+        false,
+        "the penance and beggar."
       ],
       [
         "das Erntedankfest.",
-        false
+        false,
+        "the Thanksgiving Festival."
       ],
       [
         "die Adventszeit.",
-        true
+        true,
+        "the Advent season."
       ],
       [
         "Allerheiligen.",
-        false
+        false,
+        "All holy."
       ]
-    ]
+    ],
+    "translated_question": "The last four weeks before Christmas\n"
   },
   {
     "seq": "297",
@@ -7111,21 +8591,26 @@ const data = [
     "possible_answers": [
       [
         "Italien",
-        false
+        false,
+        "Italy"
       ],
       [
         "Polen",
-        false
+        false,
+        "Poland"
       ],
       [
         "Marokko",
-        false
+        false,
+        "Morocco"
       ],
       [
         "T\u00fcrkei",
-        true
+        true,
+        "Turkey"
       ]
-    ]
+    ],
+    "translated_question": "From what country are most migrants / migrant women after\nGermany came?\n"
   },
   {
     "seq": "298",
@@ -7135,21 +8620,26 @@ const data = [
     "possible_answers": [
       [
         "Vietnam, Polen, Mosambik.",
-        true
+        true,
+        "Vietnam, Poland, Mozambique."
       ],
       [
         "Frankreich, Rum\u00e4nien, Somalia.",
-        false
+        false,
+        "France, Romania, Somalia."
       ],
       [
         "Chile, Ungarn, Simbabwe.",
-        false
+        false,
+        "Chile, Hungary, Zimbabwe."
       ],
       [
         "Nordkorea, Mexiko, \u00c4gypten.",
-        false
+        false,
+        "North Korea, Mexico, Egypt."
       ]
-    ]
+    ],
+    "translated_question": "in the GDR, mainly migrants lived...\n"
   },
   {
     "seq": "299",
@@ -7159,21 +8649,26 @@ const data = [
     "possible_answers": [
       [
         "Schwarzarbeiter / Schwarzarbeiterinnen.",
-        false
+        false,
+        "Black workers / black workers."
       ],
       [
         "Gastarbeiter / Gastarbeiterinnen.",
-        true
+        true,
+        "Gastarbeiter / Gastarbeiterinnen."
       ],
       [
         "Zeitarbeiter /Zeitarbeiterinnen.",
-        false
+        false,
+        "Temporary workers."
       ],
       [
         "Schichtarbeiter / Schichtarbeiterinnen.",
-        false
+        false,
+        "shiftworkers / shiftworkers."
       ]
-    ]
+    ],
+    "translated_question": "Foreign workers in the\n50s and 60s of the Federal Republic of Germany\nwere advertised, they were called...\n"
   },
   {
     "seq": "300",
@@ -7183,21 +8678,26 @@ const data = [
     "possible_answers": [
       [
         "Italien",
-        true
+        true,
+        "Italy"
       ],
       [
         "Spanien",
-        false
+        false,
+        "Spain"
       ],
       [
         "Portugal",
-        false
+        false,
+        "Portugal"
       ],
       [
         "T\u00fcrkei",
-        false
+        false,
+        "Turkey"
       ]
-    ]
+    ],
+    "translated_question": "\u201cThe first guest workers came from soft land\nGuest workers in the Federal Republic of Germany?\n"
   },
   {
     "seq": "301",
@@ -7207,21 +8707,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        false
+        false,
+        "1"
       ],
       [
         "2",
-        false
+        false,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        true
+        true,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "Which coat of arms belongs to the federal state of Berlin?\n\n"
   },
   {
     "seq": "302",
@@ -7231,21 +8736,26 @@ const data = [
     "possible_answers": [
       [
         "Altona",
-        false
+        false,
+        "Altona"
       ],
       [
         "Prignitz",
-        false
+        false,
+        "Prignitz"
       ],
       [
         "Pankow",
-        true
+        true,
+        "Pankow"
       ],
       [
         "Mecklenburgische Seenplatte",
-        false
+        false,
+        "Mecklenburg Lake District"
       ]
-    ]
+    ],
+    "translated_question": "What is a district of Berlin?\n"
   },
   {
     "seq": "303",
@@ -7255,21 +8765,26 @@ const data = [
     "possible_answers": [
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        false
+        false,
+        "4"
       ],
       [
         "5",
-        true
+        true,
+        "5"
       ],
       [
         "6",
-        false
+        false,
+        "6"
       ]
-    ]
+    ],
+    "translated_question": "How many years will the Land Parliament be elected in Berlin?\n"
   },
   {
     "seq": "304",
@@ -7279,21 +8794,26 @@ const data = [
     "possible_answers": [
       [
         "14",
-        false
+        false,
+        "14"
       ],
       [
         "16",
-        true
+        true,
+        "16"
       ],
       [
         "18",
-        false
+        false,
+        "18"
       ],
       [
         "20",
-        false
+        false,
+        "20"
       ]
-    ]
+    ],
+    "translated_question": "From what age can you choose in Berlin (choice)\nof the District Orders) choose?\n"
   },
   {
     "seq": "305",
@@ -7303,21 +8823,26 @@ const data = [
     "possible_answers": [
       [
         "blau-wei\u00df-rot",
-        false
+        false,
+        "blue-white red"
       ],
       [
         "wei\u00df-rot",
-        true
+        true,
+        "white-red"
       ],
       [
         "gr\u00fcn-wei\u00df-rot",
-        false
+        false,
+        "green-white-red"
       ],
       [
         "schwarz-gold",
-        false
+        false,
+        "black-gold"
       ]
-    ]
+    ],
+    "translated_question": "The national flag of Berlin has soft colors?\n"
   },
   {
     "seq": "306",
@@ -7327,21 +8852,26 @@ const data = [
     "possible_answers": [
       [
         "beim Ordnungsamt der Gemeinde",
-        false
+        false,
+        "at the municipal office"
       ],
       [
         "bei den Kirchen",
-        false
+        false,
+        "in the Churches"
       ],
       [
         "bei der Verbraucherzentrale",
-        false
+        false,
+        "at the consumer centre"
       ],
       [
         "bei der Landeszentrale f\u00fcr politische Bildung",
-        true
+        true,
+        "at the national headquarters for political education"
       ]
-    ]
+    ],
+    "translated_question": "Where can you inform yourself about political issues in Berlin?\n"
   },
   {
     "seq": "307",
@@ -7351,21 +8881,26 @@ const data = [
     "possible_answers": [
       [
         "Berlin",
-        true
+        true,
+        "Berlin"
       ],
       [
         "Saarland",
-        false
+        false,
+        "Saarland"
       ],
       [
         "Brandenburg",
-        false
+        false,
+        "Brandenburg"
       ],
       [
         "Hessen",
-        false
+        false,
+        "Eat"
       ]
-    ]
+    ],
+    "translated_question": "What state is a city state?\n"
   },
   {
     "seq": "308",
@@ -7375,21 +8910,26 @@ const data = [
     "possible_answers": [
       [
         "1",
-        false
+        false,
+        "1"
       ],
       [
         "2",
-        false
+        false,
+        "2"
       ],
       [
         "3",
-        false
+        false,
+        "3"
       ],
       [
         "4",
-        true
+        true,
+        "4"
       ]
-    ]
+    ],
+    "translated_question": "Which country is Berlin?\n\n"
   },
   {
     "seq": "309",
@@ -7399,21 +8939,26 @@ const data = [
     "possible_answers": [
       [
         "Ministerpr\u00e4sident/ Ministerpr\u00e4sidentin",
-        false
+        false,
+        "Prime Minister/ Prime Minister"
       ],
       [
         "Oberb\u00fcrgermeister/ Oberb\u00fcrgermeisterin",
-        false
+        false,
+        "Mayor/Mayor"
       ],
       [
         "Pr\u00e4sident/ Pr\u00e4sidentin des Senats",
-        false
+        false,
+        "President/President of the Senate"
       ],
       [
         "Regierender B\u00fcrgermeister/ Regierende B\u00fcrgermeisterin",
-        true
+        true,
+        "Regulatory Mayor/ Regulatory Mayor"
       ]
-    ]
+    ],
+    "translated_question": "How to call the Head of Government\nCity State Berlin?\n"
   },
   {
     "seq": "310",
@@ -7423,20 +8968,25 @@ const data = [
     "possible_answers": [
       [
         "Finanzsenator / Finanzsenatorin",
-        false
+        false,
+        "Financial Senator / Financial Senator"
       ],
       [
         "Innensenator / Innensenatorin",
-        false
+        false,
+        "inner senator / inner senator"
       ],
       [
         "Senator / Senatorin f\u00fcr Au\u00dfenbeziehungen",
-        true
+        true,
+        "Senator for External Relations"
       ],
       [
         "Justizsenator / Justizsenatorin",
-        false
+        false,
+        "Justice Senator / Justice Senator"
       ]
-    ]
+    ],
+    "translated_question": "Soft senator / soft senator doesn't have Berlin?\n"
   }
-];
+]
