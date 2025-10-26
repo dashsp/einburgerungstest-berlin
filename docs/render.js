@@ -1,6 +1,15 @@
-let currentIndex = 0; // Tracks the current item in the array
+const url = new URL(window.location);
+let currentIndex = (url.searchParams.get('index') || 1) - 1; // Tracks the current item in the array
 let userSelectionIndex = null; // Tracks the user's selected answer
 
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+}
 // Function to generate the HTML card structure for a single quiz item.
 function generateQuizHtml(quizData) {
   const cardDiv = document.createElement('div');
@@ -20,10 +29,44 @@ function generateQuizHtml(quizData) {
   const cardBodyDiv = document.createElement('div');
   cardBodyDiv.className = 'card-body p-0';
 
+  // Unique ID for the single collapse target
+  const collapseTargetId = `all-extra-text-collapse-${quizData.seq}`;
+
+  const questionContainer = document.createElement('div');
+  questionContainer.className = 'd-flex align-items-center justify-content-between';
+
   const question = document.createElement('h5');
   question.className = 'card-title fw-bold text-dark';
   question.textContent = `${quizData.seq}. ${quizData.question}`;
-  cardBodyDiv.appendChild(question);
+
+  const infoButton = document.createElement('button');
+  infoButton.className = 'btn btn-sm btn-outline-secondary ms-2 p-1';
+  infoButton.type = 'button';
+  // Bootstrap attributes for toggling a collapse element
+  infoButton.setAttribute('data-bs-toggle', 'collapse');
+  infoButton.setAttribute('data-bs-target', `.${collapseTargetId}`);
+  infoButton.setAttribute('aria-expanded', 'false');
+  infoButton.setAttribute('aria-controls', collapseTargetId);
+  infoButton.innerHTML = '<span class="fw-bold">i</span>'; // Simple 'i' for info
+  infoButton.style.width = '24px'; // Small, fixed size
+  infoButton.style.height = '24px';
+  infoButton.style.lineHeight = '1';
+
+  questionContainer.appendChild(question);
+  questionContainer.appendChild(infoButton);
+  cardBodyDiv.appendChild(questionContainer);
+
+  const collapseDiv = document.createElement('div');
+  collapseDiv.className = `collapse mt-2 ${collapseTargetId}`;
+  collapseDiv.id = collapseTargetId;
+
+  const extraTextCard = document.createElement('div');
+  extraTextCard.className = 'card card-body p-2 text-light small bg-secondary';
+  // Placeholder text - replace this with quizData.hint or similar field if available
+  extraTextCard.textContent = quizData.translated_question;
+
+  collapseDiv.appendChild(extraTextCard);
+  cardBodyDiv.appendChild(collapseDiv);
 
   const answerList = document.createElement('ul');
   answerList.className = 'list-group list-group-flush mt-3';
@@ -37,6 +80,19 @@ function generateQuizHtml(quizData) {
     p.className = 'my-1 text-muted';
     p.textContent = `- ${answer[0]}`;
     li.appendChild(p);
+
+    const collapseDiv = document.createElement('div');
+    // IMPORTANT: Use the common class here so the button toggles all of them
+    collapseDiv.className = `collapse ${collapseTargetId} pt-2`;
+
+    const extraTextCard = document.createElement('div');
+    extraTextCard.className = 'card card-body p-2 text-light small bg-secondary border-0';
+    // Placeholder text - ideally this would come from an answer-specific field in your JSON
+    extraTextCard.textContent = answer[2];
+
+    collapseDiv.appendChild(extraTextCard);
+
+    li.appendChild(collapseDiv); // Collapse is nested inside the list item
 
     // Add a click listener to each answer choice
     li.addEventListener('click', () => {
@@ -65,7 +121,7 @@ function updateView() {
   const nextButton = document.getElementById('next-btn');
   const checkButton = document.getElementById('check-btn');
 
-  if (!container || !data || data.length === 0) {
+  if (!container || !quizCollection || quizCollection.length === 0) {
     if (container) container.innerHTML = '<p class="text-danger">No quiz data available.</p>';
     if (prevButton) prevButton.disabled = true;
     if (nextButton) nextButton.disabled = true;
@@ -73,12 +129,16 @@ function updateView() {
     return;
   }
 
+  url.searchParams.set("index", currentIndex + 1);
+  window.history.pushState({}, "", url);
+  document.title = `Einbürgerungstest: Q${currentIndex + 1}`;
+
   // Reset user selection for the new question
   userSelectionIndex = null;
 
   // 1. Update the quiz content
   container.innerHTML = '';
-  const quizElement = generateQuizHtml(data[currentIndex]);
+  const quizElement = generateQuizHtml(quizCollection[currentIndex]);
   container.appendChild(quizElement);
 
   // 2. Update button states
@@ -86,7 +146,7 @@ function updateView() {
     prevButton.disabled = currentIndex === 0;
   }
   if (nextButton) {
-    nextButton.disabled = currentIndex === data.length - 1;
+    nextButton.disabled = currentIndex === quizCollection.length - 1;
     nextButton.classList.remove('btn-success');
     nextButton.textContent = 'Next →';
   }
@@ -115,10 +175,10 @@ function createNavigationButtons() {
   nextButton.className = 'btn btn-primary shadow-sm px-4 mx-3 rounded-full';
   nextButton.textContent = 'Next →';
   nextButton.addEventListener('click', () => {
-    if (currentIndex < data.length - 1) {
+    if (currentIndex < quizCollection.length - 1) {
       currentIndex++;
       updateView();
-    } else if (currentIndex === data.length - 1) {
+    } else if (currentIndex === quizCollection.length - 1) {
       // New messaging for the end of the quiz
       displayMessage("You have completed the quiz!", 'info');
     }
@@ -136,7 +196,7 @@ function createNavigationButtons() {
       return;
     }
 
-    const currentQuestion = data[currentIndex];
+    const currentQuestion = quizCollection[currentIndex];
     const isCorrect = currentQuestion.possible_answers[userSelectionIndex][1];
 
     const allAnswers = document.querySelectorAll('#quiz-container .list-group-item');
@@ -170,6 +230,9 @@ function createNavigationButtons() {
 }
 // Initial setup on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
+  if (url.searchParams.has('random')) {
+    shuffleArray(quizCollection);
+  }
   createNavigationButtons();
   updateView();
 });
