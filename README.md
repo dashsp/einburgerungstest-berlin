@@ -5,6 +5,6 @@
 
 Vist: 
 - Sequential: https://dashsp.github.io/einburgerungstest-berlin
-- Randomized: https://dashsp.github.io/einburgerungstest-berlin?ramdon=1
+- Randomized: https://dashsp.github.io/einburgerungstest-berlin?random=1
 
 
