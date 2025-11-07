@@ -5,5 +5,5 @@
 - Randomized quiz
 - Mock quiz
 
-Vist: https://dashsp.github.io/einburgerungstest-berlin
+Vist: https://dashsp.github.io/einburgerungstest-berlin/
 
