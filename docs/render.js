@@ -2,6 +2,7 @@ const url = new URL(window.location);
 let currentIndex = (url.searchParams.get('index') || 1) - 1; // Tracks the current item in the array
 let userSelectionIndex = null; // Tracks the user's selected answer
 let quizCollection = Array.from(QUIZ_DATA.keys());
+let correctCount = 0;
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
@@ -212,11 +213,16 @@ function createNavigationButtons() {
     // Provide feedback for the user's selection
     if (isCorrect) {
       // displayMessage("Correct!", 'success');
+      correctCount++;
       allAnswers[userSelectionIndex].classList.remove('list-group-item-info', 'bg-blue-100');
     } else {
       // displayMessage("Incorrect!", 'danger');
       allAnswers[userSelectionIndex].classList.remove('list-group-item-info', 'bg-blue-100');
       allAnswers[userSelectionIndex].classList.add('list-group-item-danger', 'bg-red-100');
+    }
+    if (currentIndex == quizCollection.length - 1) {
+      displayMessage(`Correctness: ${(correctCount / quizCollection.length).toFixed(2) * 100}% (${correctCount} / ${quizCollection.length})`, 'info', false)
+      prevButton.disabled = true;
     }
 
     // Disable all answers and the check button after a check
@@ -245,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
   updateView();
 });
 
-function displayMessage(message, type) {
+function displayMessage(message, type, fade = true) {
   // Check for an existing message container and remove it to prevent stacking
   const existingMessage = document.getElementById('message-container');
   if (existingMessage) {
@@ -261,10 +267,12 @@ function displayMessage(message, type) {
   // Insert the new alert after the quiz container
   quizContainer.parentNode.insertBefore(wrapper, quizContainer.nextSibling);
 
-  // Automatically remove the alert after a few seconds
-  setTimeout(() => {
-    wrapper.classList.remove('show');
-    wrapper.classList.add('fade');
-    setTimeout(() => wrapper.remove(), 150); // Match Bootstrap's fade transition time
-  }, 3000); // 3 seconds
+  if (fade) {
+    // Automatically remove the alert after a few seconds
+    setTimeout(() => {
+      wrapper.classList.remove('show');
+      wrapper.classList.add('fade');
+      setTimeout(() => wrapper.remove(), 150); // Match Bootstrap's fade transition time
+    }, 3000); // 3 seconds
+  }
 }
