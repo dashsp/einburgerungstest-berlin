@@ -1,10 +1,9 @@
 ### Berlin Einbürgerungstest
 
 - Provide translated text
-- Randomize quiz
+- Sequential quiz
+- Randomized quiz
+- Mock quiz
 
-Vist: 
-- Sequential: https://dashsp.github.io/einburgerungstest-berlin
-- Randomized: https://dashsp.github.io/einburgerungstest-berlin?random=1
-
+Vist: https://dashsp.github.io/einburgerungstest-berlin
 
