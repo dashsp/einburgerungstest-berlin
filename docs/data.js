@@ -1,4 +1,4 @@
-const quizCollection = [
+const QUIZ_DATA = [
   {
     "seq": "1",
     "image_src": "https://oet.bamf.de/ords/oetut/f?p=514:30::APPLICATION_PROCESS%3Dshow_pag_bild:::F514_PAG_THUMBNAIL,F514_PAG_BILD:,17412",

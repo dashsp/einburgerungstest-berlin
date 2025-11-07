@@ -1,6 +1,7 @@
 const url = new URL(window.location);
 let currentIndex = (url.searchParams.get('index') || 1) - 1; // Tracks the current item in the array
 let userSelectionIndex = null; // Tracks the user's selected answer
+let quizCollection = Array.from(QUIZ_DATA.keys());
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
@@ -131,14 +132,14 @@ function updateView() {
 
   url.searchParams.set("index", currentIndex + 1);
   window.history.pushState({}, "", url);
-  document.title = `Einbürgerungstest: Q${currentIndex + 1}`;
+  document.title = `Einbürgerungstest: ${currentIndex + 1} / ${quizCollection.length}`;
 
   // Reset user selection for the new question
   userSelectionIndex = null;
 
   // 1. Update the quiz content
   container.innerHTML = '';
-  const quizElement = generateQuizHtml(quizCollection[currentIndex]);
+  const quizElement = generateQuizHtml(QUIZ_DATA[quizCollection[currentIndex]]);
   container.appendChild(quizElement);
 
   // 2. Update button states
@@ -196,7 +197,7 @@ function createNavigationButtons() {
       return;
     }
 
-    const currentQuestion = quizCollection[currentIndex];
+    const currentQuestion = QUIZ_DATA[quizCollection[currentIndex]];
     const isCorrect = currentQuestion.possible_answers[userSelectionIndex][1];
 
     const allAnswers = document.querySelectorAll('#quiz-container .list-group-item');
@@ -232,7 +233,14 @@ function createNavigationButtons() {
 document.addEventListener('DOMContentLoaded', () => {
   if (url.searchParams.has('random')) {
     shuffleArray(quizCollection);
+  } else if (url.searchParams.has('mock')) {
+    let state = Array.from(quizCollection.slice(0, 300));
+    let berlin = Array.from(quizCollection.slice(300, quizCollection.length));
+    shuffleArray(state);
+    shuffleArray(berlin);
+    quizCollection = state.slice(0, 30).concat(berlin.slice(0, 3));
   }
+
   createNavigationButtons();
   updateView();
 });
