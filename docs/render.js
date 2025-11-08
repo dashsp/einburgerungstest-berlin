@@ -122,6 +122,10 @@ function updateView() {
   const prevButton = document.getElementById('prev-btn');
   const nextButton = document.getElementById('next-btn');
   const checkButton = document.getElementById('check-btn');
+  const titleElement = document.getElementById('title');
+
+  titleElement.innerText = `Progress: ${currentIndex + 1} / ${quizCollection.length}`;
+  document.title = `Einbürgerungstest: ${currentIndex + 1} / ${quizCollection.length}`;
 
   if (!container || !quizCollection || quizCollection.length === 0) {
     if (container) container.innerHTML = '<p class="text-danger">No quiz data available.</p>';
@@ -133,7 +137,6 @@ function updateView() {
 
   url.searchParams.set("index", currentIndex + 1);
   window.history.pushState({}, "", url);
-  document.title = `Einbürgerungstest: ${currentIndex + 1} / ${quizCollection.length}`;
 
   // Reset user selection for the new question
   userSelectionIndex = null;
