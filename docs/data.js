@@ -26,7 +26,7 @@ const QUIZ_DATA = [
         "freedom of expression."
       ]
     ],
-    "translated_question": "In Germany, people can openly oppose the government\nsay because...\n"
+    "translated_question": "In Germany, people can openly say something about the government because..."
   },
   {
     "seq": "2",
@@ -55,7 +55,7 @@ const QUIZ_DATA = [
         "language teaching."
       ]
     ],
-    "translated_question": "In Germany, parents are allowed up to the 14th year of their child\ndecide whether it is at school\n\n"
+    "translated_question": "In Germany, parents can decide, by the age of 14 of their child, whether they are at school"
   },
   {
     "seq": "3",
@@ -84,7 +84,7 @@ const QUIZ_DATA = [
         "The courts do the laws."
       ]
     ],
-    "translated_question": "Germany is a rule of law. What does that mean?\n"
+    "translated_question": "Germany is a rule of law. What does that mean?"
   },
   {
     "seq": "4",
@@ -113,7 +113,7 @@ const QUIZ_DATA = [
         "Self-adjustment"
       ]
     ],
-    "translated_question": "What is the right to fundamental rights in Germany?\n"
+    "translated_question": "What right is one of the fundamental rights in Germany?"
   },
   {
     "seq": "5",
@@ -142,7 +142,7 @@ const QUIZ_DATA = [
         "All eligible persons must choose."
       ]
     ],
-    "translated_question": "Elections in Germany are free. What does that mean?\n"
+    "translated_question": "Elections in Germany are free. What does that mean?"
   },
   {
     "seq": "6",
@@ -171,7 +171,7 @@ const QUIZ_DATA = [
         "Basic Law"
       ]
     ],
-    "translated_question": "What is the German constitution?\n"
+    "translated_question": "What is the German constitution?"
   },
   {
     "seq": "7",
@@ -200,7 +200,7 @@ const QUIZ_DATA = [
         "Apartment."
       ]
     ],
-    "translated_question": "What is the right to fundamental rights, which is based on\nGerman constitution are guaranteed? The right\n\n"
+    "translated_question": "What right is one of the fundamental rights guaranteed by the German constitution? The right"
   },
   {
     "seq": "8",
@@ -229,7 +229,7 @@ const QUIZ_DATA = [
         "All are equal before the law."
       ]
     ],
-    "translated_question": "What is not the Basic Law of Germany?\n"
+    "translated_question": "What is not the Basic Law of Germany?"
   },
   {
     "seq": "9",
@@ -258,7 +258,7 @@ const QUIZ_DATA = [
         "Freedom of expression"
       ]
     ],
-    "translated_question": "What is the basic right in Germany only for foreigners /\n\u201cAusl\u00e4nderinnen? The basic right...\n"
+    "translated_question": "What is the basic right in Germany for foreigners only? The basic right..."
   },
   {
     "seq": "10",
@@ -287,7 +287,7 @@ const QUIZ_DATA = [
         "the fine"
       ]
     ],
-    "translated_question": "What is compatible with the German Basic Law?\n"
+    "translated_question": "What is compatible with the German Basic Law?"
   },
   {
     "seq": "11",
@@ -316,7 +316,7 @@ const QUIZ_DATA = [
         "Constitutional Treaty"
       ]
     ],
-    "translated_question": "What is the Constitution of the Federal Republic of Germany?\n"
+    "translated_question": "What is the Constitution of the Federal Republic of Germany?"
   },
   {
     "seq": "12",
@@ -345,7 +345,7 @@ const QUIZ_DATA = [
         "No, because only the Federal Council can abolish press freedom."
       ]
     ],
-    "translated_question": "A party in the German Bundestag wants to abolish press freedom\nIs that possible?\n"
+    "translated_question": "A party in the German Bundestag wants to abolish press freedom is this possible?"
   },
   {
     "seq": "13",
@@ -374,7 +374,7 @@ const QUIZ_DATA = [
         "all MEPs who do not belong to the Government Party(s)."
       ]
     ],
-    "translated_question": "in Parliament, the term \u2018Opposition\u2019 stands for ...\n"
+    "translated_question": "in Parliament, the term \u2018opposition\u2019 stands for ..."
   },
   {
     "seq": "14",
@@ -432,7 +432,7 @@ const QUIZ_DATA = [
         "Working abroad"
       ]
     ],
-    "translated_question": "What does the German Basic Law prohibit?\n"
+    "translated_question": "What does the German Basic Law prohibit?"
   },
   {
     "seq": "16",
@@ -461,7 +461,7 @@ const QUIZ_DATA = [
         "with criticism of the state"
       ]
     ],
-    "translated_question": "When is freedom of expression restricted in Germany?\n"
+    "translated_question": "When is freedom of expression restricted in Germany?"
   },
   {
     "seq": "17",
@@ -490,7 +490,7 @@ const QUIZ_DATA = [
         "Unequal treatment of citizens by the state."
       ]
     ],
-    "translated_question": "The German laws prohibit ...\n"
+    "translated_question": "Forbid German laws ..."
   },
   {
     "seq": "18",
@@ -519,7 +519,7 @@ const QUIZ_DATA = [
         "Freedom of expression"
       ]
     ],
-    "translated_question": "What is the fundamental right in Article 1 of the Basic Law of\nFederal Republic of Germany guaranteed?\n"
+    "translated_question": "What fundamental right is guaranteed in Article 1 of the Basic Law of the Federal Republic of Germany?"
   },
   {
     "seq": "19",
@@ -548,7 +548,7 @@ const QUIZ_DATA = [
         "It is only possible to move slightly clothed in the public."
       ]
     ],
-    "translated_question": "What is meant by the right of \u201cfreedom\u201d in\nGermany?\n"
+    "translated_question": "What is the right of \u201cfreedom\u201d in Germany?"
   },
   {
     "seq": "20",
@@ -577,7 +577,7 @@ const QUIZ_DATA = [
         "unconstitutional."
       ]
     ],
-    "translated_question": "A party in Germany pursues the goal of a dictatorship\nset up. She's...\n"
+    "translated_question": "A party in Germany pursues the goal of establishing a dictatorship. She's..."
   },
   {
     "seq": "21",
@@ -606,7 +606,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "What is the coat of arms of the Federal Republic of Germany?\n\n"
+    "translated_question": "What is the coat of arms of the Federal Republic of Germany?"
   },
   {
     "seq": "22",
@@ -635,7 +635,7 @@ const QUIZ_DATA = [
         "Principality"
       ]
     ],
-    "translated_question": "What kind of state has Germany ?\n"
+    "translated_question": "What type of state does Germany have?"
   },
   {
     "seq": "23",
@@ -664,7 +664,7 @@ const QUIZ_DATA = [
         "a company or authority."
       ]
     ],
-    "translated_question": "In Germany, most people are employed ...\n"
+    "translated_question": "In Germany, most people are employed ..."
   },
   {
     "seq": "24",
@@ -693,7 +693,7 @@ const QUIZ_DATA = [
         "17"
       ]
     ],
-    "translated_question": "How many federal states have the Federal Republic of Germany?\n"
+    "translated_question": "How many federal states does the Federal Republic of Germany have?"
   },
   {
     "seq": "25",
@@ -722,7 +722,7 @@ const QUIZ_DATA = [
         "Saxony-Anhalt"
       ]
     ],
-    "translated_question": "What is not a federal state of the Federal Republic of Germany?\n"
+    "translated_question": "What is not a federal state of the Federal Republic of Germany?"
   },
   {
     "seq": "26",
@@ -751,7 +751,7 @@ const QUIZ_DATA = [
         "a social and socialist state."
       ]
     ],
-    "translated_question": "Germany is...\n"
+    "translated_question": "Germany is..."
   },
   {
     "seq": "27",
@@ -780,7 +780,7 @@ const QUIZ_DATA = [
         "a monarchy."
       ]
     ],
-    "translated_question": "Germany is...\n"
+    "translated_question": "Germany is..."
   },
   {
     "seq": "28",
@@ -809,7 +809,7 @@ const QUIZ_DATA = [
         "Administration"
       ]
     ],
-    "translated_question": "Who chooses the members of the Bundestag in Germany?\n"
+    "translated_question": "Who chooses the members of the Bundestag in Germany?"
   },
   {
     "seq": "29",
@@ -838,7 +838,7 @@ const QUIZ_DATA = [
         "Horse"
       ]
     ],
-    "translated_question": "What animal is the coat of arms of the Federal Republic of Germany?\n"
+    "translated_question": "What animal is the coat of arms of the Federal Republic of Germany?"
   },
   {
     "seq": "30",
@@ -867,7 +867,7 @@ const QUIZ_DATA = [
         "different parties"
       ]
     ],
-    "translated_question": "What is not a feature of our democracy?\n"
+    "translated_question": "What is not a feature of our democracy?"
   },
   {
     "seq": "31",
@@ -896,7 +896,7 @@ const QUIZ_DATA = [
         "Group."
       ]
     ],
-    "translated_question": "Cooperation between parties to form a government\nis called in Germany\n"
+    "translated_question": "The cooperation of parties on the formation of a government is called in Germany"
   },
   {
     "seq": "32",
@@ -925,7 +925,7 @@ const QUIZ_DATA = [
         "Case"
       ]
     ],
-    "translated_question": "What is no state violence in Germany?\n"
+    "translated_question": "What is no state violence in Germany?"
   },
   {
     "seq": "33",
@@ -954,7 +954,7 @@ const QUIZ_DATA = [
         "State and religious communities form a unity."
       ]
     ],
-    "translated_question": "Soft statement is right? In Germany ...\n"
+    "translated_question": "Soft statement is correct? In Germany ..."
   },
   {
     "seq": "34",
@@ -983,7 +983,7 @@ const QUIZ_DATA = [
         "a social state"
       ]
     ],
-    "translated_question": "What isn't Germany?\n"
+    "translated_question": "What is Germany not?"
   },
   {
     "seq": "35",
@@ -1012,7 +1012,7 @@ const QUIZ_DATA = [
         "Association contributions"
       ]
     ],
-    "translated_question": "What does the German state finance social security?\n"
+    "translated_question": "What does the German state finance social security?"
   },
   {
     "seq": "36",
@@ -1041,7 +1041,7 @@ const QUIZ_DATA = [
         "the liability insurance"
       ]
     ],
-    "translated_question": "What is the soft measure of social security in Germany?\n"
+    "translated_question": "Soft measure creates social security in Germany?"
   },
   {
     "seq": "37",
@@ -1070,7 +1070,7 @@ const QUIZ_DATA = [
         "Prime Minister/ Prime Minister"
       ]
     ],
-    "translated_question": "How to become Heads of Government\nmost federal states in Germany?\n"
+    "translated_question": "What are the leaders/governmental leaders of most federal states in Germany?"
   },
   {
     "seq": "38",
@@ -1099,7 +1099,7 @@ const QUIZ_DATA = [
         "Central state."
       ]
     ],
-    "translated_question": "The Federal Republic of Germany is a democratic and\nsocial...\n"
+    "translated_question": "The Federal Republic of Germany is a democratic and social..."
   },
   {
     "seq": "39",
@@ -1128,7 +1128,7 @@ const QUIZ_DATA = [
         "own government"
       ]
     ],
-    "translated_question": "What does every German federal state have?\n"
+    "translated_question": "What does every German state have?"
   },
   {
     "seq": "40",
@@ -1157,7 +1157,7 @@ const QUIZ_DATA = [
         "Germany single fatherland ..."
       ]
     ],
-    "translated_question": "In soft words, the German national anthem begins?\n"
+    "translated_question": "In soft words, the German national anthem begins?"
   },
   {
     "seq": "41",
@@ -1186,7 +1186,7 @@ const QUIZ_DATA = [
         "to stimulate economic competition"
       ]
     ],
-    "translated_question": "Why is there more than one party in a democracy?\n"
+    "translated_question": "Why is there more than one party in a democracy?"
   },
   {
     "seq": "42",
@@ -1215,7 +1215,7 @@ const QUIZ_DATA = [
         "The police"
       ]
     ],
-    "translated_question": "Who decides a new law in Germany?\n"
+    "translated_question": "Who decides a new law in Germany?"
   },
   {
     "seq": "43",
@@ -1244,7 +1244,7 @@ const QUIZ_DATA = [
         "if your program proposes a new direction"
       ]
     ],
-    "translated_question": "When can a party be banned in Germany?\n"
+    "translated_question": "When can a party be banned in Germany?"
   },
   {
     "seq": "44",
@@ -1273,7 +1273,7 @@ const QUIZ_DATA = [
         "Members of the Bundestag"
       ]
     ],
-    "translated_question": "Who can not be directly a citizen in Germany\nchoose?\n"
+    "translated_question": "Who can't be chosen directly as a citizen in Germany?"
   },
   {
     "seq": "45",
@@ -1302,7 +1302,7 @@ const QUIZ_DATA = [
         "Compulsory and Fire Insurance"
       ]
     ],
-    "translated_question": "What insurance is the care insurance?\n"
+    "translated_question": "What insurance is the care insurance?"
   },
   {
     "seq": "46",
@@ -1331,7 +1331,7 @@ const QUIZ_DATA = [
         "He produces cars and buses."
       ]
     ],
-    "translated_question": "The German state has many tasks. What is the task of this?\n"
+    "translated_question": "The German state has many tasks. What is the task of this?"
   },
   {
     "seq": "47",
@@ -1360,7 +1360,7 @@ const QUIZ_DATA = [
         "He promotes athletes and athletes."
       ]
     ],
-    "translated_question": "The German state has many tasks. What does not belong\n?\n"
+    "translated_question": "The German state has many tasks. What is the problem?"
   },
   {
     "seq": "48",
@@ -1389,7 +1389,7 @@ const QUIZ_DATA = [
         "the government"
       ]
     ],
-    "translated_question": "Which institution does not belong to the constitutional bodies\nGermany?\n"
+    "translated_question": "Which institution does not belong to the constitutional organs of Germany?"
   },
   {
     "seq": "49",
@@ -1418,7 +1418,7 @@ const QUIZ_DATA = [
         "the universities"
       ]
     ],
-    "translated_question": "Who determines school policy in Germany?\n"
+    "translated_question": "Who determines school policy in Germany?"
   },
   {
     "seq": "50",
@@ -1447,7 +1447,7 @@ const QUIZ_DATA = [
         "Planning."
       ]
     ],
-    "translated_question": "The economic form in Germany is called\n"
+    "translated_question": "The economic form in Germany is called"
   },
   {
     "seq": "51",
@@ -1476,7 +1476,7 @@ const QUIZ_DATA = [
         "someone commits a crime and is therefore arrested."
       ]
     ],
-    "translated_question": "A democratic rule of law is not that ...\n"
+    "translated_question": "A democratic rule of law is not that ..."
   },
   {
     "seq": "52",
@@ -1505,7 +1505,7 @@ const QUIZ_DATA = [
         "Federal Constitutional Court."
       ]
     ],
-    "translated_question": "What does \u201cpeople sovereignty\u201d mean? All state violence goes from .\n"
+    "translated_question": "What does \u201cpeople sovereignty\u201d mean? All state violence goes from ."
   },
   {
     "seq": "53",
@@ -1534,7 +1534,7 @@ const QUIZ_DATA = [
         "The state must respect the laws."
       ]
     ],
-    "translated_question": "What does \u201claw state\u201d mean in Germany?\n"
+    "translated_question": "What does \u201cLegal state\u201d mean in Germany?"
   },
   {
     "seq": "54",
@@ -1563,7 +1563,7 @@ const QUIZ_DATA = [
         "Directive"
       ]
     ],
-    "translated_question": "What is no state violence in Germany?\n"
+    "translated_question": "What is no state violence in Germany?"
   },
   {
     "seq": "55",
@@ -1592,7 +1592,7 @@ const QUIZ_DATA = [
         "the Federal Chancellery in Berlin"
       ]
     ],
-    "translated_question": "What does this picture show?\n\n"
+    "translated_question": "What does this picture show?"
   },
   {
     "seq": "56",
@@ -1621,7 +1621,7 @@ const QUIZ_DATA = [
         "Ausw\u00e4rtiges Amt"
       ]
     ],
-    "translated_question": "Which office belongs to the municipal administration in Germany?\n"
+    "translated_question": "Which office is part of the municipal administration in Germany?"
   },
   {
     "seq": "57",
@@ -1650,7 +1650,7 @@ const QUIZ_DATA = [
         "a member of the strongest group"
       ]
     ],
-    "translated_question": "Who usually becomes President/President of the\nGerman Bundestags elected?\n"
+    "translated_question": "Who is usually elected President/President of the German Bundestag?"
   },
   {
     "seq": "58",
@@ -1679,7 +1679,7 @@ const QUIZ_DATA = [
         "the President of the Bundestag / the President of the Bundestag"
       ]
     ],
-    "translated_question": "Who appoints the ministers in Germany\nFederal Government?\n"
+    "translated_question": "Who appoints the ministers in Germany?"
   },
   {
     "seq": "59",
@@ -1708,7 +1708,7 @@ const QUIZ_DATA = [
         "about 1700 years ago"
       ]
     ],
-    "translated_question": "How many years ago was there for the first time a Jewish community in today's Germany?"
+    "translated_question": "How many years ago was there a Jewish community in today's Germany?"
   },
   {
     "seq": "60",
@@ -1737,7 +1737,7 @@ const QUIZ_DATA = [
         "Judicative."
       ]
     ],
-    "translated_question": "In Germany, the Bundestag and the Federal Council belong to the\n\n"
+    "translated_question": "In Germany, the Bundestag and the Bundesrat belong to the"
   },
   {
     "seq": "61",
@@ -1766,7 +1766,7 @@ const QUIZ_DATA = [
         "The power of state goes from the people."
       ]
     ],
-    "translated_question": "What does \u201cpeople sovereignty\u201d mean?\n"
+    "translated_question": "What does \u201cpeople sovereignty\u201d mean?"
   },
   {
     "seq": "62",
@@ -1795,7 +1795,7 @@ const QUIZ_DATA = [
         "Bundestag election."
       ]
     ],
-    "translated_question": "If the parliament of a German federal state is elected,\nis it called...\n"
+    "translated_question": "When the Parliament of a German federal state is elected, it is called ..."
   },
   {
     "seq": "63",
@@ -1824,7 +1824,7 @@ const QUIZ_DATA = [
         "the ministers"
       ]
     ],
-    "translated_question": "What does not belong to the executive in Germany?\n"
+    "translated_question": "What does not belong to the executive in Germany?"
   },
   {
     "seq": "64",
@@ -1853,7 +1853,7 @@ const QUIZ_DATA = [
         "Covenant, countries and municipalities."
       ]
     ],
-    "translated_question": "The Federal Republic of Germany is now divided into ...\n"
+    "translated_question": "The Federal Republic of Germany is now divided into ..."
   },
   {
     "seq": "65",
@@ -1882,7 +1882,7 @@ const QUIZ_DATA = [
         "to form the Federal Cabinet."
       ]
     ],
-    "translated_question": "It is not one of the tasks of the German Bundestag ...\n"
+    "translated_question": "It is not one of the tasks of the German Bundestag ..."
   },
   {
     "seq": "66",
@@ -1911,7 +1911,7 @@ const QUIZ_DATA = [
         "Worms and Speyer"
       ]
     ],
-    "translated_question": "Which cities have the largest Jewish communities in Germany?"
+    "translated_question": "What cities have the largest Jewish communities in Germany?"
   },
   {
     "seq": "67",
@@ -1940,7 +1940,7 @@ const QUIZ_DATA = [
         "School policy"
       ]
     ],
-    "translated_question": "What is a task of the federal states in Germany?\n"
+    "translated_question": "What is in Germany primarily a task of the federal states?"
   },
   {
     "seq": "68",
@@ -1969,7 +1969,7 @@ const QUIZ_DATA = [
         "because it is his task according to the Basic Law"
       ]
     ],
-    "translated_question": "Why does the state in Germany control schooling?\n"
+    "translated_question": "Why does the state in Germany control schooling?"
   },
   {
     "seq": "69",
@@ -1998,7 +1998,7 @@ const QUIZ_DATA = [
         "District offices"
       ]
     ],
-    "translated_question": "The Federal Republic of Germany has a three-stage\nAdministrative structure. What is the lowest political level?\n"
+    "translated_question": "The Federal Republic of Germany has a three-stage administrative structure. What is the lowest political level?"
   },
   {
     "seq": "70",
@@ -2027,7 +2027,7 @@ const QUIZ_DATA = [
         "He/she suggests the chancellor/the chancellor to choose from."
       ]
     ],
-    "translated_question": "German President Gustav Heinemann gives Helmut Schmidt\nIn 1974, the German Chancellor's Emennung certificate. What?\nis one of the tasks of the German Federal President\nGerman Federal President?\n\n"
+    "translated_question": "The German Federal President Gustav Heinemann gives Helmut Schmidt the title of the German Chancellor in 1974. What is one of the tasks of the German Federal President?"
   },
   {
     "seq": "71",
@@ -2056,7 +2056,7 @@ const QUIZ_DATA = [
         "in Berlin, because there are the Federal Chancellery and the Bundestag."
       ]
     ],
-    "translated_question": "Where is the German Chancellor?\nChancellor most often on? The most common is he/she ...\n"
+    "translated_question": "Where is the German Chancellor / the German Chancellor most common? The most common is he/she ..."
   },
   {
     "seq": "72",
@@ -2085,7 +2085,7 @@ const QUIZ_DATA = [
         "Friedrich Merz"
       ]
     ],
-    "translated_question": "What is the current Chancellor / the current Chancellor\nfrom Germany?\n"
+    "translated_question": "What is the current Chancellor / the current Chancellor of Germany?"
   },
   {
     "seq": "73",
@@ -2114,7 +2114,7 @@ const QUIZ_DATA = [
         "The left and CDU/CSU."
       ]
     ],
-    "translated_question": "The two largest groups in the German Bundestag are\nat present\n\n"
+    "translated_question": "The two largest political groups in the German Bundestag are currently"
   },
   {
     "seq": "74",
@@ -2143,7 +2143,7 @@ const QUIZ_DATA = [
         "Bundesgerichtshof"
       ]
     ],
-    "translated_question": "What is the name of Parliament for Germany?\n"
+    "translated_question": "What is Parliament's name for all Germany?"
   },
   {
     "seq": "75",
@@ -2172,7 +2172,7 @@ const QUIZ_DATA = [
         "Joachim Gauck"
       ]
     ],
-    "translated_question": "What is Germany's head of state today?\n"
+    "translated_question": "What is Germany's current head of state?"
   },
   {
     "seq": "76",
@@ -2201,7 +2201,7 @@ const QUIZ_DATA = [
         "Christian Democratic Union"
       ]
     ],
-    "translated_question": "What does the abbreviation CDU mean in Germany?\n"
+    "translated_question": "What does the abbreviation CDU mean in Germany?"
   },
   {
     "seq": "77",
@@ -2230,7 +2230,7 @@ const QUIZ_DATA = [
         "the German army"
       ]
     ],
-    "translated_question": "What is the Bundeswehr?\n"
+    "translated_question": "What is the Bundeswehr?"
   },
   {
     "seq": "78",
@@ -2259,7 +2259,7 @@ const QUIZ_DATA = [
         "Socially fair party of Germany"
       ]
     ],
-    "translated_question": "What does the abbreviation SPD mean?\n"
+    "translated_question": "What does the abbreviation SPD mean?"
   },
   {
     "seq": "79",
@@ -2288,7 +2288,7 @@ const QUIZ_DATA = [
         "Free Democratic Party"
       ]
     ],
-    "translated_question": "What does the abbreviation FDP mean in Germany?\n"
+    "translated_question": "What does the abbreviation FDP mean in Germany?"
   },
   {
     "seq": "80",
@@ -2317,7 +2317,7 @@ const QUIZ_DATA = [
         "Administrative Court"
       ]
     ],
-    "translated_question": "Which court in Germany is responsible for the interpretation\nof the Basic Law?\n"
+    "translated_question": "What court in Germany is responsible for the interpretation of the Basic Law?"
   },
   {
     "seq": "81",
@@ -2346,7 +2346,7 @@ const QUIZ_DATA = [
         "The Bundestag"
       ]
     ],
-    "translated_question": "Who chooses the Chancellor / the Chancellor in\nGermany?\n"
+    "translated_question": "Who chooses the Chancellor / the Chancellor in Germany?"
   },
   {
     "seq": "82",
@@ -2375,7 +2375,7 @@ const QUIZ_DATA = [
         "the Chancellor of the Federal Chancellor"
       ]
     ],
-    "translated_question": "Who heads the German federal cabinet?\n"
+    "translated_question": "Who heads the German Federal Cabinet?"
   },
   {
     "seq": "83",
@@ -2404,7 +2404,7 @@ const QUIZ_DATA = [
         "the Federal Government"
       ]
     ],
-    "translated_question": "Who chooses the German Chancellor / the German\nChancellor?\n"
+    "translated_question": "Who chooses the German Chancellor / the German Chancellor?"
   },
   {
     "seq": "84",
@@ -2433,7 +2433,7 @@ const QUIZ_DATA = [
         "monitors compliance with the laws."
       ]
     ],
-    "translated_question": "The German Federal President/\nGerman Federal President? He/she...\n"
+    "translated_question": "The German Federal President / the German Federal President? He/she..."
   },
   {
     "seq": "85",
@@ -2462,7 +2462,7 @@ const QUIZ_DATA = [
         "the party members"
       ]
     ],
-    "translated_question": "Who is the German Federal Council?\n"
+    "translated_question": "Who is the German Federal Council?"
   },
   {
     "seq": "86",
@@ -2491,7 +2491,7 @@ const QUIZ_DATA = [
         "the Federal Constitutional Court"
       ]
     ],
-    "translated_question": "Who chooses the Federal President in Germany\nFederal President?\n"
+    "translated_question": "Who chooses the Federal President in Germany?"
   },
   {
     "seq": "87",
@@ -2520,7 +2520,7 @@ const QUIZ_DATA = [
         "the President of the Bundestag / the President of the Bundestag"
       ]
     ],
-    "translated_question": "Who is the head of the Federal Republic of Germany?\n"
+    "translated_question": "Who is the Head of State of Germany?"
   },
   {
     "seq": "88",
@@ -2549,7 +2549,7 @@ const QUIZ_DATA = [
         "proposes the heads of government of the countries."
       ]
     ],
-    "translated_question": "The parliamentary opposition in the German Bundestag ...\n"
+    "translated_question": "The parliamentary opposition in the German Bundestag ..."
   },
   {
     "seq": "89",
@@ -2578,7 +2578,7 @@ const QUIZ_DATA = [
         "Opposition"
       ]
     ],
-    "translated_question": "What is called the Association of Members in Germany\na party in Parliament ?\n"
+    "translated_question": "What is the name of a party's association in Germany?"
   },
   {
     "seq": "90",
@@ -2607,7 +2607,7 @@ const QUIZ_DATA = [
         "the federal government."
       ]
     ],
-    "translated_question": "The German L\u00e4nder act on the legislation of the\nFederal with by .\n"
+    "translated_question": "The German L\u00e4nder are involved in the federal legislation."
   },
   {
     "seq": "91",
@@ -2636,7 +2636,7 @@ const QUIZ_DATA = [
         "easier if it is a rich federal state."
       ]
     ],
-    "translated_question": "In Germany, a change in government in a federal state\n\u201cEffects on federal policy. Regulating\n\n"
+    "translated_question": "In Germany, a change in government in a federal state can have \u201ceffects on federal policy. Regulating"
   },
   {
     "seq": "92",
@@ -2665,7 +2665,7 @@ const QUIZ_DATA = [
         "Christian Social Union"
       ]
     ],
-    "translated_question": "What does the abbreviation CSU mean in Germany?\n"
+    "translated_question": "What does the abbreviation CSU mean in Germany?"
   },
   {
     "seq": "93",
@@ -2694,7 +2694,7 @@ const QUIZ_DATA = [
         "the party receives more seats in Parliament."
       ]
     ],
-    "translated_question": "The more \u201csecond voices\u201d a party at a Bundestag election\nthe...\n"
+    "translated_question": "The more \u201csecond voices\u201d a party gets in a Bundestag election, the ..."
   },
   {
     "seq": "94",
@@ -2723,7 +2723,7 @@ const QUIZ_DATA = [
         "23"
       ]
     ],
-    "translated_question": "\u201cFrom what age can you choose in Germany?\nGerman Bundestag?\n"
+    "translated_question": "\u201cFrom what age can you take part in the German Bundestag?"
   },
   {
     "seq": "95",
@@ -2752,7 +2752,7 @@ const QUIZ_DATA = [
         "Religious duty"
       ]
     ],
-    "translated_question": "What applies to most children in Germany?\n"
+    "translated_question": "What applies to most children in Germany?"
   },
   {
     "seq": "96",
@@ -2781,7 +2781,7 @@ const QUIZ_DATA = [
         "with imprisonment up to five years or with fine"
       ]
     ],
-    "translated_question": "How can anyone who denies the Holocaust be punished?"
+    "translated_question": "How can anyone denying the Holocaust be punished?"
   },
   {
     "seq": "97",
@@ -2810,7 +2810,7 @@ const QUIZ_DATA = [
         "Benefits"
       ]
     ],
-    "translated_question": "What is paid automatically in Germany when you are fixed\nis hired?\n"
+    "translated_question": "What do you pay in Germany automatically if you are hired?"
   },
   {
     "seq": "98",
@@ -2839,7 +2839,7 @@ const QUIZ_DATA = [
         "the voters / voters of these Members may choose again."
       ]
     ],
-    "translated_question": "If MEPs in the German Bundestag\nchange, ...\n"
+    "translated_question": "If Members of the German Bundestag change their group, ..."
   },
   {
     "seq": "99",
@@ -2868,7 +2868,7 @@ const QUIZ_DATA = [
         "Employers only"
       ]
     ],
-    "translated_question": "Who pays social security in Germany?\n"
+    "translated_question": "Who pays social security in Germany?"
   },
   {
     "seq": "100",
@@ -2897,7 +2897,7 @@ const QUIZ_DATA = [
         "care insurance"
       ]
     ],
-    "translated_question": "What does not belong to statutory social security?\n"
+    "translated_question": "What does not belong to statutory social security?"
   },
   {
     "seq": "101",
@@ -2926,7 +2926,7 @@ const QUIZ_DATA = [
         "Employers."
       ]
     ],
-    "translated_question": "Trade unions are associations of interests\n\n"
+    "translated_question": "Trade unions are associations of interests"
   },
   {
     "seq": "102",
@@ -2955,7 +2955,7 @@ const QUIZ_DATA = [
         "Honorary title \"Held of the German Democratic Republic\""
       ]
     ],
-    "translated_question": "What to honor in the Federal Republic of Germany\nif you are on political, economic, cultural,\nmental or social services\n\nhas? With the...\n"
+    "translated_question": "What can be honoured in the Federal Republic of Germany if special achievements have been achieved in political, economic, cultural, intellectual or social fields? With the..."
   },
   {
     "seq": "103",
@@ -2984,7 +2984,7 @@ const QUIZ_DATA = [
         "the parliamentary groups of CDU and SPD"
       ]
     ],
-    "translated_question": "What will be described in Germany as \u201cAmpelkoalition\u201d\nCooperation ...\n"
+    "translated_question": "What will be described in Germany as \u201cAmpelkoalition\u201d beeichne\u00ae Cooperation ..."
   },
   {
     "seq": "104",
@@ -3013,7 +3013,7 @@ const QUIZ_DATA = [
         "The woman gets a child and her boss knows that."
       ]
     ],
-    "translated_question": "A woman in Germany loses her work. What is not the reason\nfor this dismissal?\n"
+    "translated_question": "A woman in Germany loses her work. What can't be the reason for this dismissal?"
   },
   {
     "seq": "105",
@@ -3042,7 +3042,7 @@ const QUIZ_DATA = [
         "They count the votes after the end of the election."
       ]
     ],
-    "translated_question": "What is a task of elective heifers/elective heifers in\nGermany?\n"
+    "translated_question": "What is a task of elective jealousies in Germany?"
   },
   {
     "seq": "106",
@@ -3071,7 +3071,7 @@ const QUIZ_DATA = [
         "They count the votes after the end of the election."
       ]
     ],
-    "translated_question": "In Germany, volunteers and electives help\nthe elections. What is a task of electives /\nElective women?\n"
+    "translated_question": "In Germany volunteers and electoral assistants help in the elections. What is a task of elective heifers/elective heifers?"
   },
   {
     "seq": "107",
@@ -3100,7 +3100,7 @@ const QUIZ_DATA = [
         "8 years"
       ]
     ],
-    "translated_question": "How many years will the Bundestag be elected in Germany?\n"
+    "translated_question": "How many years will the Bundestag be elected in Germany?"
   },
   {
     "seq": "108",
@@ -3129,7 +3129,7 @@ const QUIZ_DATA = [
         "Citizens of the Federal Republic of Germany are at least 21 years old."
       ]
     ],
-    "translated_question": "In the case of a parliamentary election in Germany, everyone may choose...\n"
+    "translated_question": "In the case of a German Bundestag election, everyone may choose..."
   },
   {
     "seq": "109",
@@ -3158,7 +3158,7 @@ const QUIZ_DATA = [
         "every six years"
       ]
     ],
-    "translated_question": "How many times are there usually Bundestag elections in Germany?\n"
+    "translated_question": "How many times are there usually Bundestag elections in Germany?"
   },
   {
     "seq": "110",
@@ -3187,7 +3187,7 @@ const QUIZ_DATA = [
         "5 years"
       ]
     ],
-    "translated_question": "How many years will the Bundestag be elected in Germany?\n"
+    "translated_question": "How many years will the Bundestag be elected in Germany?"
   },
   {
     "seq": "111",
@@ -3216,7 +3216,7 @@ const QUIZ_DATA = [
         "the public call for the destruction of Israel"
       ]
     ],
-    "translated_question": "What action with regard to the State of Israel is prohibited in Germany?"
+    "translated_question": "What action with regard to the state of Israel is prohibited in Germany?"
   },
   {
     "seq": "112",
@@ -3245,7 +3245,7 @@ const QUIZ_DATA = [
         "dependent on sex."
       ]
     ],
-    "translated_question": "The elections in Germany are...\n"
+    "translated_question": "The elections in Germany are ..."
   },
   {
     "seq": "113",
@@ -3274,7 +3274,7 @@ const QUIZ_DATA = [
         "most initial votes for their chancellor candidate / their chancellor candidate have received."
       ]
     ],
-    "translated_question": "Elections in Germany wins the party that...\n"
+    "translated_question": "Elections in Germany wins the party that..."
   },
   {
     "seq": "114",
@@ -3303,7 +3303,7 @@ const QUIZ_DATA = [
         "a load."
       ]
     ],
-    "translated_question": "To participate in democratic elections in Germany...\n"
+    "translated_question": "To participate in democratic elections in Germany..."
   },
   {
     "seq": "115",
@@ -3332,7 +3332,7 @@ const QUIZ_DATA = [
         "You have to go to counting the voices."
       ]
     ],
-    "translated_question": "What does \u201cactive voting right\u201d mean in Germany?\n"
+    "translated_question": "What does \u201cactive voting right\u201d mean in Germany?"
   },
   {
     "seq": "116",
@@ -3361,7 +3361,7 @@ const QUIZ_DATA = [
         "active voting rights."
       ]
     ],
-    "translated_question": "If you are allowed to vote in Germany for a Bundestag election,\nthe\n\n"
+    "translated_question": "If you are allowed to vote in Germany for a Bundestag election, that means:"
   },
   {
     "seq": "117",
@@ -3390,7 +3390,7 @@ const QUIZ_DATA = [
         "6 %"
       ]
     ],
-    "translated_question": "How much percent of the second votes must parties at least\nto be elected to the German Bundestag?\n"
+    "translated_question": "How much percent of the second votes do parties have to get at least to be elected in the German Bundestag?"
   },
   {
     "seq": "118",
@@ -3419,7 +3419,7 @@ const QUIZ_DATA = [
         "all people"
       ]
     ],
-    "translated_question": "Who can become a member of the 40 Jewish Makkabi sports clubs?"
+    "translated_question": "Who can become a member of the approximately 40 Jewish Makkabi sports clubs?"
   },
   {
     "seq": "119",
@@ -3448,7 +3448,7 @@ const QUIZ_DATA = [
         "I can decide freely where to choose."
       ]
     ],
-    "translated_question": "Elections in Germany are free. What does that mean?\n"
+    "translated_question": "Elections in Germany are free. What does that mean?"
   },
   {
     "seq": "120",
@@ -3477,7 +3477,7 @@ const QUIZ_DATA = [
         "general rule of men's choice."
       ]
     ],
-    "translated_question": "The electoral system in Germany is a\n\n"
+    "translated_question": "The electoral system in Germany is a"
   },
   {
     "seq": "121",
@@ -3506,7 +3506,7 @@ const QUIZ_DATA = [
         "Directive."
       ]
     ],
-    "translated_question": "A party wants to go to the German Bundestag. She must\nhave a minimum proportion of voters. That means\n"
+    "translated_question": "A party wants to go to the German Bundestag. But it must have a minimum proportion of voters. That means"
   },
   {
     "seq": "122",
@@ -3535,7 +3535,7 @@ const QUIZ_DATA = [
         "safe, open, voluntary."
       ]
     ],
-    "translated_question": "What is the principle of voting in Germany? Elections in\nGermany are...\n"
+    "translated_question": "What principle are elections in Germany ? Elections in Germany are..."
   },
   {
     "seq": "123",
@@ -3564,7 +3564,7 @@ const QUIZ_DATA = [
         "Presence check in the Federal Council for Voting"
       ]
     ],
-    "translated_question": "What is the \u201c5% strength\u201d in Germany\n"
+    "translated_question": "What is the \u201c5% burden\u201d in Germany"
   },
   {
     "seq": "124",
@@ -3593,7 +3593,7 @@ const QUIZ_DATA = [
         "of the Federal President / the Federal President."
       ]
     ],
-    "translated_question": "The Bundestag elections in Germany are the election ...\n"
+    "translated_question": "The Bundestag election in Germany is the election ..."
   },
   {
     "seq": "125",
@@ -3622,7 +3622,7 @@ const QUIZ_DATA = [
         "to give the poor more power."
       ]
     ],
-    "translated_question": "In a democracy is a function of regular elections\n\n"
+    "translated_question": "In a democracy is a function of regular elections"
   },
   {
     "seq": "126",
@@ -3651,7 +3651,7 @@ const QUIZ_DATA = [
         "a notification from the parish office"
       ]
     ],
-    "translated_question": "What to get elected citizens in\nGermany before a choice?\n"
+    "translated_question": "What are the voters in Germany getting before a vote?"
   },
   {
     "seq": "127",
@@ -3680,7 +3680,7 @@ const QUIZ_DATA = [
         "the small parties do not have so much money to pay the politicians."
       ]
     ],
-    "translated_question": "Why are there 5 % obstacles in the Federal Election Act?\nGermany? There's them because...\n"
+    "translated_question": "Why is there the 5% penalty in the Federal Elections Act? There are them because..."
   },
   {
     "seq": "128",
@@ -3709,7 +3709,7 @@ const QUIZ_DATA = [
         "Prime Minister / Prime Minister."
       ]
     ],
-    "translated_question": "Members of Parliament, who are of the citizens\nthey are called .\n"
+    "translated_question": "Members of Parliament elected by citizens are called ."
   },
   {
     "seq": "129",
@@ -3738,7 +3738,7 @@ const QUIZ_DATA = [
         "the Federal President / the Federal President."
       ]
     ],
-    "translated_question": "elected by the people in Germany\n"
+    "translated_question": "People elected in Germany"
   },
   {
     "seq": "130",
@@ -3767,7 +3767,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "What ballot would be valid in a Bundestag election?\n\nYou have 2 votes\nYou\n\nYou have 2 votes You have 2 votes\nxx \u2014\u2014\n*r.\n\nart voice her 4 pcs\n\nart voice brain voice\n\n"
+    "translated_question": "What ballot would be valid for a parliamentary election? You have 2 votes You have 2 votes You have 2 votes xx \u2014\u2014 *r .. art voice her 4 pcs art voice brain voice"
   },
   {
     "seq": "131",
@@ -3796,7 +3796,7 @@ const QUIZ_DATA = [
         "the president of a party."
       ]
     ],
-    "translated_question": "In Germany is a mayor / mayor\n\n"
+    "translated_question": "In Germany is a mayor / mayor"
   },
   {
     "seq": "132",
@@ -3825,7 +3825,7 @@ const QUIZ_DATA = [
         "They work in a hospital and earn money."
       ]
     ],
-    "translated_question": "Many people in Germany work volunteers in their spare time\nWhat does that mean?\n"
+    "translated_question": "Many people in Germany are volunteering in their spare time What does that mean?"
   },
   {
     "seq": "133",
@@ -3854,7 +3854,7 @@ const QUIZ_DATA = [
         "Children aged 14 may choose."
       ]
     ],
-    "translated_question": "What is the case with Bundestag and Landtag elections in Germany\nallowed?\n"
+    "translated_question": "What is allowed in German Bundestag and Landtag elections?"
   },
   {
     "seq": "134",
@@ -3883,7 +3883,7 @@ const QUIZ_DATA = [
         "I'll write a letter to the Municipal Forest Office."
       ]
     ],
-    "translated_question": "You want to get rid of the bus line you always drive to work with\nWhat can you do to get the bus line?\n"
+    "translated_question": "You want to take off the bus line you always drive to work What can you do to get the bus line?"
   },
   {
     "seq": "135",
@@ -3912,7 +3912,7 @@ const QUIZ_DATA = [
         "Employees"
       ]
     ],
-    "translated_question": "Who are the trade unions in Germany?\n"
+    "translated_question": "Who are the trade unions in Germany?"
   },
   {
     "seq": "136",
@@ -3941,7 +3941,7 @@ const QUIZ_DATA = [
         "Difficulties after a traffic accident."
       ]
     ],
-    "translated_question": "You are going to work in Germany\n\n"
+    "translated_question": "You are going to the Labour Court in Germany"
   },
   {
     "seq": "137",
@@ -3970,7 +3970,7 @@ const QUIZ_DATA = [
         "the District Court"
       ]
     ],
-    "translated_question": "What court is in Germany in conflicts in the world of work\nin charge?\n"
+    "translated_question": "What court is in Germany responsible for conflicts in the world of work?"
   },
   {
     "seq": "138",
@@ -3999,7 +3999,7 @@ const QUIZ_DATA = [
         "his car parked wrong and it is towed."
       ]
     ],
-    "translated_question": "What can I do in Germany if my employer /\nmy employer has failed?\n"
+    "translated_question": "What can I do in Germany if my employer / my employer has wronged me?"
   },
   {
     "seq": "139",
@@ -4028,7 +4028,7 @@ const QUIZ_DATA = [
         "his car parked wrong and it is towed."
       ]
     ],
-    "translated_question": "When is a trial in Germany?\nIf someone\n"
+    "translated_question": "When is there a trial in Germany? If someone"
   },
   {
     "seq": "140",
@@ -4057,7 +4057,7 @@ const QUIZ_DATA = [
         "defends the defendant / the accused."
       ]
     ],
-    "translated_question": "What does a Sch\u00f6ffen / a Sch\u00f6ffin in Germany do? He/she...\n"
+    "translated_question": "What does a Sch\u00f6ffen / a Sch\u00f6ffin in Germany do? He/she..."
   },
   {
     "seq": "141",
@@ -4086,7 +4086,7 @@ const QUIZ_DATA = [
         "a prosecutor / a prosecutor"
       ]
     ],
-    "translated_question": "Who advises in Germany persons on legal matters and represents\nthey in court?\n"
+    "translated_question": "Who advises people in Germany on legal matters and represents them in court?"
   },
   {
     "seq": "142",
@@ -4115,7 +4115,7 @@ const QUIZ_DATA = [
         "supervises young people in court."
       ]
     ],
-    "translated_question": "What is the main task of a judge / judge in\nGermany? A judge or a judge...\n"
+    "translated_question": "What is the main task of a judge / judge in Germany? A judge or a judge..."
   },
   {
     "seq": "143",
@@ -4144,7 +4144,7 @@ const QUIZ_DATA = [
         "Legislative."
       ]
     ],
-    "translated_question": "A judge / a judge in Germany belongs to ...\n"
+    "translated_question": "A judge / a judge in Germany belongs to ..."
   },
   {
     "seq": "144",
@@ -4173,7 +4173,7 @@ const QUIZ_DATA = [
         "Legislative violence."
       ]
     ],
-    "translated_question": "A judge / a judge belongs in Germany to ...\n"
+    "translated_question": "A judge / a judge belongs in Germany..."
   },
   {
     "seq": "145",
@@ -4202,7 +4202,7 @@ const QUIZ_DATA = [
         "Legislative"
       ]
     ],
-    "translated_question": "In Germany the state power is divided. For what state power\nis a judge working? For\n\n"
+    "translated_question": "In Germany the state power is divided. What state power does a judge work for? For"
   },
   {
     "seq": "146",
@@ -4231,7 +4231,7 @@ const QUIZ_DATA = [
         "Process"
       ]
     ],
-    "translated_question": "How do you call a trial in Germany?\n"
+    "translated_question": "What do you call a trial in Germany?"
   },
   {
     "seq": "147",
@@ -4260,7 +4260,7 @@ const QUIZ_DATA = [
         "Legislation"
       ]
     ],
-    "translated_question": "What is the work of a judge / judge in Germany?\n"
+    "translated_question": "What is the work of a judge / judge in Germany?"
   },
   {
     "seq": "148",
@@ -4289,7 +4289,7 @@ const QUIZ_DATA = [
         "to monitor compliance with laws"
       ]
     ],
-    "translated_question": "What is a task of the police in Germany?\n"
+    "translated_question": "What is a task of the police in Germany?"
   },
   {
     "seq": "149",
@@ -4347,7 +4347,7 @@ const QUIZ_DATA = [
         "a person who studied law."
       ]
     ],
-    "translated_question": "A courthouse / a courthouse in Germany is...\n"
+    "translated_question": "A courthouse / a courthouse in Germany is..."
   },
   {
     "seq": "151",
@@ -4376,7 +4376,7 @@ const QUIZ_DATA = [
         "USA"
       ]
     ],
-    "translated_question": "Who built the wall in Berlin?\n"
+    "translated_question": "Who built the wall in Berlin?"
   },
   {
     "seq": "152",
@@ -4405,7 +4405,7 @@ const QUIZ_DATA = [
         "1945 to 1989"
       ]
     ],
-    "translated_question": "When were the Nazis with Adolf Hitler in Germany\nother power?\n"
+    "translated_question": "When were the Nazis with Adolf Hitler in Germany other power?"
   },
   {
     "seq": "153",
@@ -4434,7 +4434,7 @@ const QUIZ_DATA = [
         "End of World War II in Europe"
       ]
     ],
-    "translated_question": "\\What was on the 8th May 1945?\n"
+    "translated_question": "\\What was on the 8th May 1945?"
   },
   {
     "seq": "154",
@@ -4463,7 +4463,7 @@ const QUIZ_DATA = [
         "1961"
       ]
     ],
-    "translated_question": "When was World War II over?\n"
+    "translated_question": "When was World War II over?"
   },
   {
     "seq": "155",
@@ -4492,7 +4492,7 @@ const QUIZ_DATA = [
         "1949 to 1963"
       ]
     ],
-    "translated_question": "When were the Nazis in Germany in power?\n"
+    "translated_question": "When were the Nazis in Germany in power?"
   },
   {
     "seq": "156",
@@ -4521,7 +4521,7 @@ const QUIZ_DATA = [
         "1936"
       ]
     ],
-    "translated_question": "In what year did Hitler become Reichskanzier?\n"
+    "translated_question": "In what year did Hitler become Reichskanzier?"
   },
   {
     "seq": "157",
@@ -4550,7 +4550,7 @@ const QUIZ_DATA = [
         "a principality."
       ]
     ],
-    "translated_question": "The Nazis with Adolf Hitler built in 1933\nGermany ...\n"
+    "translated_question": "The Nazis with Adolf Hitler built in Germany in 1933 ..."
   },
   {
     "seq": "158",
@@ -4579,7 +4579,7 @@ const QUIZ_DATA = [
         "R\u00e4terepublik."
       ]
     ],
-    "translated_question": "The Third Reich was a\n"
+    "translated_question": "The Third Reich was a"
   },
   {
     "seq": "159",
@@ -4608,7 +4608,7 @@ const QUIZ_DATA = [
         "Persecution of Jews"
       ]
     ],
-    "translated_question": "What did not exist in Germany during the period\nNational Socialism?\n"
+    "translated_question": "What did not exist in Germany during the time of National Socialism?"
   },
   {
     "seq": "160",
@@ -4637,7 +4637,7 @@ const QUIZ_DATA = [
         "The Gulf War"
       ]
     ],
-    "translated_question": "What war lasted from 1939 to 1945?\n"
+    "translated_question": "What war lasted from 1939 to 1945?"
   },
   {
     "seq": "161",
@@ -4666,7 +4666,7 @@ const QUIZ_DATA = [
         "the development of democracy"
       ]
     ],
-    "translated_question": "What marked the NS state? A policy\n"
+    "translated_question": "What did the NS state say? A policy"
   },
   {
     "seq": "162",
@@ -4695,7 +4695,7 @@ const QUIZ_DATA = [
         "the assassination on Hitler on 20. July 1944."
       ]
     ],
-    "translated_question": "Claus Schenk Graf von Stauffenberg was known by ...\n"
+    "translated_question": "Claus Schenk Graf von Stauffenberg was known by ..."
   },
   {
     "seq": "163",
@@ -4724,7 +4724,7 @@ const QUIZ_DATA = [
         "1945"
       ]
     ],
-    "translated_question": "In a soft year, the Nazis destroyed synagogues and\nJewish shops in Germany?\n"
+    "translated_question": "In a soft year, the Nazis destroyed synagogues and Jewish shops in Germany?"
   },
   {
     "seq": "164",
@@ -4753,7 +4753,7 @@ const QUIZ_DATA = [
         "Hitler becomes Reich President and forbids all parties."
       ]
     ],
-    "translated_question": "\\What happened on the 9th November 1938 in Germany?\n"
+    "translated_question": "\\What happened on 9 November 1938 in Germany?"
   },
   {
     "seq": "165",
@@ -4782,7 +4782,7 @@ const QUIZ_DATA = [
         "Willy Brandt"
       ]
     ],
-    "translated_question": "The first Chancellor of the Federal Republic\nGermany?\n"
+    "translated_question": "What was the first Chancellor of the Federal Republic of Germany?"
   },
   {
     "seq": "166",
@@ -4811,7 +4811,7 @@ const QUIZ_DATA = [
         "during the Monday demonstrations in 1989 in the GDR"
       ]
     ],
-    "translated_question": "In what demonstrations in Germany people called\n\u201cWe are the people\u201d?\n"
+    "translated_question": "What demonstrations in Germany did people call \u201cWe are the people\u201d?"
   },
   {
     "seq": "167",
@@ -4840,7 +4840,7 @@ const QUIZ_DATA = [
         "United States, Soviet Union, United Kingdom, France"
       ]
     ],
-    "translated_question": "Which countries were in Germany after World War II\nreferred to as \u201cAllied occupying powers\u201d?\n"
+    "translated_question": "What countries were called \u201cAllied occupation powers\u201d in Germany after World War II?"
   },
   {
     "seq": "168",
@@ -4869,7 +4869,7 @@ const QUIZ_DATA = [
         "Japan"
       ]
     ],
-    "translated_question": "Which country was not an \u201cOld occupation power\u201d in\nGermany?\n"
+    "translated_question": "What country was not an \u201cOld occupation power\u201d in Germany?"
   },
   {
     "seq": "169",
@@ -4898,7 +4898,7 @@ const QUIZ_DATA = [
         "1951"
       ]
     ],
-    "translated_question": "When was the Federal Republic of Germany founded?\n"
+    "translated_question": "When was the Federal Republic of Germany founded?"
   },
   {
     "seq": "170",
@@ -4927,7 +4927,7 @@ const QUIZ_DATA = [
         "the protection of human dignity"
       ]
     ],
-    "translated_question": "What happened during the time of National Socialism in\nGermany?\n"
+    "translated_question": "What happened during the period of National Socialism in Germany?"
   },
   {
     "seq": "171",
@@ -4956,7 +4956,7 @@ const QUIZ_DATA = [
         "depends on supply and demand, but the state ensures social compensation."
       ]
     ],
-    "translated_question": "Social market economy means economy ...\n"
+    "translated_question": "Social market economy means the economy ..."
   },
   {
     "seq": "172",
@@ -4985,7 +4985,7 @@ const QUIZ_DATA = [
         "Soviet occupation zone"
       ]
     ],
-    "translated_question": "The GDR was founded in a soft occupation zone? In the...\n"
+    "translated_question": "The GDR was founded in a soft occupation zone? In the..."
   },
   {
     "seq": "173",
@@ -5014,7 +5014,7 @@ const QUIZ_DATA = [
         "the Warsaw Pact."
       ]
     ],
-    "translated_question": "The Federal Republic of Germany is a founding member ...\n"
+    "translated_question": "The Federal Republic of Germany is a founding member ..."
   },
   {
     "seq": "174",
@@ -5043,7 +5043,7 @@ const QUIZ_DATA = [
         "1956"
       ]
     ],
-    "translated_question": "When was the GDR founded?\n"
+    "translated_question": "When was the GDR founded?"
   },
   {
     "seq": "175",
@@ -5072,7 +5072,7 @@ const QUIZ_DATA = [
         "6"
       ]
     ],
-    "translated_question": "How many occupation zones existed in Germany after the\nWorld War II?\n"
+    "translated_question": "How many occupation zones were there in Germany after World War II?"
   },
   {
     "seq": "176",
@@ -5101,7 +5101,7 @@ const QUIZ_DATA = [
         "1=Great Britain, 2=USA, 3=Soviet Union, 4=France"
       ]
     ],
-    "translated_question": "How were the occupation zones of Germany distributed after 1945?\n\n"
+    "translated_question": "How were the occupation zones of Germany distributed after 1945?"
   },
   {
     "seq": "177",
@@ -5130,7 +5130,7 @@ const QUIZ_DATA = [
         "Frankfurt/Oder"
       ]
     ],
-    "translated_question": "Which German city became after World War II in four\nSectors divided?\n"
+    "translated_question": "What German city was divided into four sectors after World War II?"
   },
   {
     "seq": "178",
@@ -5159,7 +5159,7 @@ const QUIZ_DATA = [
         "The Soviet Union interrupted all traffic in the country."
       ]
     ],
-    "translated_question": "From June 1948 to May 1949, citizens\nsupplied by West Berlin through an air bridge. What circumstance was\nresponsible?\n"
+    "translated_question": "From June 1948 to May 1949, the citizens of West Berlin were supplied with an air bridge. Which circumstance was responsible for this?"
   },
   {
     "seq": "179",
@@ -5188,7 +5188,7 @@ const QUIZ_DATA = [
         "by a revolution in Germany"
       ]
     ],
-    "translated_question": "How did World War II officially end in Europe?\n"
+    "translated_question": "How did World War II officially end in Europe?"
   },
   {
     "seq": "180",
@@ -5217,7 +5217,7 @@ const QUIZ_DATA = [
         "Gerhard Schr\u00f6der."
       ]
     ],
-    "translated_question": "The first Chancellor of the Federal Republic of Germany was\n\n"
+    "translated_question": "The first Chancellor of the Federal Republic of Germany was"
   },
   {
     "seq": "181",
@@ -5246,7 +5246,7 @@ const QUIZ_DATA = [
         "He spoke a prayer at the grave of the unknown soldier."
       ]
     ],
-    "translated_question": "What Willy Brandt wanted with his knee fall in 1970 in the former\nExpress Jewish ghetto in Warsaw?\n\n"
+    "translated_question": "What did Willy Brandt want to express with his kneefall in the former Jewish ghetto in Warsaw in 1970?"
   },
   {
     "seq": "182",
@@ -5304,7 +5304,7 @@ const QUIZ_DATA = [
         "80 years"
       ]
     ],
-    "translated_question": "When in the Federal Republic of Germany\n\u2018economic miracle\u2019?\n"
+    "translated_question": "When was the \u201ceconomic miracle\u201d in the Federal Republic of Germany?"
   },
   {
     "seq": "184",
@@ -5362,7 +5362,7 @@ const QUIZ_DATA = [
         "Europe against the USA"
       ]
     ],
-    "translated_question": "What was the term \u201ciron curtain\u201d for? For\nClosure\n\n"
+    "translated_question": "What was the term \u201ciron curtain\u201d for? For decontamination"
   },
   {
     "seq": "186",
@@ -5391,7 +5391,7 @@ const QUIZ_DATA = [
         "9. November"
       ]
     ],
-    "translated_question": "In 1953 there was an uprising in the GDR, at the long time in\nFederal Republic of Germany recalled a holiday. When was that?\n"
+    "translated_question": "In 1953 there was a revolt in the GDR, which reminded a holiday in the Federal Republic of Germany for a long time. When was that?"
   },
   {
     "seq": "187",
@@ -5420,7 +5420,7 @@ const QUIZ_DATA = [
         "GDR"
       ]
     ],
-    "translated_question": "Which German state had a black-red-golden flag with\nHammer, circle and earring?\n\n"
+    "translated_question": "What German state had a black-red-golden flag with hammer, circle and earring?"
   },
   {
     "seq": "188",
@@ -5449,7 +5449,7 @@ const QUIZ_DATA = [
         "1961"
       ]
     ],
-    "translated_question": "What year was the Wall built in Berlin?\n"
+    "translated_question": "What year was the Wall built in Berlin?"
   },
   {
     "seq": "189",
@@ -5478,7 +5478,7 @@ const QUIZ_DATA = [
         "1990"
       ]
     ],
-    "translated_question": "When did the GDR build the wall in Berlin?\n"
+    "translated_question": "When did the GDR build the wall in Berlin?"
   },
   {
     "seq": "190",
@@ -5507,7 +5507,7 @@ const QUIZ_DATA = [
         "German Democratic Republic"
       ]
     ],
-    "translated_question": "What does the abbreviation GDR mean?\n"
+    "translated_question": "What does the abbreviation GDR mean?"
   },
   {
     "seq": "191",
@@ -5536,7 +5536,7 @@ const QUIZ_DATA = [
         "1995"
       ]
     ],
-    "translated_question": "When was the Berlin Wall opened for everyone?\n"
+    "translated_question": "When was the Berlin Wall opened for everyone?"
   },
   {
     "seq": "192",
@@ -5565,7 +5565,7 @@ const QUIZ_DATA = [
         "Eat"
       ]
     ],
-    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
+    "translated_question": "What German federal state was formerly part of the territory of the GDR?"
   },
   {
     "seq": "193",
@@ -5594,7 +5594,7 @@ const QUIZ_DATA = [
         "only accessible by plane."
       ]
     ],
-    "translated_question": "From 1961 to 1989 Berlin was...\n"
+    "translated_question": "From 1961 to 1989 Berlin was..."
   },
   {
     "seq": "194",
@@ -5623,7 +5623,7 @@ const QUIZ_DATA = [
         "Cities."
       ]
     ],
-    "translated_question": "\u201cOn 3 October, Germany celebrates the German Day ...\n"
+    "translated_question": "\u2018On 3. October the Germans are celebrated in Germany..."
   },
   {
     "seq": "195",
@@ -5652,7 +5652,7 @@ const QUIZ_DATA = [
         "Saarland"
       ]
     ],
-    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
+    "translated_question": "What German federal state was formerly part of the territory of the GDR?"
   },
   {
     "seq": "196",
@@ -5681,7 +5681,7 @@ const QUIZ_DATA = [
         "from a religious state to a communist state."
       ]
     ],
-    "translated_question": "Why do you call the time in autumn 1989 in the GDR \u201cThe Turn\u201d?\nIn this time the GDR changed politically\n\n"
+    "translated_question": "Why do you call the time in autumn 1989 in the GDR \u201cThe Turn\u201d? In this time the GDR changed politically"
   },
   {
     "seq": "197",
@@ -5710,7 +5710,7 @@ const QUIZ_DATA = [
         "Bremen"
       ]
     ],
-    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
+    "translated_question": "What German federal state was formerly part of the territory of the GDR?"
   },
   {
     "seq": "198",
@@ -5739,7 +5739,7 @@ const QUIZ_DATA = [
         "Baden-W\u00fcrttemberg"
       ]
     ],
-    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
+    "translated_question": "What German federal state was formerly part of the territory of the GDR?"
   },
   {
     "seq": "199",
@@ -5768,7 +5768,7 @@ const QUIZ_DATA = [
         "the Ministry of Education."
       ]
     ],
-    "translated_question": "With the abbreviation \u201cStasi\u201d one meant in the GDR ...\n"
+    "translated_question": "With the abbreviation \u201cStasi\u201d you meant in the GDR ..."
   },
   {
     "seq": "200",
@@ -5797,7 +5797,7 @@ const QUIZ_DATA = [
         "Saarland"
       ]
     ],
-    "translated_question": "What today's German state belonged to the territory\nthe GDR?\n"
+    "translated_question": "What German federal state was formerly part of the territory of the GDR?"
   },
   {
     "seq": "201",
@@ -5826,7 +5826,7 @@ const QUIZ_DATA = [
         "Saxony, Thuringia, Hesse, Lower Saxony, Brandenburg"
       ]
     ],
-    "translated_question": "The following lists only contain federal states which\nthe territory of the former GDR?\n"
+    "translated_question": "How do the following lists contain only federal states belonging to the former GDR?"
   },
   {
     "seq": "202",
@@ -5855,7 +5855,7 @@ const QUIZ_DATA = [
         "to block-free states"
       ]
     ],
-    "translated_question": "Who was the GDR?\n"
+    "translated_question": "Who was the GDR in the \u201cCold War\u201d?"
   },
   {
     "seq": "203",
@@ -5884,7 +5884,7 @@ const QUIZ_DATA = [
         "Capital"
       ]
     ],
-    "translated_question": "What was the name of the GDR economic system?\n"
+    "translated_question": "What was the name of the GDR economic system?"
   },
   {
     "seq": "204",
@@ -5913,7 +5913,7 @@ const QUIZ_DATA = [
         "The GDR occupied the Federal Republic of Germany."
       ]
     ],
-    "translated_question": "How have the Federal Republic of Germany and the GDR become a\nState?\n"
+    "translated_question": "How did the Federal Republic of Germany and the GDR become a state?"
   },
   {
     "seq": "205",
@@ -5942,7 +5942,7 @@ const QUIZ_DATA = [
         "on the European Defence Community."
       ]
     ],
-    "translated_question": "With the accession of the GDR to the Federal Republic of Germany\nthe new L\u00e4nder now also ...\n"
+    "translated_question": "With the accession of the GDR to the Federal Republic of Germany, the new L\u00e4nder are now also..."
   },
   {
     "seq": "206",
@@ -6000,7 +6000,7 @@ const QUIZ_DATA = [
         "in the European Covenant"
       ]
     ],
-    "translated_question": "In what military alliance was the GDR member?\n"
+    "translated_question": "In what military alliance was the GDR member?"
   },
   {
     "seq": "208",
@@ -6029,7 +6029,7 @@ const QUIZ_DATA = [
         "a German sports club during World War II"
       ]
     ],
-    "translated_question": "What was the Stasi?\n"
+    "translated_question": "What was the \u201cStasi\u201d ?"
   },
   {
     "seq": "209",
@@ -6058,7 +6058,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "Which was the coat of arms of the German Democratic\nRepublic?\n\n"
+    "translated_question": "What was the coat of arms of the German Democratic Republic?"
   },
   {
     "seq": "210",
@@ -6087,7 +6087,7 @@ const QUIZ_DATA = [
         "the first visit to Fidel Castros"
       ]
     ],
-    "translated_question": "What happened on 17. June 1953 in the GDR?\n"
+    "translated_question": "What happened on 17. June 1953 in the GDR?"
   },
   {
     "seq": "211",
@@ -6116,7 +6116,7 @@ const QUIZ_DATA = [
         "Ludwig Erhard"
       ]
     ],
-    "translated_question": "What politician stands for the \u201cEastern Treaties\u201d ?\n"
+    "translated_question": "What politician stands for the \u201cEastern Treaties\u201d ?"
   },
   {
     "seq": "212",
@@ -6145,7 +6145,7 @@ const QUIZ_DATA = [
         "Federal Republic of Germany"
       ]
     ],
-    "translated_question": "What is Germany with full name?\n"
+    "translated_question": "What is Germany with full name?"
   },
   {
     "seq": "213",
@@ -6174,7 +6174,7 @@ const QUIZ_DATA = [
         "90 million"
       ]
     ],
-    "translated_question": "How many inhabitants does Germany have?\n"
+    "translated_question": "How many inhabitants does Germany have?"
   },
   {
     "seq": "214",
@@ -6203,7 +6203,7 @@ const QUIZ_DATA = [
         "black yellow-red"
       ]
     ],
-    "translated_question": "The German flag has soft colors?\n"
+    "translated_question": "Soft colors has the German flag?"
   },
   {
     "seq": "215",
@@ -6232,7 +6232,7 @@ const QUIZ_DATA = [
         "Helmut Schmidt"
       ]
     ],
-    "translated_question": "Who is called the Chancellor of the German Unity?\n"
+    "translated_question": "Who is called the Chancellor of the German Unity?"
   },
   {
     "seq": "216",
@@ -6261,7 +6261,7 @@ const QUIZ_DATA = [
         "the kingdom crown."
       ]
     ],
-    "translated_question": "What is the symbol in the Chamber of the German Bundestag\nsee?\n\n"
+    "translated_question": "What symbol can be seen in the Chamber of the German Bundestag?"
   },
   {
     "seq": "217",
@@ -6290,7 +6290,7 @@ const QUIZ_DATA = [
         "1949 to 1990"
       ]
     ],
-    "translated_question": "The German Democratic Republic\nDDR?\n"
+    "translated_question": "In what period did the German Democratic Republic (DDR) exist?"
   },
   {
     "seq": "218",
@@ -6319,7 +6319,7 @@ const QUIZ_DATA = [
         "7"
       ]
     ],
-    "translated_question": "How many federal states came to reunification in 1990\nFederal Republic of Germany\n"
+    "translated_question": "How many federal states joined the Federal Republic of Germany in 1990?"
   },
   {
     "seq": "219",
@@ -6348,7 +6348,7 @@ const QUIZ_DATA = [
         "1990"
       ]
     ],
-    "translated_question": "The Federal Republic of Germany has the limits of today...\n"
+    "translated_question": "The Federal Republic of Germany has the limits of today..."
   },
   {
     "seq": "220",
@@ -6377,7 +6377,7 @@ const QUIZ_DATA = [
         "to the victims of National Socialism (Day of the liberation of the Auschwitz extermination camp)"
       ]
     ],
-    "translated_question": "January 27 is an official commemorative day in Germany. Root\nremembers this day?\n"
+    "translated_question": "The 27th January is an official commemorative day in Germany. What does this day remember?"
   },
   {
     "seq": "221",
@@ -6406,7 +6406,7 @@ const QUIZ_DATA = [
         "Germans can pay with the euro in any country."
       ]
     ],
-    "translated_question": "Germany is a member of the Schengen Agreement. What means\nthat?\n"
+    "translated_question": "Germany is a member of the Schengen Agreement. What does that mean?"
   },
   {
     "seq": "222",
@@ -6435,7 +6435,7 @@ const QUIZ_DATA = [
         "Switzerland"
       ]
     ],
-    "translated_question": "What country is a neighbouring country of Germany?\n"
+    "translated_question": "What country is a neighbouring country of Germany?"
   },
   {
     "seq": "223",
@@ -6464,7 +6464,7 @@ const QUIZ_DATA = [
         "Greece"
       ]
     ],
-    "translated_question": "What country is a neighbouring country of Germany?\n"
+    "translated_question": "What country is a neighbouring country of Germany?"
   },
   {
     "seq": "224",
@@ -6493,7 +6493,7 @@ const QUIZ_DATA = [
         "Euro Union"
       ]
     ],
-    "translated_question": "What does the EU abbreviation mean?\n"
+    "translated_question": "What does the abbreviation EU mean?"
   },
   {
     "seq": "225",
@@ -6522,7 +6522,7 @@ const QUIZ_DATA = [
         "Austria"
       ]
     ],
-    "translated_question": "In soft other countries there is a large German-speaking country\nPopulation?\n"
+    "translated_question": "In soft other countries there is a large German-speaking population?"
   },
   {
     "seq": "226",
@@ -6551,7 +6551,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "What is the flag of the European Union?\n\n"
+    "translated_question": "What is the flag of the European Union?"
   },
   {
     "seq": "227",
@@ -6580,7 +6580,7 @@ const QUIZ_DATA = [
         "Sweden"
       ]
     ],
-    "translated_question": "What country is a neighbouring country of Germany?\n"
+    "translated_question": "What country is a neighbouring country of Germany?"
   },
   {
     "seq": "228",
@@ -6609,7 +6609,7 @@ const QUIZ_DATA = [
         "European Community"
       ]
     ],
-    "translated_question": "How will the GDR join the Federal Republic of Germany in\nYear 1990\n"
+    "translated_question": "How is the accession of the GDR to the Federal Republic of Germany generally mentioned in 1990?"
   },
   {
     "seq": "229",
@@ -6638,7 +6638,7 @@ const QUIZ_DATA = [
         "Luxembourg"
       ]
     ],
-    "translated_question": "What country is a neighbouring country of Germany?\n"
+    "translated_question": "What country is a neighbouring country of Germany?"
   },
   {
     "seq": "230",
@@ -6667,7 +6667,7 @@ const QUIZ_DATA = [
         "8 years."
       ]
     ],
-    "translated_question": "The European Parliament is regularly elected, namely all\n\n"
+    "translated_question": "The European Parliament is regularly elected, namely all"
   },
   {
     "seq": "231",
@@ -6696,7 +6696,7 @@ const QUIZ_DATA = [
         "The term refers to the merger of European states to the EU."
       ]
     ],
-    "translated_question": "What does the term \u2018European integration\u2019 mean?\n"
+    "translated_question": "What does the term \u201cEuropean integration\u201d mean?"
   },
   {
     "seq": "232",
@@ -6725,7 +6725,7 @@ const QUIZ_DATA = [
         "the European Constitution"
       ]
     ],
-    "translated_question": "Who will be chosen at the European elections\n"
+    "translated_question": "Who will be chosen at the European elections"
   },
   {
     "seq": "233",
@@ -6754,7 +6754,7 @@ const QUIZ_DATA = [
         "Portugal"
       ]
     ],
-    "translated_question": "What country is a neighbouring country of Germany?\n"
+    "translated_question": "What country is a neighbouring country of Germany?"
   },
   {
     "seq": "234",
@@ -6812,7 +6812,7 @@ const QUIZ_DATA = [
         "Unified holidays in EU countries"
       ]
     ],
-    "translated_question": "French President Francois Mitterrand and the German\nChancellor Helmut Kohl thinks together in Verdun the dead\nboth world wars. What objective of the European Union will be\nthis meeting clearly?\n\n"
+    "translated_question": "French President Francois Mitterrand and German Chancellor Helmut Kohl together remember the dead of both world wars in Verdun. What is the objective of the European Union at this meeting?"
   },
   {
     "seq": "236",
@@ -6841,7 +6841,7 @@ const QUIZ_DATA = [
         "27"
       ]
     ],
-    "translated_question": "How many Member States have the EU today?\n"
+    "translated_question": "How many Member States does the EU have today?"
   },
   {
     "seq": "237",
@@ -6870,7 +6870,7 @@ const QUIZ_DATA = [
         "Defining the Oder-Nei\u00dfe line as an east boundary"
       ]
     ],
-    "translated_question": "The 50th anniversary of the \"Roman Treaties\" was celebrated in 2007.\nWhat was the content of the contracts?\n"
+    "translated_question": "The 50th anniversary of the \"Roman Treaties\" was celebrated in 2007 What was the content of the contracts?"
   },
   {
     "seq": "238",
@@ -6899,7 +6899,7 @@ const QUIZ_DATA = [
         "Bonn, Zurich and Milan"
       ]
     ],
-    "translated_question": "\u201cIn which places does the European Parliament work?\n"
+    "translated_question": "\u201cWhat places does the European Parliament work?"
   },
   {
     "seq": "239",
@@ -6928,7 +6928,7 @@ const QUIZ_DATA = [
         "through the \"London Treaties\""
       ]
     ],
-    "translated_question": "By which agreements the Federal Republic of Germany concluded\nGermany with other countries\nEconomic Community together?\n"
+    "translated_question": "What agreements did the Federal Republic of Germany have concluded with other states to the European Economic Community?"
   },
   {
     "seq": "240",
@@ -6957,7 +6957,7 @@ const QUIZ_DATA = [
         "2005"
       ]
     ],
-    "translated_question": "Since when do you pay in Germany in cash?\n"
+    "translated_question": "Since when do you pay in Germany with the euro in cash?"
   },
   {
     "seq": "241",
@@ -6986,7 +6986,7 @@ const QUIZ_DATA = [
         "She must ask the employment office for permission."
       ]
     ],
-    "translated_question": "Mrs. Seger gets a child. What does she have to do to parental allowance\nobtained?\n"
+    "translated_question": "Mrs Seger gets a child. What does she have to do to get parental allowance?"
   },
   {
     "seq": "242",
@@ -7015,7 +7015,7 @@ const QUIZ_DATA = [
         "schools"
       ]
     ],
-    "translated_question": "Who decides if a child in Germany in kindergarten\ngo?\n"
+    "translated_question": "Who decides if a child goes to kindergarten in Germany?"
   },
   {
     "seq": "243",
@@ -7044,7 +7044,7 @@ const QUIZ_DATA = [
         "Maik and Sybille must establish a new club because only clubs can demonstrate."
       ]
     ],
-    "translated_question": "Maik and Sybille want with friends at their German residence\nStop demonstration on the road. What do they have to do before?\n"
+    "translated_question": "Maik and Sybille want to hold a demonstration on the street with friends at their German residence. What do they have to do before?"
   },
   {
     "seq": "244",
@@ -7073,7 +7073,7 @@ const QUIZ_DATA = [
         "a Gesellenpr\u00fcfung"
       ]
     ],
-    "translated_question": "What kind of schooling is usually required to\nUniversity in Germany to start studying?\n"
+    "translated_question": "What school degree do you normally need to start studying at a university in Germany?"
   },
   {
     "seq": "245",
@@ -7102,7 +7102,7 @@ const QUIZ_DATA = [
         "Anne (13 years) and Tim (25 years)"
       ]
     ],
-    "translated_question": "Who can't live together in Germany as a couple?\n"
+    "translated_question": "Who can't live together in Germany as a couple?"
   },
   {
     "seq": "246",
@@ -7131,7 +7131,7 @@ const QUIZ_DATA = [
         "21"
       ]
     ],
-    "translated_question": "From a soft age one is in Germany full-year?\n"
+    "translated_question": "From a soft age you are in Germany all year round?"
   },
   {
     "seq": "247",
@@ -7160,7 +7160,7 @@ const QUIZ_DATA = [
         "Weekly bed"
       ]
     ],
-    "translated_question": "A woman is pregnant. She is shortly before and after the birth of her\nChild especially protected by law. What is this protection?\n"
+    "translated_question": "A woman is pregnant. She is particularly protected by the law shortly before and after the birth of her child. What is this protection?"
   },
   {
     "seq": "248",
@@ -7189,7 +7189,7 @@ const QUIZ_DATA = [
         "schools."
       ]
     ],
-    "translated_question": "The education of children in Germany is primarily a task ...\n"
+    "translated_question": "The education of children in Germany is primarily a task ..."
   },
   {
     "seq": "249",
@@ -7218,7 +7218,7 @@ const QUIZ_DATA = [
         "schools"
       ]
     ],
-    "translated_question": "Who is primarily responsible in Germany for\nChild education?\n"
+    "translated_question": "Who is mainly responsible for child education in Germany?"
   },
   {
     "seq": "250",
@@ -7247,7 +7247,7 @@ const QUIZ_DATA = [
         "Member of a party."
       ]
     ],
-    "translated_question": "In Germany you have the best chances of a well-paid\nWorkplace when you ...\n"
+    "translated_question": "In Germany you have the best chances of a well-paid job if you ..."
   },
   {
     "seq": "251",
@@ -7276,7 +7276,7 @@ const QUIZ_DATA = [
         "can be punished for this."
       ]
     ],
-    "translated_question": "If you beat a child in Germany,\n"
+    "translated_question": "If you propose a child in Germany,"
   },
   {
     "seq": "252",
@@ -7305,7 +7305,7 @@ const QUIZ_DATA = [
         "a woman must not marry again if her husband died."
       ]
     ],
-    "translated_question": ""
+    "translated_question": "Question:"
   },
   {
     "seq": "253",
@@ -7334,7 +7334,7 @@ const QUIZ_DATA = [
         "at the trade office"
       ]
     ],
-    "translated_question": "Where do you need to register if you are in Germany\nmove?\n"
+    "translated_question": "Where do you need to register if you move in Germany?"
   },
   {
     "seq": "254",
@@ -7363,7 +7363,7 @@ const QUIZ_DATA = [
         "The spouses live their own lives at least one year separately. After that, divorce is possible"
       ]
     ],
-    "translated_question": "In Germany, couples may be divorced. In most cases,\nto comply with the \u201cTrenning Year\u201d. What does that mean?\n"
+    "translated_question": "In Germany, couples may be divorced. Most of the time, they have to keep the \u201cyear of separation\u201d. What does that mean?"
   },
   {
     "seq": "255",
@@ -7392,7 +7392,7 @@ const QUIZ_DATA = [
         "Health office."
       ]
     ],
-    "translated_question": "In the case of parental problems, ovine can help in Germany\n...\n"
+    "translated_question": "In the case of parental problems, ovine in Germany can receive help from ..."
   },
   {
     "seq": "256",
@@ -7421,7 +7421,7 @@ const QUIZ_DATA = [
         "a restaurant permit from the competent authority"
       ]
     ],
-    "translated_question": "A couple wants to open a restaurant in Germany. What?\ndoes it need?\n"
+    "translated_question": "A couple wants to open a restaurant in Germany. What does it take?"
   },
   {
     "seq": "257",
@@ -7450,7 +7450,7 @@ const QUIZ_DATA = [
         "a private university."
       ]
     ],
-    "translated_question": "An adult woman wants the Abitur in Germany\nRepeat. She can do that.\n"
+    "translated_question": "An adult woman wants to retrieve the Abitur in Germany. She can do that."
   },
   {
     "seq": "258",
@@ -7479,7 +7479,7 @@ const QUIZ_DATA = [
         "It controls whether the child visits a kindergarten."
       ]
     ],
-    "translated_question": "What is the Youth Office in Germany?\n"
+    "translated_question": "What is the Youth Office in Germany?"
   },
   {
     "seq": "259",
@@ -7508,7 +7508,7 @@ const QUIZ_DATA = [
         "Health insurance."
       ]
     ],
-    "translated_question": "The Professional Information Centre BIZ at the Federal Agency for\n\u201cWork in Germany helps with ...\n"
+    "translated_question": "The professional information center BIZ at the Federal Agency for \u201cWork in Germany helps with ..."
   },
   {
     "seq": "260",
@@ -7537,7 +7537,7 @@ const QUIZ_DATA = [
         "Compulsory attendance."
       ]
     ],
-    "translated_question": "In Germany, a child at school...\n"
+    "translated_question": "In Germany, a child at school..."
   },
   {
     "seq": "261",
@@ -7566,7 +7566,7 @@ const QUIZ_DATA = [
         "a private university"
       ]
     ],
-    "translated_question": "A man wants to retrieve his Abitur at 30 years in Germany.\nWhere can he do that? An...\n"
+    "translated_question": "A man wants to retrieve his Abitur at 30 years in Germany. Where can he do that? An..."
   },
   {
     "seq": "262",
@@ -7595,7 +7595,7 @@ const QUIZ_DATA = [
         "It is for all laws to donate disadvantaged groups annually."
       ]
     ],
-    "translated_question": "What does the principle of\nEqual treatment?\n"
+    "translated_question": "What does the principle of equal treatment in Germany mean?"
   },
   {
     "seq": "263",
@@ -7624,7 +7624,7 @@ const QUIZ_DATA = [
         "are not punished."
       ]
     ],
-    "translated_question": "In Germany, young people from 14 years old are criminal. The\nmeans: young people who are 14 years and older and against\noffense,\n\n"
+    "translated_question": "In Germany, young people from 14 years old are criminal. This means that young people who are 14 years and older and who are violating punishment,"
   },
   {
     "seq": "264",
@@ -7653,7 +7653,7 @@ const QUIZ_DATA = [
         "at Pentecost"
       ]
     ],
-    "translated_question": "To what festival people in Germany wear colorful costumes\nand masks?\n"
+    "translated_question": "To what feast do people wear colorful costumes and masks in Germany?"
   },
   {
     "seq": "265",
@@ -7682,7 +7682,7 @@ const QUIZ_DATA = [
         "to the Office"
       ]
     ],
-    "translated_question": "Where to go in Germany first when you get married\nwould you like?\n"
+    "translated_question": "Where do you have to go first in Germany if you want to marry?"
   },
   {
     "seq": "266",
@@ -7711,7 +7711,7 @@ const QUIZ_DATA = [
         "at 22 o'clock"
       ]
     ],
-    "translated_question": "When does the statutory night rest begin in Germany?\n"
+    "translated_question": "When does the statutory night rest begin in Germany?"
   },
   {
     "seq": "267",
@@ -7740,7 +7740,7 @@ const QUIZ_DATA = [
         "They're looking for another man for the daughter."
       ]
     ],
-    "translated_question": "A young woman in Germany, 22 years old, lives with her boyfriend\ntogether. The parents of the woman don't find that good because they\nFriend doesn't like it. What can the parents do?\n"
+    "translated_question": "A young woman in Germany, 22 years old, lives with her boyfriend. The wife's parents don't find that good because they don't like the friend. What can the parents do?"
   },
   {
     "seq": "268",
@@ -7769,7 +7769,7 @@ const QUIZ_DATA = [
         "She can do the theory exam in her mother tongue. There are more than ten languages to choose from."
       ]
     ],
-    "translated_question": "A young woman wants to make a license. She's afraid of\nExamination because their mother tongue is not German. What's right?\n"
+    "translated_question": "A young woman wants to make the driving licence. She's afraid of the exam because her mother tongue is not German. What's right?"
   },
   {
     "seq": "269",
@@ -7798,7 +7798,7 @@ const QUIZ_DATA = [
         "a holiday pass."
       ]
     ],
-    "translated_question": "In Germany, children from the age of three have up to\nErstein training a claim to ...\n"
+    "translated_question": "In Germany, children from the age of three years to the age of the preschool age have a right to ..."
   },
   {
     "seq": "270",
@@ -7827,7 +7827,7 @@ const QUIZ_DATA = [
         "only for pensioners and pensioners."
       ]
     ],
-    "translated_question": "The Volkshochschule in Germany is an institution ...\n"
+    "translated_question": "The Volkshochschule in Germany is an institution ..."
   },
   {
     "seq": "271",
@@ -7856,7 +7856,7 @@ const QUIZ_DATA = [
         "Imagine pumpkins"
       ]
     ],
-    "translated_question": "What is a custom in Germany for Christmas?\n"
+    "translated_question": "What is a custom in Germany for Christmas?"
   },
   {
     "seq": "272",
@@ -7885,7 +7885,7 @@ const QUIZ_DATA = [
         "A man is married to two women at the same time."
       ]
     ],
-    "translated_question": "Soft life is not allowed in Germany ?\n"
+    "translated_question": "Soft lifestyle is not allowed in Germany?"
   },
   {
     "seq": "273",
@@ -7914,7 +7914,7 @@ const QUIZ_DATA = [
         "to the youth office."
       ]
     ],
-    "translated_question": "In case of educational problems, go to Germany ...\n"
+    "translated_question": "In case of educational problems, go to Germany ..."
   },
   {
     "seq": "274",
@@ -7943,7 +7943,7 @@ const QUIZ_DATA = [
         "freedom of expression"
       ]
     ],
-    "translated_question": "In Germany you have deliberately opened a letter to a\nother person is addressed. What did you not consider?\n"
+    "translated_question": "You have deliberately opened a letter in Germany that is addressed to another person. What did you not consider?"
   },
   {
     "seq": "275",
@@ -7972,7 +7972,7 @@ const QUIZ_DATA = [
         "support of a lawyer / lawyer"
       ]
     ],
-    "translated_question": "What do you need for a divorce in Germany?\n"
+    "translated_question": "What do you need in Germany for a divorce?"
   },
   {
     "seq": "276",
@@ -8001,7 +8001,7 @@ const QUIZ_DATA = [
         "I can complain to the head of the authorities."
       ]
     ],
-    "translated_question": "What should you do if you are from your contact person\n\u201cActivity partner in a German authority ill treated\nare you?\n"
+    "translated_question": "What should you do if you are treated badly by your contact person/your contact partner in a German authority?"
   },
   {
     "seq": "277",
@@ -8030,7 +8030,7 @@ const QUIZ_DATA = [
         "Mother is."
       ]
     ],
-    "translated_question": "A woman who has a two-year-old child is applying in Germany\na place. What is an example of discrimination? She gets\nonly because they...\n"
+    "translated_question": "A woman who has a two-year-old child acquires a job in Germany. What is an example of discrimination? She just doesn't get the job because she..."
   },
   {
     "seq": "278",
@@ -8059,7 +8059,7 @@ const QUIZ_DATA = [
         "does not speak English."
       ]
     ],
-    "translated_question": "A man in a wheelchair has applied to a place as a bookkeeper\nWhat is an example of discrimination? He only gets the place\nnot because he.\n"
+    "translated_question": "A man in a wheelchair has applied to a place as a bookkeeper What is an example of discrimination? He doesn't get the job because he does."
   },
   {
     "seq": "279",
@@ -8088,7 +8088,7 @@ const QUIZ_DATA = [
         "the address of the next order."
       ]
     ],
-    "translated_question": "There is a 'home order' in most of the rental houses in Germany.\nWhat is in such a \u201chome order\u201d? She calls\n"
+    "translated_question": "There is a 'home order' in most rented houses in Germany What is in such a \u201chome order\u201d? She calls"
   },
   {
     "seq": "280",
@@ -8117,7 +8117,7 @@ const QUIZ_DATA = [
         "Wait till another man comes in."
       ]
     ],
-    "translated_question": "If you are in Germany against a wrong tax decision\nyou have to...\n"
+    "translated_question": "If you want to defend yourself against a wrong tax decision in Germany, you must ..."
   },
   {
     "seq": "281",
@@ -8146,7 +8146,7 @@ const QUIZ_DATA = [
         "Free movement."
       ]
     ],
-    "translated_question": "Two friends want to go to a public swimming pool in Germany\nBoth have a dark skin color and are therefore not\n\nin. What right is being violated in this situation? The\nLaw\n\n"
+    "translated_question": "Two friends want to enter a public swimming pool in Germany Both have a dark skin color and are therefore not let in. What right is being violated in this situation? The right"
   },
   {
     "seq": "282",
@@ -8175,7 +8175,7 @@ const QUIZ_DATA = [
         "Teacher / Teacher"
       ]
     ],
-    "translated_question": "What honorary office must German citizens /\ntake over female citizens when they are asked to do so\nare you?\n"
+    "translated_question": "What do German citizens have to take over if they are asked to do so?"
   },
   {
     "seq": "283",
@@ -8204,7 +8204,7 @@ const QUIZ_DATA = [
         "I'm going to the tax office with the bill."
       ]
     ],
-    "translated_question": "What do you do if you have a false bill from a German\nGet authority?\n"
+    "translated_question": "What do you do if you get a wrong bill from a German authority?"
   },
   {
     "seq": "284",
@@ -8233,7 +8233,7 @@ const QUIZ_DATA = [
         "Everyone has to stop working early because everything changes."
       ]
     ],
-    "translated_question": "What needs to be done changes in the future\nfast. What can you do?\n"
+    "translated_question": "What to do for work changes very quickly in the future. What can you do?"
   },
   {
     "seq": "285",
@@ -8262,7 +8262,7 @@ const QUIZ_DATA = [
         "Value added tax"
       ]
     ],
-    "translated_question": "Ms. Frost works as a permanent employee in an office. What?\nDoesn't she have to pay for her salary?\n"
+    "translated_question": "Mrs Frost works as a permanent employee in an office. What doesn't she have to pay for her salary?"
   },
   {
     "seq": "286",
@@ -8291,7 +8291,7 @@ const QUIZ_DATA = [
         "the operational management"
       ]
     ],
-    "translated_question": "What organization in a company helps workers and\n\u201cEmployers with problems with the employer\n\u201cEmployer?\n"
+    "translated_question": "What organization in a company helps workers and workers in problems with the employer/employer?"
   },
   {
     "seq": "287",
@@ -8320,7 +8320,7 @@ const QUIZ_DATA = [
         "the obligation to provide services"
       ]
     ],
-    "translated_question": "You would like to work with a company in Germany\nend. What do you need to consider?\n"
+    "translated_question": "You want to end your employment relationship with a company in Germany. What do you need to consider?"
   },
   {
     "seq": "288",
@@ -8349,7 +8349,7 @@ const QUIZ_DATA = [
         "from Christian tradition"
       ]
     ],
-    "translated_question": "What is the reason for Germany's special responsibility for Israel?"
+    "translated_question": "What is Germany's special responsibility for Israel?"
   },
   {
     "seq": "289",
@@ -8378,7 +8378,7 @@ const QUIZ_DATA = [
         "he has no experience in the profession."
       ]
     ],
-    "translated_question": "A man with a dark skin colour turns around a place as a waiter in\na restaurant in Germany. What is an example of\nDiscrimination? He doesn't get the job because...\n"
+    "translated_question": "A man with dark skin colour is applying for a job as a waiter in a restaurant in Germany. What is an example of discrimination? He doesn't get the job because..."
   },
   {
     "seq": "290",
@@ -8407,7 +8407,7 @@ const QUIZ_DATA = [
         "extend the guarantee"
       ]
     ],
-    "translated_question": "They bought a TV in Germany. Packing at home\nShe's running the TV, but he doesn't work. The TV is\nbroken. What can you do?\n"
+    "translated_question": "You bought a TV in Germany. At home you pack the TV, but it doesn't work. The TV's broken. What can you do?"
   },
   {
     "seq": "291",
@@ -8436,7 +8436,7 @@ const QUIZ_DATA = [
         "the church is responsible for the tax return."
       ]
     ],
-    "translated_question": "Why do you need a tax return in Germany?\nwhether you belong to a church or not? Because...\n"
+    "translated_question": "Why do you have to write in Germany in the tax return whether you belong to a church or not? Because..."
   },
   {
     "seq": "292",
@@ -8465,7 +8465,7 @@ const QUIZ_DATA = [
         "The state decides what God believes in people."
       ]
     ],
-    "translated_question": "People in Germany live according to the principle of religious\nTolerance. What does that mean?\n"
+    "translated_question": "People in Germany live according to the principle of religious tolerance. What does that mean?"
   },
   {
     "seq": "293",
@@ -8494,7 +8494,7 @@ const QUIZ_DATA = [
         "Shoot missiles in the air"
       ]
     ],
-    "translated_question": "What is a custom in Germany for Easter?\n"
+    "translated_question": "What is a custom in Germany for Easter?"
   },
   {
     "seq": "294",
@@ -8523,7 +8523,7 @@ const QUIZ_DATA = [
         "Bavarian custom."
       ]
     ],
-    "translated_question": "Pentecost is a...\n"
+    "translated_question": "Pentecost is a ..."
   },
   {
     "seq": "295",
@@ -8552,7 +8552,7 @@ const QUIZ_DATA = [
         "Islam"
       ]
     ],
-    "translated_question": "Soft religion has shaped European and German culture?\n"
+    "translated_question": "Soft religion has shaped European and German culture?"
   },
   {
     "seq": "296",
@@ -8581,7 +8581,7 @@ const QUIZ_DATA = [
         "All holy."
       ]
     ],
-    "translated_question": "The last four weeks before Christmas\n"
+    "translated_question": "In Germany you call the last four weeks before Christmas"
   },
   {
     "seq": "297",
@@ -8610,7 +8610,7 @@ const QUIZ_DATA = [
         "Turkey"
       ]
     ],
-    "translated_question": "From what country are most migrants / migrant women after\nGermany came?\n"
+    "translated_question": "From what country did most migrants come to Germany?"
   },
   {
     "seq": "298",
@@ -8639,7 +8639,7 @@ const QUIZ_DATA = [
         "North Korea, Mexico, Egypt."
       ]
     ],
-    "translated_question": "in the GDR, mainly migrants lived...\n"
+    "translated_question": "In the GDR, migrants mainly lived out ..."
   },
   {
     "seq": "299",
@@ -8668,7 +8668,7 @@ const QUIZ_DATA = [
         "shiftworkers / shiftworkers."
       ]
     ],
-    "translated_question": "Foreign workers in the\n50s and 60s of the Federal Republic of Germany\nwere advertised, they were called...\n"
+    "translated_question": "Foreign workers recruited by the Federal Republic of Germany in the 1950s and 60s were called ..."
   },
   {
     "seq": "300",
@@ -8697,7 +8697,7 @@ const QUIZ_DATA = [
         "Turkey"
       ]
     ],
-    "translated_question": "\u201cThe first guest workers came from soft land\nGuest workers in the Federal Republic of Germany?\n"
+    "translated_question": "\u201cFrom a soft country came the first guest workers/guest workers to the Federal Republic of Germany?"
   },
   {
     "seq": "301",
@@ -8726,7 +8726,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "Which coat of arms belongs to the federal state of Berlin?\n\n"
+    "translated_question": "What coat of arms belongs to the federal state of Berlin?"
   },
   {
     "seq": "302",
@@ -8755,7 +8755,7 @@ const QUIZ_DATA = [
         "Mecklenburg Lake District"
       ]
     ],
-    "translated_question": "What is a district of Berlin?\n"
+    "translated_question": "What is a district of Berlin?"
   },
   {
     "seq": "303",
@@ -8784,7 +8784,7 @@ const QUIZ_DATA = [
         "6"
       ]
     ],
-    "translated_question": "How many years will the Land Parliament be elected in Berlin?\n"
+    "translated_question": "How many years will the state parliament be elected in Berlin?"
   },
   {
     "seq": "304",
@@ -8813,7 +8813,7 @@ const QUIZ_DATA = [
         "20"
       ]
     ],
-    "translated_question": "From what age can you choose in Berlin (choice)\nof the District Orders) choose?\n"
+    "translated_question": "From what age can you choose in Berlin in municipal elections (choice of district order-collection)?"
   },
   {
     "seq": "305",
@@ -8842,7 +8842,7 @@ const QUIZ_DATA = [
         "black-gold"
       ]
     ],
-    "translated_question": "The national flag of Berlin has soft colors?\n"
+    "translated_question": "Soft colours have the flag of Berlin?"
   },
   {
     "seq": "306",
@@ -8871,7 +8871,7 @@ const QUIZ_DATA = [
         "at the national headquarters for political education"
       ]
     ],
-    "translated_question": "Where can you inform yourself about political issues in Berlin?\n"
+    "translated_question": "Where can you find information about political issues in Berlin?"
   },
   {
     "seq": "307",
@@ -8900,7 +8900,7 @@ const QUIZ_DATA = [
         "Eat"
       ]
     ],
-    "translated_question": "What state is a city state?\n"
+    "translated_question": "What state is a city state?"
   },
   {
     "seq": "308",
@@ -8929,7 +8929,7 @@ const QUIZ_DATA = [
         "4"
       ]
     ],
-    "translated_question": "Which country is Berlin?\n\n"
+    "translated_question": "What country is Berlin?"
   },
   {
     "seq": "309",
@@ -8958,7 +8958,7 @@ const QUIZ_DATA = [
         "Regulatory Mayor/ Regulatory Mayor"
       ]
     ],
-    "translated_question": "How to call the Head of Government\nCity State Berlin?\n"
+    "translated_question": "What is the head of government called the head of government of the city state of Berlin?"
   },
   {
     "seq": "310",
@@ -8987,6 +8987,6 @@ const QUIZ_DATA = [
         "Justice Senator / Justice Senator"
       ]
     ],
-    "translated_question": "Soft senator / soft senator doesn't have Berlin?\n"
+    "translated_question": "Soft senator / soft senator doesn't have Berlin?"
   }
 ]
