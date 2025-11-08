@@ -2,7 +2,7 @@ const url = new URL(window.location);
 let currentIndex = (url.searchParams.get('index') || 1) - 1; // Tracks the current item in the array
 let userSelectionIndex = null; // Tracks the user's selected answer
 let quizCollection = Array.from(QUIZ_DATA.keys());
-let correctCount = 0;
+let incorrectQuiz = Array();
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
@@ -12,6 +12,7 @@ function shuffleArray(array) {
     array[j] = temp;
   }
 }
+
 // Function to generate the HTML card structure for a single quiz item.
 function generateQuizHtml(quizData) {
   const cardDiv = document.createElement('div');
@@ -216,14 +217,15 @@ function createNavigationButtons() {
     // Provide feedback for the user's selection
     if (isCorrect) {
       // displayMessage("Correct!", 'success');
-      correctCount++;
       allAnswers[userSelectionIndex].classList.remove('list-group-item-info', 'bg-blue-100');
     } else {
       // displayMessage("Incorrect!", 'danger');
+      incorrectQuiz.push(quizCollection[currentIndex]);
       allAnswers[userSelectionIndex].classList.remove('list-group-item-info', 'bg-blue-100');
       allAnswers[userSelectionIndex].classList.add('list-group-item-danger', 'bg-red-100');
     }
     if (currentIndex == quizCollection.length - 1) {
+      const correctCount = quizCollection.length - incorrectQuiz.length;
       displayMessage(`Correctness: ${(correctCount / quizCollection.length).toFixed(2) * 100}% (${correctCount} / ${quizCollection.length})`, 'info', false)
       prevButton.disabled = true;
     }
@@ -238,21 +240,6 @@ function createNavigationButtons() {
   container.appendChild(checkButton);
   container.appendChild(nextButton);
 }
-// Initial setup on DOMContentLoaded
-document.addEventListener('DOMContentLoaded', () => {
-  if (url.searchParams.has('random')) {
-    shuffleArray(quizCollection);
-  } else if (url.searchParams.has('mock')) {
-    let state = Array.from(quizCollection.slice(0, 300));
-    let berlin = Array.from(quizCollection.slice(300, quizCollection.length));
-    shuffleArray(state);
-    shuffleArray(berlin);
-    quizCollection = state.slice(0, 30).concat(berlin.slice(0, 3));
-  }
-
-  createNavigationButtons();
-  updateView();
-});
 
 function displayMessage(message, type, fade = true) {
   // Check for an existing message container and remove it to prevent stacking
@@ -279,3 +266,27 @@ function displayMessage(message, type, fade = true) {
     }, 3000); // 3 seconds
   }
 }
+
+function reviewQuiz() {
+  quizCollection = Array.from(incorrectQuiz);
+  incorrectQuiz = Array();
+  currentIndex = 0;
+  updateView();
+}
+
+// Initial setup on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  if (url.searchParams.has('random')) {
+    shuffleArray(quizCollection);
+  } else if (url.searchParams.has('mock')) {
+    let state = Array.from(quizCollection.slice(0, 300));
+    let berlin = Array.from(quizCollection.slice(300, quizCollection.length));
+    shuffleArray(state);
+    shuffleArray(berlin);
+    quizCollection = state.slice(0, 30).concat(berlin.slice(0, 3));
+  }
+
+  createNavigationButtons();
+  updateView();
+});
+
