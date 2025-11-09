@@ -3,6 +3,7 @@ let currentIndex = (url.searchParams.get('index') || 1) - 1; // Tracks the curre
 let userSelectionIndex = null; // Tracks the user's selected answer
 let quizCollection = Array.from(QUIZ_DATA.keys());
 let incorrectQuiz = Array();
+let correctCount = 0;
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
@@ -217,6 +218,7 @@ function createNavigationButtons() {
     // Provide feedback for the user's selection
     if (isCorrect) {
       // displayMessage("Correct!", 'success');
+      correctCount++;
       allAnswers[userSelectionIndex].classList.remove('list-group-item-info', 'bg-blue-100');
     } else {
       // displayMessage("Incorrect!", 'danger');
@@ -225,8 +227,8 @@ function createNavigationButtons() {
       allAnswers[userSelectionIndex].classList.add('list-group-item-danger', 'bg-red-100');
     }
     if (currentIndex == quizCollection.length - 1) {
-      const correctCount = quizCollection.length - incorrectQuiz.length;
-      displayMessage(`Correctness: ${(correctCount / quizCollection.length).toFixed(2) * 100}% (${correctCount} / ${quizCollection.length})`, 'info', false)
+      const totalAnswered = correctCount + incorrectQuiz.length;
+      displayMessage(`Correctness: ${(correctCount / totalAnswered).toFixed(2) * 100}% (${correctCount} / ${totalAnswered})`, 'info', false)
       prevButton.disabled = true;
     }
 
